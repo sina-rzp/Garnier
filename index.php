@@ -45,7 +45,7 @@ if (isset($_GET['logout'])){
 <!-- End of Slideshow -->
 
 <!-- Find Your Match -->
-		<div id="find-match">
+		<div id="find-match col-md-6 col-xs-6 ">
 			
 				<div class="row">
 					<div class="container">

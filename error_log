@@ -64,3 +64,101 @@ Stack trace:
 #2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
 #3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
 #4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:34:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:41:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:42:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:44:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:44:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:44:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:45:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:49:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 07:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 08:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 08:20:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 08:22:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 08:22:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614
+[06-Mar-2015 08:27:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lastname' cannot be null' in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#4 /home/blackboxdev in /home/blackboxdev/public_html/projects/garnier/core/vendor/illuminate/database/Connection.php on line 614

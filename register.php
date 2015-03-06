@@ -42,6 +42,9 @@ if(isset($_POST['email'])){
 
 
 
+
+
+
 }
 include('_includes/header.php');
 ?>
@@ -110,35 +113,32 @@ include('_includes/header.php');
 											    <label for="inputPassword3" class="col-sm-3 control-label">Title </label>
 											    <div class="col-sm-9">
 											    	<label class="radio-inline">
-														<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Miss
+														<input type="radio" name="title" id="inlineRadio1" value="Miss"> Miss
 														</label>
 														<label class="radio-inline">
-														  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Ms
+														  <input type="radio" name="title" id="inlineRadio2" value="Ms"> Ms
 														</label>
 														<label class="radio-inline">
-														  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Mr
-														</label>
-															<label class="radio-inline">
-														  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3"> Mrs
+														  <input type="radio" name="title" id="inlineRadio3" value="Mr"> Mr
 														</label>
 											    </div>
 											</div>
 											<div class="form-group">
 											    <label for="inputPassword3" class="col-sm-3 control-label">Last Name * </label>
 											    <div class="col-sm-9">
-											      <input type="text" class="form-control" id="LastName" placeholder="Enter text ...">
+											      <input type="text" class="form-control" name="lastname" id="LastName" placeholder="Enter text ...">
 											    </div>
 											</div>
 											<div class="form-group">
 											    <label for="inputPassword3" class="col-sm-3 control-label">First Name * </label>
 											    <div class="col-sm-9">
-											      <input type="text" class="form-control" id="FirstName" placeholder="Enter text ...">
+											      <input type="text" class="form-control" name="firstname" id="FirstName" placeholder="Enter text ...">
 											    </div>
 											</div>
 											<div class="form-group">
 											    <label for="inputPassword3" class="col-sm-3 control-label">Birthday * </label>
 											    <div class="col-sm-3">
-											    		<select class="form-control" type="text" > 
+											    		<select class="form-control" name="day" type="text" >
 															  <option>Day</option>
 															  <option>1</option>
 															  <option>2</option>
@@ -174,7 +174,7 @@ include('_includes/header.php');
 															</select>
 														</div>
 													<div class="col-sm-3">
-														<select class="form-control" type="text" >
+														<select class="form-control" name="month" type="text" >
 															 <option>Month</option>
 															 <option>1</option>
 															 <option>2</option>
@@ -191,72 +191,72 @@ include('_includes/header.php');
 														</select>
 													</div>
 													<div class="col-sm-3">
-														<select class="form-control" type="text" >
+														<select class="form-control" name="year" type="text" >
 															 <option>Year</option>
-															 <option>2015</option>
-															 <option>2014</option>
-															 <option>2013</option>
-															 <option>2012</option>
-															 <option>2011</option>
-															 <option>2010</option>
-															 <option>2009</option>
-															 <option>2008</option>
-															 <option>2007</option>
-															 <option>2006</option>
-															 <option>2005</option>
-															 <option>2004</option>
+                                                            <?php
+                                                            $i = 1950;
+                                                            while($i<date('Y')){
+                                                                echo "<option>$i</option>";
+                                                                $i++;
+                                                            }
+                                                            ?>
+                                                            ?>
 														</select>
 													</div>
 												</div>
 												<div class="form-group">
 													    <label for="inputPassword3" class="col-sm-3 control-label">Phone Number </label>
 													    <div class="col-sm-9">
-													      <input type="text" class="form-control" id="FirstName" placeholder="+6 XXX XXX XXX">
+													      <input type="text" class="form-control" id="FirstName" name="phone" placeholder="+6 XXX XXX XXX">
 													    </div>
 												</div>
 
-												
+												<div class="form-group">
+												    <label for="inputPassword3" class="col-sm-3 control-label">Number of children</label>
+												    <div class="col-sm-9">
+												    	<select class="form-control" name="number_of_children" type="text" >
+															 <option>Select from the list</option>
+															 <option>0</option>
+															 <option>1</option>
+															 <option>2</option>
+															 <option>3</option>
+															 <option>4</option>
+															 <option>5</option>
+															 <option>More than 5</option>
+														</select>
+												    </div>
+												</div>
 												<div class="register-text">3. Postal Address</div>
 												<div class="form-group">
 												    <label for="inputPassword3" class="col-sm-3 control-label">Address</label>
 												    <div class="col-sm-9">
-												      <input type="text" class="form-control" id="LastName" placeholder="Enter text ...">
-												     <i>For you to receive surprises from us from time to time!</i>
+												      <input type="text" class="form-control" name="address" id="LastName" placeholder="Enter text ...">
 												    </div>
-
 												</div>
 												<div class="form-group">
 												    <label for="inputPassword3" class="col-sm-3 control-label">Post Code</label>
 												    <div class="col-sm-9">
-												      <input type="text" class="form-control" id="LastName" placeholder="Enter text ...">
+												      <input type="text" class="form-control" name="postcode" id="LastName" placeholder="Enter text ...">
 												    </div>
 												</div>
 												<div class="form-group">
 												    <label for="inputPassword3" class="col-sm-3 control-label">City</label>
 												    <div class="col-sm-9">
-												      <input type="text" class="form-control" id="LastName" placeholder="Enter text ...">
+												      <input type="text" class="form-control" name="city" id="LastName" placeholder="Enter text ...">
 												    </div>
 												</div>
 												<div class="form-group">
 												    <label for="inputPassword3" class="col-sm-3 control-label">Country *</label>
 												    <div class="col-sm-9">
-												    	<select class="form-control" type="text" >
-															 <option>State</option>
-															 <option>Selangor</option>
-															 <option>Kuala Lumpur</option>
-															 <option>Sarawak</option>
-															 <option>Johor</option>
-															 <option>Penang</option>
-															 <option>Sabah</option>
-															 <option>Perak</option>
-															 <option>Pahang</option>
-															 <option>Negeri Sembilan</option>
-															 <option>Kedah</option>
-															 <option>Malacca</option>
-															 <option>Terengganu</option>
-															 <option>Kelantan</option>
-															 <option>Perlis</option>
-															 <option>Labuan</option>
+												    	<select class="form-control" name="country" type="text" >
+															 <option>Country</option>
+															 <option>0</option>
+															 <option>1</option>
+															 <option>2</option>
+															 <option>3</option>
+															 <option>4</option>
+															 <option>5</option>
+															 <option>More than 5</option>
 														</select>
 												    </div>
 												</div>
@@ -266,7 +266,7 @@ include('_includes/header.php');
 													  	<div class="">	
 														  	<div class="checkbox">
 															    <label>
-															      <input type="checkbox">  I have read and agree to the Terms and Conditions.*
+															      <input type="checkbox" required>  I have read and agree to the Terms and Conditions.*
 															    </label>
 															</div>
 														  	<div class="checkbox">
@@ -304,14 +304,14 @@ You may request for access to or correction of the Personal Data or limit the pr
 <!-- End OF Register Content -->
 
 <?php 
-// if($_server["REQUEST_METHOD"] =="POST"){
-// 	$username =mysql_real_escape_string($_POST['username']);
-// 	$password =mysql_real_escape_string($_POST['password']);
-
-// 	echo "Username entered is: " . $username . "<br/>";
-// 	echo "Password entered is: " . $password;
-
-// }
+//if($_server["REQUEST_METHOD"] =="POST"){
+//	$username =mysql_real_escape_string($_POST['username']);
+//	$password =mysql_real_escape_string($_POST['password']);
+//
+//	echo "Username entered is: " . $username . "<br/>";
+//	echo "Password entered is: " . $password;
+//
+//}
 ?>
 
 
