@@ -49,5 +49,35 @@
 
 }
 /*Single Product*/
+@media only screen and(max-width: 350px){
+	.breadcrumb{
+		
+	}
+}
+@media only screen and (max-width : 980px){
+	.suggest-box, .suggest-box-ttl{
+		display: none
+	}
+	.product-ttl, .product-content{
+		width: 300px;
+	}
+	.social-share{
+		float: left
+	}
+	.product-info{
+		display: none 
+	}
+	.breadcrumb, .breadcrumb a{
+		margin-top: 0;
+		color: #fff;
+	}
+	.breadcrumb{
+		width: 30%;
+		margin-top: -10px;
+	}
+	.products-img{
+		max-width: 300px;
+	}
+}
 
 /*Sign up*/
