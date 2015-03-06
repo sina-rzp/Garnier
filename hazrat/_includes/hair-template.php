@@ -2,7 +2,7 @@
 <input id="hidEmailPlaceholder" type="hidden" value="<?php if(isset($_SESSION['email'])) echo $_SESSION['email']; ?>" />
 
 <script id="hiddenHairTemplate" type="text/x-custom-template">
-<div class="row">
+
 <div id="rootHair">
   <div class="navbar-inner">
     <div class="container">
@@ -135,34 +135,35 @@
 </div>
 
 
-</div>
-</div>
-</div>
+
 
 <div class="row">
-<div class="col-xs-2 pull-left">
-<div class="button-wizard">
-<ul class="pager wizard">
-<li class="previous first" style="display:none;"><a href="#">First</a></li>
-<li class="previous"><a href="#">Previous</a></li>
-</ul>
-</div>
-</div>
+	<div class="col-xs-2 ">
+		<div class="button-wizard">
+			<ul class="pager wizard">
+				<!-- <li class="previous first" style="display:none;"><a href="#">First</a></li> -->
+				<li class="previous"><a href="#">Previous</a></li>
+				
+			</ul>
+		</div>
+	</div>
 
-
-<div class="col-xs-8 center ">
-<div id="bar" class="progress">
+	<div class="col-xs-8 ">
+		<div id="bar" class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
         </div>
     </div>
-    <div class="col-xs-2  pull-right">
-    <div class="button-wizard">
-<ul class="pager wizard">
-<li class="next last" style="display:none;"><a href="#">Last</a></li>
- 	<li class="next"><a href="#"> Next </a></li>
-</ul>
-</div>
+    <div class="col-xs-2 ">
+    	<div class="button-wizard">
+			<ul class="pager wizard">
+				<!-- <li class="next last" style="display:none;"><a href="#">Last</a></li> -->
+	  			<li class="next"><a href="#"> Next </a></li>
+	  			<li class="finish" style="display:none;"><a href="javascript:;">Restart</a></li>
+			</ul>
+		</div>
     </div>
+</div>
+
 </div>
 
 </script>

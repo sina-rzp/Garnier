@@ -3,7 +3,6 @@
 
 <script id="hiddenAcneTemplate" type="text/x-custom-template">
 
-<div class="row">
 <div id="rootAcne">
   <div class="navbar-inner">
     <div class="container">
@@ -117,10 +116,6 @@
 
 
 
-
-</div>
-</div>
-
 <div class="row">
 	<div class="col-xs-2 ">
 		<div class="button-wizard">
@@ -146,6 +141,8 @@
 			</ul>
 		</div>
     </div>
+</div>
+
 </div>
 
 </script>

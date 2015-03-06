@@ -3,7 +3,6 @@
 
 <script id="hiddenGarnierMenTemplate" type="text/x-custom-template">
 
-<div class="row">
 <div id="rootGarnierMen">
   <div class="navbar-inner">
     <div class="container">
@@ -122,9 +121,6 @@
 
 
 
-</div>
-
-</div>
 
 <div class="row">
 	<div class="col-xs-2 ">
@@ -153,6 +149,6 @@
     </div>
 </div>
 
-
+</div>
 
 </script>
