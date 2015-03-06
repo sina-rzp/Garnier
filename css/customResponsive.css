@@ -16,7 +16,7 @@
 	.tolak .title-box{
 		font-size: 18px;
 	}
-	.carousel-caption{
+	.carousel-caption, .carousel-caption-sakura{
 		display: none 
 	}
 }
