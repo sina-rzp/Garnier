@@ -87,7 +87,7 @@
 		<div class="col-xs-8">
 	    	<span class="tanye">What Is Your Skin Type?</span>
 		    <div class="tanyelah">
-
+	    	
 			</div>
 		</div>
 
@@ -98,34 +98,48 @@
 		<div class="col-xs-4 face">
 			<img src="images/fym/colorhair.png">
 		</div>
+		
 		<div class="col-xs-8">
 	    	<span class="tanye">We recommend...</span>
-	    	<div class="tanyelah">
-	    		<div class="radio" id="productTemplate1">
+	    </div>
+		
+	    	<div class="tanyela">
+	    	
+	    		<div class=" radio" id="productTemplate1">
 		    		<a href="" id="learnMoreBtn1">
 		    			<img src="" id="productImage1" width="200px">
 		    		</a>
 				</div>
-				<div class=" col-xs-6 radio" id="productTemplate2">
+				<div class=" radio" id="productTemplate2">
 		    		<a href="" id="learnMoreBtn2">
 		    			<img src="" id="productImage2" width="200px">
 		    		</a>
 				</div>
-				<div class="col-xs-6 radio" id="productTemplate3">
+		
+			
+		
+				<div class="radio " id="productTemplate3">
 		    		<a href="" id="learnMoreBtn3">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>
 				</div>
-				<div class="col-xs-6 radio" id="productTemplate4">
+				<div class="radio " id="productTemplate4">
 		    		<a href="" id="learnMoreBtn4">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>
 				</div>
-				<div class="col-xs-6 radio" id="productTemplate5">
+			
+			
+				<div class="radio " id="productTemplate5">
 		    		<a href="" id="learnMoreBtn5">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>
 				</div>
+				
+			
+
+			</div>
+			
 			</div>
 			
 	     </div>
@@ -150,7 +164,7 @@
 </div>
 
 
-<div class="col-xs-8 center ">
+<div class="col-xs-7 center ">
 <div id="bar" class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
         </div>
@@ -160,6 +174,7 @@
 <ul class="pager wizard">
 <li class="next last" style="display:none;"><a href="#">Last</a></li>
  	<li class="next"><a href="#"> Next </a></li>
+ 	<li class="finish" style="display:none;"><a href="javascript:;">Restart</a></li>
 </ul>
 </div>
     </div>

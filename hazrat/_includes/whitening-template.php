@@ -3,6 +3,7 @@
 
 <script id="hiddenWhiteningTemplate" type="text/x-custom-template">
 
+<div class="row">
 <div id="rootWhitening">
   <div class="navbar-inner">
     <div class="container">
@@ -100,7 +101,7 @@
 		</div>
 		<div class="col-xs-8">
 	    	<span class="tanye">We recommend...</span>
-	    	<div class="tanyelah">
+	    	<div class="tanyela">
 	    		<div class="radio" id="productTemplate1">
 		    		<a href="" id="learnMoreBtn1">
 		    			<img src="" id="productImage1" width="200px">
@@ -118,12 +119,12 @@
 				</div>
 				<div class="radio" id="productTemplate4">
 		    		<a href="" id="learnMoreBtn4">
-		    			<img src="" id="productImage3" width="200px">
+		    			<img src="" id="productImage4" width="200px">
 		    		</a>
 				</div>
 				<div class="radio" id="productTemplate5">
 		    		<a href="" id="learnMoreBtn5">
-		    			<img src="" id="productImage3" width="200px">
+		    			<img src="" id="productImage5" width="200px">
 		    		</a>
 				</div>
 			</div>
@@ -133,8 +134,8 @@
 	
     </div>
 </div>
-
-
+</div>
+</div>
 
 
 <div class="row">
@@ -164,6 +165,7 @@
     </div>
 </div>
 
-</div>
+
+
 
 </script>

@@ -136,7 +136,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "Sakura White Range",
@@ -177,7 +177,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "SW, LC moisturizer",
@@ -218,7 +218,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "Duo Clean [Whitening + Oil Control] (Blue)",
@@ -259,7 +259,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "LC range",
@@ -291,7 +291,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "LC range",
@@ -323,7 +323,7 @@
 	          }
 	        },
 	        {
-	          "optionItem": "Combination (i)",
+	          "optionItem": "Combination",
 	          "recommendedItem": {
 	            "id": "SAKURA_WHITE_RANGE",
 	            "name": "Duo Clean [Double White] (Black)",

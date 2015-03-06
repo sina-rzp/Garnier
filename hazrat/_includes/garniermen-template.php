@@ -101,7 +101,8 @@
 		</div>
 		<div class="col-xs-8">
 	    	<span class="tanye">We recommend...</span>
-	    	<div class="tanyelah">
+	    	<div class="tanyela">
+	    	
 	    		<div class="radio" id="productTemplate1">
 		    		<a href="" id="learnMoreBtn1">
 		    			<img src="" id="productImage1" width="200px">
