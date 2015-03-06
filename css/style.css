@@ -10,7 +10,7 @@ License URI:
 */
 
 
-body {-
+body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     background: transparent url('../images/bg-body.gif') left top repeat;
@@ -132,6 +132,10 @@ line-height: 18px;
 
 .tanyelah{
 	font-size: 16px;
+}
+
+div.tanyela > .radio{
+	display: inline-table;
 }
 
 
@@ -667,12 +671,12 @@ width: 250px !important;
 /* Breadcrumb */
 .breadcrumb{
 background-color:rgba(255,255,255,0);
-color: black;
+color: #a8a8a8;
 margin-top: 20px;
 }
 
 .breadcrumb a{
-color: black;
+color: #a8a8a8;
 text-decoration: underline;
 }
 
@@ -823,7 +827,7 @@ color: #6ab235;
 
 .bar-findout{
 	background-color: #014432;
-	padding: 6px 5px;
+	padding: 5px 6px;
 	margin-top: 10px;
 	height: 30px;
 	max-width: 70px;
@@ -834,9 +838,9 @@ color: #6ab235;
 	color: #FFFFFF;
 }
 
-.bar-findout:hover{
-	color: #FFF !important;
-	text-decoration: underline;
+.bar-findout a:hover{
+	color: #FFFFFF !important;
+	text-decoration: none;
 }
 
 .leb-product{
@@ -1118,12 +1122,12 @@ list-style: none;
 
 .pager li > a, .pager li > span {
 display: inline-block;
-padding: 1px 20px;
+padding: 1px 30px;
 background-color: #fff;
 border: 0px solid #ddd;
 border-radius: 0; 
 font-family: JournalRegular, Arial, Helvetica, sans-serif;
-font-size: 40px;
+font-size: 35px;
 margin-top: -25px;
 }
 
@@ -1361,4 +1365,8 @@ margin-top: -25px;
 
 .product-align{
 	padding-left: 12px;
+}
+
+.recommended{
+	padding: 20px;
 }
