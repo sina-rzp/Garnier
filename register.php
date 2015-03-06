@@ -194,7 +194,7 @@ include('_includes/header.php');
 														<select class="form-control" name="year" type="text" >
 															 <option>Year</option>
                                                             <?php
-                                                            $i = 1950;
+                                                            $i = 1900;
                                                             while($i<date('Y')){
                                                                 echo "<option>$i</option>";
                                                                 $i++;

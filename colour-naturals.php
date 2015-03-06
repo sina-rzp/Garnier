@@ -71,7 +71,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals
-3.0 - Coklat Gelap</b><p>Get nourished, natural-looking, long-lasting colour
+3 - Coklat Gelap</b><p>Get nourished, natural-looking, long-lasting colour
 							</p><a class="bar-findout" href="HC-Coklat Gelap.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -93,7 +93,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals
-4.0 - Coklat</b><p>Get nourished, natural-looking, long-lasting colour
+4 - Coklat</b><p>Get nourished, natural-looking, long-lasting colour
 
 							</p><a class="bar-findout" href="HC-Coklat.php"> &#9656; Find Out </a>
        					</div>
@@ -105,7 +105,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals
-5.0 - Coklat Terang</b><p>Get nourished, natural-looking, long-lasting colour
+5 - Coklat Terang</b><p>Get nourished, natural-looking, long-lasting colour
 
 							</p><a class="bar-findout" href="HC-CoklatTerang.php"> &#9656; Find Out </a>
        					</div>

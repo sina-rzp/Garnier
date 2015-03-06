@@ -18,7 +18,7 @@ include('_includes/header.php');
 			<div class="row">
 				<div class="col-md-12">
 					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="hair-color.php"> Hair Color </a> > Color Naturals
-5.0 - Coklat Terang
+5 - Coklat Terang
 					</div>
 				</div>
 
@@ -53,7 +53,7 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Color Naturals 5.0 - Coklat Terang</div>
+										<div class="product-ttl">Color Naturals 5 - Coklat Terang</div>
 										<p class="product-content">
 											Garnier Color Naturals non-drip rich cream formula gives you 100% grey Coverage. This rich, long-lasting color is easy to apply and results in soft and silky, nourished hair.
 										</p>
