@@ -13,6 +13,12 @@
 	#kit img{
 		width: 300px ; 
 	}
+	.tolak .title-box{
+		font-size: 18px;
+	}
+	.carousel-caption{
+		display: none 
+	}
 }
 
 /*Header Section*/
