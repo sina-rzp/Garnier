@@ -87,7 +87,7 @@
 		<div class="col-xs-8">
 	    	<span class="tanye">What Is Your Skin Type?</span>
 		    <div class="tanyelah">
-	    	
+
 			</div>
 		</div>
 
@@ -106,22 +106,22 @@
 		    			<img src="" id="productImage1" width="200px">
 		    		</a>
 				</div>
-				<div class="radio" id="productTemplate2">
+				<div class=" col-xs-6 radio" id="productTemplate2">
 		    		<a href="" id="learnMoreBtn2">
 		    			<img src="" id="productImage2" width="200px">
 		    		</a>
 				</div>
-				<div class="radio" id="productTemplate3">
+				<div class="col-xs-6 radio" id="productTemplate3">
 		    		<a href="" id="learnMoreBtn3">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>
 				</div>
-				<div class="radio" id="productTemplate4">
+				<div class="col-xs-6 radio" id="productTemplate4">
 		    		<a href="" id="learnMoreBtn4">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>
 				</div>
-				<div class="radio" id="productTemplate5">
+				<div class="col-xs-6 radio" id="productTemplate5">
 		    		<a href="" id="learnMoreBtn5">
 		    			<img src="" id="productImage3" width="200px">
 		    		</a>

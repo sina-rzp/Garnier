@@ -1,39 +1,12 @@
-
 <?php
 @session_start();
+include_once('core/core.php');
 
-
-if(isset($_POST['email_login_header'])){
-    include('core/core.php');
-    $email = $_POST['email_login_header'];
-    $pass = md5($_POST['password']);
-
-    $user = User::where('email','=',$email)
-        ->where('password','=',$pass)->count();
-
-    if($user >0){
-        $user = User::where('email','=',$email)
-            ->where('password','=',$pass)->first();
-        if($user->active == 0){
-            echo '<script>alert("Your account not activated, please check email and active it using given link.")</script>';
-        }else{
-
-            $_SESSION['email'] = $email;
-            $_SESSION['id_user'] = $user->id;
-            $_SESSION['lastname'] = $user->lastname;
-            header('location: index-member.php');
-            echo '<script>window.location.href = "index-member.php";</script>';
-            die();
-        }
-
-    }else{
-        echo '<script>alert("Login/Password are not corresponding")</script>';
-    }
+if(!isset($_SESSION['email'])){
+    header('location: index.php');
+    echo '<script>window.location.href = "index.php";</script>';
+    die();
 }
-
-
-
-
 ?>
 <!DOCTYPE html>
 
@@ -53,30 +26,12 @@ if(isset($_POST['email_login_header'])){
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 		<link href="css/yamm.css" rel="stylesheet">  
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
 
-	
+
+		<script type="text/javascript" src="js/app.js"></script>
+		
+
 	</head>
-
-	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left"> 
-	    <br><br><br>
-	    <div class="col-xs-12">
-	    	<span class="serach-text">SEARCH</span><br>
-	    	<form class="form-inline">
-			  <div class="form-group">
-			    <div class="input-group">
-			      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Looking for a product ">
-			      <div class="input-group-addon"><i class="fa fa-search"></i></div>
-			    </div>
-			  </div>
-			</form>
-		</div>
-	    <a href="index-member.php"><i class="fa fa-home fa-2 home"></i> HOME </a>
-	    <a href="skin-natural.php"> GARNIER SKIN NATURAL </a>
-	    <a href="fym-garnier-skin-natural-men.php">GARNIER MEN</a>
-	    <a href="fym-garnier-skin-natural-hair.php">HAIR COLOUR</a>
-	</nav>
-
 	
 <!-- body -->	
 	<body>
@@ -85,63 +40,79 @@ if(isset($_POST['email_login_header'])){
 <!-- body-bg  -->
 			<div class="body-bg">
 <!-- container body  -->
-				<div class="container-fluid">
+				<div class="container">
 <!-- header top -->
 					<div class="header">
-						<div class="container-fluid">
-
-<!-- @mediaqueiry -->
-<div class="row visible-xs ">
-	<div class="col-xs-2 visible-xs push-btn">					
-		 <div class="menu-ico">
-				 <a href="#"><i class=" toggle-menu menu-left push-body jPushMenuBtn pull-left menu-ico-position"><img src="images/btn-menu.png"></i>
-				 </a>
-		</div>
-	</div>
-
-
-
-	
-	<div class="col-xs-8  visible-xs">
-		<div class="logo-kecik center">
-			<a href="index.php"><img src="images/logo-garnier.png" ></a>
-		</div>
-	</div>
-	<div class="col-xs-2">
-		<div class="pic-res visible-xs">
-			<a href="member-account.php"><img src="images/btn-mya.png"></a>
-		</div>
-	</div>
-</div>
-
-
+						<div class="container">
 
 						<div class="row">
 <!-- logo -->
 							<div class="col-md-3 col-xs-3">
-								<div class="logo hidden-xs">
-									<a href="index-member.php"><img src="images/logo-garnier.png" width="195px"></a>
+								<div class="logo">
+									<img src="images/logo-garnier.png" width="195px">
 								</div>
 							</div>
 <!-- End of logo -->
 
 							
 <!-- Sign in / Create account  -->
-								<div class="col-md-3 col-xs-3">
+							<div class="col-md-3 col-xs-3">
 							
-									<div class="dropdown hidden-xs">
-									  <button class="btn btn-hijau bar-member dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-									    Hello Karim <span class="caret"></span>
+									<div class="dropdown ">
+									  <button class="btn btn-default bar-member dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+									    Hello <?php echo $_SESSION['lastname']; ?> &nbsp;&nbsp;
+									    <span class="caret"></span>
 									  </button>
 									  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 									    <li role="presentation"><a role="menuitem" tabindex="-1" href="member-account.php">My Account</a></li>
-									    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="change-password.php">Change Password</a></li>
+									    <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php?logout=1">Logout</a></li>
 									  </ul>
 									</div>
 								
 							</div>
 
-
+<!-- POPUP -->
+<div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="popup-signin">Sign in</h1>
+      </div>
+      <div class="modal-body">
+        <div class="col-md-6">
+        	<h4>I HAVE A GARNIER ACCOUNT</h4>
+        	<div class="form-group">
+        	<input type="text" class="form-control" placeholder="Your email">
+        	</div>
+        	<div class="form-group">
+        	<input type="text" class="form-control" placeholder="*******">
+        	</div>
+        	<div class="row">
+        		<div class="col-xs-6">
+        			<a href="#">Forgot password?</a>
+        		</div>
+        		<button type="button" class="btn btn-primary btn-lg btn-confirm"> &#9656;  Login
+				</button>
+        		<div class="col-xs-6">
+        			kanan
+        		</div>
+        	</div>
+        </div>
+        <div class="col-md-6"><h4>I DON'T HAVE A GARNIER ACCOUNT</h4>
+        	Create an account and get access to exclusive and personalized privileges: E-coupons, new product pre-tests and services...
+        	<br><br><br>
+        	<button type="button" class="btn btn-primary btn-lg btn-confirm"> &#9656;  Register Now
+			</button>
+        </div>
+        	
+        
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -149,14 +120,13 @@ if(isset($_POST['email_login_header'])){
 
 <!-- Header Right -->
 							<div class="col-md-6 col-xs-6 header-right">
-<!-- FAQ 
+<!-- Bahasa / About -->
 								<div class="row">
 									<div class="col-md-12 faq">
-
+								
 											<span class="multilanguage-btn">
 												<a href="#"  target="_blank" >English</a> / <a href="#"  target="_blank" >Bahasa</a>
 											</span>
-										
 
 											<span class="faq-btn">
 											
@@ -165,11 +135,11 @@ if(isset($_POST['email_login_header'])){
 									
 									</div>
 								</div>
- Bahasa / About -->
+<!-- End of Bahasa / About -->
 
 <!-- Search -->
 								<div class="row">
-									<div class="col-md-12 search hidden-xs">
+									<div class="col-md-12 search">
 										<form class="form-inline">  
 											<label for="search">Search</label>
 											<input type="text" class="form-control input-xs" id="search" placeholder="Look for a product">
@@ -194,45 +164,38 @@ if(isset($_POST['email_login_header'])){
 <!-- Header Bottom -->
 			<div class="row">
 <!-- Main Menu -->
-				<div class="col-md-8  col-sm-8 bg-bawah hidden-xs ">
-					<nav class="navbar yamm navbar-default hidden-xs " role="navigation">
+			<div class="col-md-8 bg-bawah ">
+					<nav class="navbar yamm navbar-default " role="navigation">
 				     <ul class="nav navbar-nav">
-				     	
-				     	<li ><a href="index-member.php"><i class="fa fa-home fa-2 home"></i></a></li>
+				     	<li role="presentation" class="active"><a href="index.php"><i class="fa fa-home fa-2 home"></i></a></li>
 
 <!-- Garnier Skin Natural -->
-				      <li class="dropdown">
-				         <a href="skin-natural.php" class="dropdown-toggle navb" >Garnier Skin Natural</a>
+				       <li class="dropdown">
+				         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Garnier Skin Natural</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
-					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
-						                   <li class="warna"><a href="light-complete.php">Light Complete</a></li>
-						                   <li class="warna"><a href="sakura-white.php">Sakura White</a></li>
-						                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
-						                  <li class="warna"><a href="pure-active.php">Pure Active</a></li>
-						                  <li class="warna"><a href="aqua-defense.php">Aqua Defense</a></li>
-						              
+					                  <ul class="col-sm-4 list-unstyled dash-right">
+						                  <li class="drop-header"><span class="dd">Brands</span></li>
+						                  <li><a href="light-complete.php">Light Complete</a></li>
+						                  <li><a href="sakura-white.php">Sakura White</a></li>
+						                  <li><a href="pure-active.php">Pure Active</a></li>
+						                  <li><a href="aqua-defense.php">Aqua Defense</a></li>
+						                  <li><a href="duo-clean.php">Duo Clean</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-										<li class="drop-header">
-										<span class="dd"><span>By Skin Needs</span></span><br><br></li>
-						                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Acne</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-hidrating.php">Hydrating</a></li>
+									  <ul class="col-sm-4 list-unstyled dash-right"> 
+										<li class="drop-header"><span class="dd">By Skin Needs</span></li>
+						                <li><a href="">Whitening</a></li>
+						                <li><a href="">Acne</a></li>
+						                <li><a href="">Hydrating</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-					                 		<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
-						                	<li class="warna"><a href="skin-natural-skin-normal.php">Normal</a></li>
-						                 	<li class="warna"><a href="skin-natural-skin-dry.php">Dry</a></li>
-						                 	<li class="warna"><a href="skin-natural-skin-sensitive.php">Sensitive</a></li>
-						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
-						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Oily</a></li>
-									  </ul>
-									  <ul class="col-sm-3 list-unstyled"> 
-					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
-											<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
+									  <ul class="col-sm-4 list-unstyled"> 
+					                 		<li class="drop-header"><span class="dd">By Skin Type</span></li>
+						                	<li><a href="">Normal</a></li>
+						                 	<li><a href="">Dry</a></li>
+						                 	<li><a href="">Sensitive</a></li>
+						                 	<li><a href="">Combination</a></li>
+						                 	<li><a href="">Oily</a></li>
 									  </ul>
 								   </div>
 					           </li>
@@ -240,33 +203,30 @@ if(isset($_POST['email_login_header'])){
 				       </li>
 <!-- Garnier Men -->
 				       <li class="dropdown">
-				         <a href="fym-garnier-skin-natural-men.php" class="dropdown-toggle" >Garnier Men</a>
+				         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Garnier Men</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
-					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
-						                  <li class="warna"><a href="oil-control-men.php">Turbo Light Oil Control</a></li>
-						                  <li class="warna"><a href="acno-fight.php">Acno Fight</a></li>
-						                  <li class="warna"><a href="icy-duo.php">Turbo Light Icy Duo</a></li>
-						                  <li class="warna"><a href="turbo-light.php">Turbo Light</a></li> 
+					                  <ul class="col-sm-4 list-unstyled dash-right">
+						                  <li class="drop-header"><span class="dd">Brands</span></li>
+						                  <li><a href="turbo-light.php">Turbo Light</a></li>
+						                  <li><a href="oil-control-men.php">Turbo Light Oil Control</a></li>
+						                  <li><a href="icy-duo.php">Icy Duo</a></li>
+						                  <li><a href="acno-fight.php">Acno Fight</a></li>
+						                  
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-										<li class="drop-header"><span class="dd"><span>By Skin Needs</span></span><br><br></li>
-						                <li class="warna"><a href="gmen-skin-need-whitening.php">Whitening</a></li>
-						                <li class="warna"><a href="gmen-skin-need-acne.php">Acne</a></li>
-						                
+									  <ul class="col-sm-4 list-unstyled dash-right"> 
+										<li class="drop-header"><span class="dd">By Skin Needs</span></li>
+						                <li><a href="">Whitening</a></li>
+						                <li><a href="">Acne</a></li>
+						                <li><a href="">Hydrating</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-					                 		<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
-						                	<li class="warna"><a href="gmen-skin-need-normal.php">Normal</a></li>
-						                 	<li class="warna"><a href="gmen-skin-need-dry.php">Dry</a></li>
-						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Oily</a></li>
-						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Combination</a></li>
-									  </ul>
-									   <ul class="col-sm-3 list-unstyled"> 
-					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
-											<li class=""><a href="fym-garnier-skin-natural-men.php"><img src="images/black-megamenu.png"></a></li>
+									  <ul class="col-sm-4 list-unstyled"> 
+					                 		<li class="drop-header"><span class="dd">By Skin Type</span></li>
+						                	<li><a href="">Normal</a></li>
+						                 	<li><a href="">Dry</a></li>
+						                 	<li><a href="">Sensitive</a></li>
+						                 	<li><a href="">Combination</a></li>
 									  </ul>
 								   </div>
 					           </li>
@@ -274,32 +234,28 @@ if(isset($_POST['email_login_header'])){
 				       </li>
 <!-- Hair Colour -->
 				       <li class="dropdown">
-				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Colour</a>
+				         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hair Colour</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
-					                  <ul class="col-sm-3 list-unstyled dash-right dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
-						                  <li class="warna"><a href="colour-naturals.php">Color Naturals</a></li>
-						                  <li class="warna"><a href="olia.php">Olia</a></li>
+					                  <ul class="col-sm-4 list-unstyled dash-right dash-right">
+						                  <li class="drop-header"><span class="dd">Brands</span></li>
+						                  <li><a href="colour-naturals.php">Color Naturals</a></li>
+						                  <li><a href="">Olia</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-										<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
-						                <li class="warna"><a href="permanent.php">Permanent</a></li>
-						                <li class="warna"><a href="amonia.php">Ammonia Free</a></li>
+									  <ul class="col-sm-4 list-unstyled dash-right"> 
+										<li class="drop-header"><span class="dd">By Skin Needs</span></li>
+						                <li><a href="">Permanent</a></li>
+						                <li><a href="">Ammonia Free</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled dash-right"> 
-					                 		<li class="drop-header">
-					                 		<span class="dd"><span>By Colour</span></span><br><br></li>
-						                	<li class="warna"><a href="black.php">Black</a></li>
-						                 	<li class="warna"><a href="brown.php">Brown</a></li>
-						                 	<li class="warna"><a href="blonde.php">Blonde</a></li>
-						                 	<li class="warna"><a href="red.php">Red</a></li>
-						                 	
-									  </ul>
-									    <ul class="col-sm-3 list-unstyled"> 
-					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
-											<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
+									  <ul class="col-sm-4 list-unstyled"> 
+					                 		<li class="drop-header"><span class="dd">By Colour</span></li>
+						                	<li><a href="">Black</a></li>
+						                 	<li><a href="">Brown</a></li>
+						                 	<li><a href="">Blonde</a></li>
+						                 	<li><a href="">Red</a></li>
+						                 	<li><a href="">Violet</a></li>
+						                 	<li><a href="">Copper</a></li>
 									  </ul>
 								   </div>
 					           </li>
@@ -312,7 +268,7 @@ if(isset($_POST['email_login_header'])){
 <!-- End of Main Menu -->
 
 <!-- Sign Up Newsletter -->
-					<div class="col-md-4 col-sm-4 newsletter hidden-xs">Sign up to receive updates from Garnier<br>
+					<div class="col-md-4 newsletter">Sign up to receive updates from Garnier<br>
 						<form class="form-inline">  
 							<input type="text" class="form-control input-xs" id="search" placeholder="Your email address">
 							<button type="submit" class="btn btn-inverse btn-grey btn-xs"> > SIGN UP NOW
