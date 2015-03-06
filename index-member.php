@@ -38,6 +38,17 @@ include('_includes/header-member.php');
 			</div>
 		</div>
 <!-- End of Slideshow -->
+<div class="row">
+	<div class="container">
+		<div class="col-md-12 col-xs-12">
+			
+			<?php 
+include('_includes/my-recommendation-widget.php');
+?>
+
+		</div>
+	</div>
+</div>
 
 <!-- Find Your Match -->
 		<div id="find-match">
