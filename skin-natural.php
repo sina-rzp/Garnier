@@ -17,7 +17,7 @@ include('_includes/header.php');
 					<div class="container">
 <!-- Tajuk -->
 					<div class="tajuk-besar">
-					<h1>Garnier Skin Natural</h1>
+					<h1>Garnier Skin Naturals</h1>
 					</div>
 <!-- End Of Tajuk -->
 

@@ -95,7 +95,7 @@ if (isset($_GET['logout'])){
 										border-left: 5px solid #ed1b24;
 										height: 215px; padding: 40px 0 0 ;"> 
 
-										<h2 class="title-box">Anti Acne</h2>
+										<h2 class="title-box">Anti-Acne</h2>
 										<div class="des-box">Find the best solution for your acne problems</div>
 
 									<div class="btn-con">

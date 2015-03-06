@@ -667,12 +667,12 @@ width: 250px !important;
 /* Breadcrumb */
 .breadcrumb{
 background-color:rgba(255,255,255,0);
-color: #a8a8a8;
+color: black;
 margin-top: 20px;
 }
 
 .breadcrumb a{
-color: #a8a8a8;
+color: black;
 text-decoration: underline;
 }
 

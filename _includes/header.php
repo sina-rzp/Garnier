@@ -73,7 +73,7 @@ if(isset($_POST['email_login_header'])){
 			</form>
 		</div>
 	    <a href="index.php"><i class="fa fa-home fa-2 home"></i> HOME </a>
-	    <a href="skin-natural.php"> GARNIER SKIN NATURAL </a>
+	    <a href="skin-natural.php"> GARNIER SKIN NATURALS </a>
 	    <a href="fym-garnier-skin-natural-men.php">GARNIER MEN</a>
 	    <a href="fym-garnier-skin-natural-hair.php">HAIR COLOUR</a>
 	</nav>
@@ -241,7 +241,7 @@ if(isset($_POST['email_login_header'])){
 
 <!-- Garnier Skin Natural -->
 				       <li class="dropdown">
-				         <a href="skin-natural.php" class="dropdown-toggle navb" >Garnier Skin Natural</a>
+				         <a href="skin-natural.php" class="dropdown-toggle navb" >Garnier Skin Naturals</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
@@ -258,7 +258,7 @@ if(isset($_POST['email_login_header'])){
 										<li class="drop-header">
 										<span class="dd"><span>By Skin Needs</span></span><br><br></li>
 						                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Acne</a></li>
+						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Anti-Acne</a></li>
 						                <li class="warna"><a href="skin-natural-skin-need-hidrating.php">Hydrating</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
