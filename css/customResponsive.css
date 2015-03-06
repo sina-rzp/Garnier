@@ -1,0 +1,83 @@
+/*Home Page*/
+@media only screen and (max-width : 470px) {
+	.des-box{
+		width: auto !important;
+	}
+	.tolak .btn-con{
+		float: left; 
+		text-align: left; 
+	}
+	#kit center{
+			float: left;
+	}
+	#kit img{
+		width: 300px ; 
+	}
+}
+
+/*Header Section*/
+
+/*Footer Section*/
+
+/*Product List*/
+@media only screen and (max-width : 980px){
+	.leb-product div{
+		float: left; 
+	}
+	.tolak-product{
+		float: none; 
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.leb-product div select{
+		display: block;
+		margin-top: 10px;
+		width: 200px;
+		clear: both;
+	}
+	.leb-product div{
+		width: 100%;
+	}
+	.product-bar{
+		height: 140px;
+	}
+	.tajuk-filter{
+		display: none; 
+	}
+
+
+}
+/*Single Product*/
+@media only screen and(max-width: 350px){
+	.breadcrumb{
+		
+	}
+}
+@media only screen and (max-width : 980px){
+	.suggest-box, .suggest-box-ttl{
+		display: none
+	}
+	.product-ttl, .product-content{
+		width: 300px;
+	}
+	.social-share{
+		float: left
+	}
+	.product-info{
+		display: none 
+	}
+	.breadcrumb, .breadcrumb a{
+		margin-top: 0;
+		color: #fff;
+	}
+	.breadcrumb{
+		width: 30%;
+		margin-top: -10px;
+	}
+	.products-img{
+		max-width: 300px;
+	}
+}
+
+/*Sign up*/
