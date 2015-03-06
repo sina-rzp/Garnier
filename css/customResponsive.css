@@ -20,7 +20,34 @@
 /*Footer Section*/
 
 /*Product List*/
+@media only screen and (max-width : 980px){
+	.leb-product div{
+		float: left; 
+	}
+	.tolak-product{
+		float: none; 
+	}
+}
 
+@media only screen and (max-width: 600px){
+	.leb-product div select{
+		display: block;
+		margin-top: 10px;
+		width: 200px;
+		clear: both;
+	}
+	.leb-product div{
+		width: 100%;
+	}
+	.product-bar{
+		height: 140px;
+	}
+	.tajuk-filter{
+		display: none; 
+	}
+
+
+}
 /*Single Product*/
 
 /*Sign up*/
