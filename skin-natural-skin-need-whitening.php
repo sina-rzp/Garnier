@@ -23,37 +23,9 @@ include('_includes/header.php');
 			</div>
 
 <!-- Product Filter-->
-				<div class="product-bar">
-				  <div class="row leb-product"> 
-					 	<div class="col-md-6 col-xs-6 tajuk-filter"> 
-							        Arrange according to <br/>
-						</div>
-					    <div class="col-md-2 col-xs-2 ">
-					        <select  class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;" >
-					            <option value="skin-natural-skin-need-whitening.php" >Whitening</option>
-					            <option value="skin-natural-skin-need-acne.php" /> Acne<br />
-					            <option value="skin-natural-skin-need-hidrating.php" /> Hydrating<br />
-					        </select>
-					    </div>
-					    <div class="col-md-2 col-xs-2 ">
-					        <select  class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option value="">Skin Type</option>
-					            <option value="skin-natural-skin-normal.php" /> Normal<br />
-					            <option value="skin-natural-skin-dry.php" /> Dry<br />
-					            <option value="skin-natural-skin-sensitive.php" /> Sensitive<br />
-					            <option value="skin-natural-skin-combination.php" /> Combination<br />
-					            <option value="skin-natural-skin-combination.php" /> Oily<br />
-					        </select>
-					    </div>
-					    <div class="col-md-2 col-xs-2 ">
-					        <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option value="">New / Popular</option>
-					            <option value="hold" /> New <br />
-					            <option value="volumes" /> Popular<br />
-					        </select>
-					    </div>	   	
-					</div>
-				</div>
+							<?php
+include('_includes/productfilter.php');
+?>
 
 
 <!-- Products Listed -->
