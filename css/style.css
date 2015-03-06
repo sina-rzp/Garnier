@@ -10,7 +10,7 @@ License URI:
 */
 
 
-body {
+body {-
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     background: transparent url('../images/bg-body.gif') left top repeat;
@@ -823,7 +823,7 @@ color: #6ab235;
 
 .bar-findout{
 	background-color: #014432;
-	padding: 5px 6px;
+	padding: 6px 5px;
 	margin-top: 10px;
 	height: 30px;
 	max-width: 70px;
@@ -834,9 +834,9 @@ color: #6ab235;
 	color: #FFFFFF;
 }
 
-.bar-findout a:hover{
-	color: #FFFFFF !important;
-	text-decoration: none;
+.bar-findout:hover{
+	color: #FFF !important;
+	text-decoration: underline;
 }
 
 .leb-product{
