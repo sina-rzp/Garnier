@@ -26,14 +26,16 @@ include('_includes/header.php');
 								<div class="row">
 									<div class="col-md-6 center">
 										<p>
-										<button type="button" class="btn btn-primary btn-lg btn-confirm"> Go back to the page I was on
-										</button>
+										<a type="button" class="btn btn-primary btn-lg btn-confirm" href="index-member.php"> Go back to the page I was on
+										</a>
 										</p>
 									</div>
 									<div class="col-md-6 center">
 										<p>
-										<button type="button" class="btn btn-primary btn-lg btn-confirm"> Go to my Account
-										</button>
+
+
+										<a type="button" class="btn btn-primary btn-lg btn-confirm" href="member-account.php" > Go to my Account
+										</a>
 										</p>
 
 									</div>
