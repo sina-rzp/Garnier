@@ -1,5 +1,9 @@
 <?php
 @session_start();
+if(isset($_SESSION['email'])){
+ include('header-member.php');
+}
+else{
 
 
 if(isset($_POST['email_login_header'])){
@@ -366,3 +370,5 @@ if(isset($_POST['email_login_header'])){
 	</div>
 
 <!-- END OF HEADER################ -->
+
+<?php } ?>

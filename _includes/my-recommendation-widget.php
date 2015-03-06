@@ -29,16 +29,16 @@ small {
 }
 </style>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <div class="well well-sm">
+<div class="container-fluid">
+    <div class="row recommended">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="">
                 <div class="row">
 					<?php 
 					foreach ($recommended_products as $rp){
 						$prod = Product::where('product_name' , 'like', '%'.$rp->product_name.'%')->first();
 					?>
-						<div class="col-sm-3 col-md-3">
+						<div class="col-sm-3 col-md-3 col-md-3">
 							<a href="<?php echo $prod->link; ?>">
 								<img src="<?php echo $rp->image; ?>" alt="<?php $rp->product_name; ?>" class="img-rounded img-responsive" />
 							</a>

@@ -212,13 +212,22 @@ include('_includes/header-member.php');
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="inputPassword3" class="col-sm-3 control-label">Country *</label>
+                                            <label for="inputPassword3" class="col-sm-3 control-label">State *</label>
                                             <div class="col-sm-9">
                                                 <select class="form-control" name="country" type="text" >
-                                                    <option>Country</option>
-                                                    <option <?php if($user->country == 'Malaysia') echo "selected" ?>>Malaysia</option>
-                                                    <option <?php if($user->country == 'Indonesia') echo "selected" ?>>Indonesia</option>
-                                                    <option <?php if($user->country == 'Thailand') echo "selected" ?>>Thailand</option>
+                                                    <option>State</option>
+                                                    <option <?php if($user->country == 'Selangor') echo "selected" ?>>Selangor</option>
+                                                    <option <?php if($user->country == 'Kuala Lumpur') echo "selected" ?>>Kuala Lumpur</option>
+                                                    <option <?php if($user->country == 'Sarawak') echo "selected" ?>>Sarawak</option>
+                                                    <option <?php if($user->country == 'Johor') echo "selected" ?>>Johor</option>
+                                                    <option <?php if($user->country == 'Penang') echo "selected" ?>>Penang</option>
+                                                    <option <?php if($user->country == 'Negeri Sembilan') echo "selected" ?>>Negeri Sembilan </option>
+                                                    <option <?php if($user->country == 'Kedah') echo "selected" ?>>Kedah</option>
+                                                    <option <?php if($user->country == 'Malacca') echo "selected" ?>>Malacca</option>
+                                                    <option <?php if($user->country == 'Terengganu') echo "selected" ?>>Terengganu</option>
+                                                    <option <?php if($user->country == 'Kelantan') echo "selected" ?>>Kelantan </option>
+                                                    <option <?php if($user->country == 'Perlis') echo "selected" ?>>Perlis</option>
+                                                    <option <?php if($user->country == 'Labuan') echo "selected" ?>>Labuan</option>
                                                 </select>
                                             </div>
                                         </div>

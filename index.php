@@ -7,7 +7,13 @@ if (isset($_GET['logout'])){
 }
 ?>
 
-
+<?php
+if(isset($_SESSION['email'])){
+ 	header('location: index-member.php');
+    echo '<script>window.location.href = "index-member.php";</script>';
+    die();
+}
+?>
 
 <!-- Content -->
 	<div id="content">

@@ -23,37 +23,9 @@ include('_includes/header.php');
 			</div>
 
 <!-- Product Filter-->
-				<div class="product-bar">
-				  <div class="row leb-product"> 
-					 	<div class="col-md-6 tajuk-filter"> 
-							        Arrange according to <br/>
-						</div>
-					    <div class="col-md-2">
-					        <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option value="gmen-skin-need-whitening.php" />Whitening</option>
-					            <option value="gmen-skin-need-acne.php" /> Acne<br />
-					           
-					        </select>
-					    </div>
-					    <div class="col-md-2">
-					        <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option>Skin Type</option>
-					            <option value="gmen-skin-need-normal.php" /> Normal<br />
-					            <option value="gmen-skin-need-dry.php" /> Dry<br />
-					            
-					            <option value="gmen-skin-need-sensitive.php" /> Combination<br />
-					            <option value="gmen-skin-need-sensitive.php" /> Oily<br />
-					        </select>
-					    </div>
-					    <div class="col-md-2">
-					        <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option>New / Popular</option>
-					            <option value="" /> New <br />
-					            <option value="" /> Popular<br />
-					        </select>
-					    </div>	   	
-					</div>
-				</div>
+									<?php
+include('_includes/productfilter.php');
+?>
 
 
 <!-- Products Listed -->

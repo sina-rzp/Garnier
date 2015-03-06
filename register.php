@@ -18,7 +18,6 @@ if(isset($_POST['email'])){
         $user->firstname = $_POST['firstname'];
         $user->birthday = $birthday;
         $user->phone = $_POST['phone'];
-        $user->number_of_children = $_POST['number_of_children'];
         $user->address = $_POST['address'];
         $user->postcode = $_POST['postcode'];
         $user->city = $_POST['city'];
@@ -211,21 +210,7 @@ include('_includes/header.php');
 													    </div>
 												</div>
 
-												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">Number of children</label>
-												    <div class="col-sm-9">
-												    	<select class="form-control" name="number_of_children" type="text" >
-															 <option>Select from the list</option>
-															 <option>0</option>
-															 <option>1</option>
-															 <option>2</option>
-															 <option>3</option>
-															 <option>4</option>
-															 <option>5</option>
-															 <option>More than 5</option>
-														</select>
-												    </div>
-												</div>
+											
 												<div class="register-text">3. Postal Address</div>
 												<div class="form-group">
 												    <label for="inputPassword3" class="col-sm-3 control-label">Address</label>
@@ -246,17 +231,25 @@ include('_includes/header.php');
 												    </div>
 												</div>
 												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">Country *</label>
+												    <label for="inputPassword3" class="col-sm-3 control-label">State *</label>
 												    <div class="col-sm-9">
 												    	<select class="form-control" name="country" type="text" >
-															 <option>Country</option>
-															 <option>0</option>
-															 <option>1</option>
-															 <option>2</option>
-															 <option>3</option>
-															 <option>4</option>
-															 <option>5</option>
-															 <option>More than 5</option>
+															 <option>State</option>
+															 <option>Selangor</option>
+															 <option>Kuala Lumpur</option>
+															 <option>Sarawak</option>
+															 <option>Johor</option>
+															 <option>Penang</option>
+															 <option>Sabah</option>
+															 <option>Perak</option>
+															 <option>Pahang</option>
+															 <option>Negeri Sembilan</option>
+															 <option>Kedah</option>
+															 <option>Malacca</option>
+															 <option>Terengganu</option>
+															 <option>Kelantan</option>
+															 <option>Perlis</option>
+															 <option>Labuan</option>
 														</select>
 												    </div>
 												</div>
