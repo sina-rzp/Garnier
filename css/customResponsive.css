@@ -1,0 +1,26 @@
+/*Home Page*/
+@media only screen and (max-width : 470px) {
+	.des-box{
+		width: auto !important;
+	}
+	.tolak .btn-con{
+		float: left; 
+		text-align: left; 
+	}
+	#kit center{
+			float: left;
+	}
+	#kit img{
+		width: 300px ; 
+	}
+}
+
+/*Header Section*/
+
+/*Footer Section*/
+
+/*Product List*/
+
+/*Single Product*/
+
+/*Sign up*/
