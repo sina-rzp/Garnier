@@ -81,3 +81,20 @@
 }
 
 /*Sign up*/
+
+@media only screen and (max-width: 700px){
+	form.login-section.form-horizontal .form-group{
+		width: 40%
+	}
+	.tajuk-besar .sub-text{
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 980px){
+	.box-content{
+		margin-top: 140px;
+	}
+	.text-sm{
+		padding: 20px;
+	}
+}
