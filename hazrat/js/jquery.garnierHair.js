@@ -5,19 +5,19 @@
 	var products = {
 	  
 	    "NAT1": {
-	      "name": "Color Natural 1",
+	      "name": "Color Naturals 1",
 	      "image": "fym/CN Hitam Alami.png",
 	      "url": "HC-HitamAlami.php"
 	    },
 	  
 	    "NAT3": {
-	      "name": "Color Natural 3",
+	      "name": "Color Naturals 3.0",
 	      "image": "fym/CN Coklat Gelap.png",
 	      "url": "HC-Coklat%20Gelap.php"
 	    },
 
 	    "NAT4": {
-	      "name": "Color Natural 4",
+	      "name": "Color Naturals 4.0",
 	      "image": "fym/CN Coklat .png",
 	      "url": "HC-Coklat.php"
 	    },
@@ -41,13 +41,13 @@
 	    },
 
 	    "NAT3_16": {
-	      "name": "Color Natural 3.16",
+	      "name": "Color Naturals 3.16",
 	      "image": "fym/CN Merah Burgundy.png",
 	      "url": "HC-MerahBurgundy.php"
 	    },
 
 	    "NAT5": {
-	      "name": "Color Natural 5",
+	      "name": "Color Naturals 5",
 	      "image": "fym/CN Coklat Terang.png",
 	      "url": "HC-CoklatTerang.php"
 	    },
@@ -216,9 +216,11 @@
 						$('#'+settings.rootContainerName).find('.pager .previous').hide();
 						$('#'+settings.rootContainerName).find('.pager .finish').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').removeClass('disabled');
+						$('#'+settings.rootContainerName).find('.progress').hide();
 					} else {
 						//$('#'+settings.rootContainerName).find('.pager .next').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').hide();
+						$('#'+settings.rootContainerName).find('.progress').show();
 					}
 
 				},
@@ -252,6 +254,8 @@
 						
 						}
 
+					}else{
+						return false;
 					}
 		        },
 		        onPrevious: function(tab, navigation, index) {

@@ -11,25 +11,25 @@
 	    },
 	  
 	    "TURBOLIGHT_ICY_DUO": {
-	      "name": "TurboLight Icy Duo (Blue)",
+	      "name": "TurboLight Icy Duo Foam White + Oil Control",
 	      "image": "fym/TL Icy Blue.png",
 	      "url": "GM-TurboLightIcyDuoFoamWhite+OilControl.php"
 	    },
 
 	    "TURBOLIGHT_ICY_DUO_DOUBLE": {
-	      "name": "TurboLight Icy Duo Double White",
+	      "name": "TurboLight Icy Duo Foam Double White",
 	      "image": "fym/TL Icy Black.png",
 	      "url": "GM-FoamDoubleWhite.php"
 	    },
 
 	    "TURBOLIGHT_ICY_DUO_DOUBLE_BLACK": {
-	      "name": "TurboLight Icy Duo Double White (Black)",
+	      "name": "TurboLight Icy Duo Foam Double White",
 	      "image": "fym/TL Icy Black.png",
 	      "url": "GM-FoamDoubleWhite.php"
 	    },
 
 	    "OIL_CONTROL": {
-	      "name": "Oil Control",
+	      "name": "TurboLight Oil Control",
 	      "image": "fym/TL Oil Control Charcoal Foam.png",
 	      "url": "GM-TurboLightOilControlCharcoalFoam.php"
 	    },
@@ -41,7 +41,7 @@
 	    },
 
 	    "ACNOFIGHT6": {
-	      "name": "AcnoFight 6 in1, Toner, Whitening Serum",
+	      "name": "AcnoFight 6-in-1 Anti-Acne Foam",
 	      "image": "fym/AF 6-IN-1 Anti-acne Foam.png",
 	      "url": "GM-6-in-1Anti-AcneFoam.php"
 	    },
@@ -53,15 +53,15 @@
 	    },
 
 	    "TURBOLIGHT_RANGE": {
-	      "name": "TurboLight Range",
+	      "name": "TurboLight Intensive Whitening Foam",
 	      "image": "fym/TL Whitening Scrub.png",
-	      "url": "GM-TurboLightWhitening%20Scrub.php"
+	      "url": "GM-TurboLightIntensiveWhiteningFoam.php"
 	    },
 
 	    "TURBOLIGHT_AQUA_FUEL": {
-	      "name": "TurboLight Aqua Fuel",
+	      "name": "TurboLight Icy Duo Foam Double White",
 	      "image": "fym/TL-double-white.png",
-	      "url": "hGM-FoamDoubleWhite.php"
+	      "url": "GM-FoamDoubleWhite.php"
 	    }
 	};
 
@@ -245,9 +245,11 @@
 						$('#'+settings.rootContainerName).find('.pager .previous').hide();
 						$('#'+settings.rootContainerName).find('.pager .finish').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').removeClass('disabled');
+						$('#'+settings.rootContainerName).find('.progress').hide();
 					} else {
 						//$('#'+settings.rootContainerName).find('.pager .next').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').hide();
+						$('#'+settings.rootContainerName).find('.progress').show();
 					}
 
 				},
@@ -281,6 +283,8 @@
 						
 						}
 
+					}else{
+						return false;
 					}
 		        },
 		        onPrevious: function(tab, navigation, index) {

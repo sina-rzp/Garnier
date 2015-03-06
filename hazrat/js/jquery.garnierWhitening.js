@@ -1,244 +1,250 @@
 (function( $ ) {
 
-	var chosenIdx1, chosenIdx2, settings;
+	var chosenIdx1, chosenIdx2, settings, lastTabShown, cacheAnswers = [];
 
-	var questionnaire = {
-	  "questions": [
-	    "What is your skin concern?",
-	    "What Is Your Skin Type?",
-		  "We recommend..."
-	  ],
-	  "tab1": [
-	    {
-	      "optionItem": "I want healthy, radiant skin",
-	      "nextTab": [
-	        {
-	          "optionItem": "Sensitive",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Sakura White Range",
-	            "image": "fym/SW Whitening Mask.png",
-	            "url": "SW-PinkishRadianceIntensiveWhiteningMask.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Dry",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Sakura White Range",
-	            "image": "fym/SW Whitening Mask.png",
-	            "url": "SW-PinkishRadianceIntensiveWhiteningMask.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Sakura White Range",
-	            "image": "fym/SW Whitening Mask.png",
-	            "url": "SW-PinkishRadianceIntensiveWhiteningMask.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Sakura White Range",
-	            "image": "fym/SW Whitening Mask.png",
-	            "url": "SW-PinkishRadianceIntensiveWhiteningMask.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Oily",
-	          "recommendedItem": {
-	            "id": "LC_MULTIACTION",
-	            "name": "Light Complete Multi-action whitening cream, SW Instant",
-	            "image": "fym/LCW Night.png",
-	            "url": "LC-MultiActionWhiteningCreamNightRestore.php"
-	          }
-	        }
-	      ]
+	var products = {
+	  
+	    "SAKURA_WHITE_RADIANCE": {
+	      "name": "Sakura White Pinkish Radiance Gentle Cleansing Foam",
+	      "image": "fym/SW Gentle foam.png",
+	      "url": "SW-PinkishRadianceGentleCleansingFoam.php"
 	    },
-	    {
-	      "optionItem": "I want to moisturise and protect my skin against harsh environments",
-	      "nextTab": [
-	        {
-	          "optionItem": "Sensitive",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "SW, LC moisturizer (LC sensitive only)",
-	            "image": "fym/SW Moisturizing.png",
-	            "url": "SW-PinkishRadianceMoisturizingCreamSPF21.php "
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "SW, LC moisturizer",
-	            "image": "fym/SW Moisturizing.png",
-	            "url": "SW-PinkishRadianceMoisturizingCreamSPF21.php "
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "SW, LC moisturizer",
-	            "image": "fym/SW Moisturizing.png",
-	            "url": "SW-PinkishRadianceMoisturizingCreamSPF21.php "
-	          }
-	        }
-	      ]
+	  
+	    "SAKURA_WHITE_MOISTURISING": {
+	      "name": "Sakura White Pinkish Radiance Moisturising Cream SPF21",
+	      "image": "fym/SW Moisturizing.png",
+	      "url": "SW-PinkishRadianceMoisturizingCreamSPF21.php"
 	    },
-	    {
-	      "optionItem": "I have dull skin",
-	      "nextTab": [
-	        {
-	          "optionItem": "Sensitive",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Sakura White",
-	            "image": "fym/SW Gentle foam.png",
-	            "url": "SW-PinkishRadianceGentleCleansingFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Dry",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "SW range",
-	            "image": "fym/SW Gentle foam.png",
-	            "url": "SW-PinkishRadianceGentleCleansingFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Duo Clean [Whitening + Oil Control] (Blue)",
-	            "image": "fym/Duo Clean Whitening and Oil Control Foam.png",
-	            "url": "DC-WhiteningandOilControlFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Duo Clean [Whitening + Oil Control] (Blue)",
-	            "image": "fym/Duo Clean Whitening and Oil Control Foam.png",
-	            "url": "DC-WhiteningandOilControlFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Oily",
-	          "recommendedItem": {
-	            "id": "LC_MULTIACTION",
-	            "name": "Duo Clean [Whitening + Oil Control] (Blue), Light Complete Multi-action whitening cream",
-	            "image": "fym/Duo Clean Whitening and Oil Control Foam.png",
-	            "url": "DC-WhiteningandOilControlFoam.php"
-	          }
-	        }
-	      ]
+
+	    "SAKURA_WHITE_SLEEPING": {
+	      "name": "Sakura White Pinkish Radiance Sleeping Essence",
+	      "image": "fym/Light Complete Multi-Action Whitening 3 in 1 Essence Mask.png",
+	      "url": "SW-PinkishRadianceSleepingEssence.php"
 	    },
-	    {
-	      "optionItem": "I have uneven skin tone",
-	      "nextTab": [
-	        {
-	          "optionItem": "Sensitive",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "SW range, LC moisturizer (LC sensitive only)",
-	            "image": "fym/SW Moisturizing.png",
-	            "url": "SW-PinkishRadianceMoisturizingCreamSPF21.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "LC range",
-	            "image": "fym/LCW Extra UV.png",
-	            "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "LC range",
-	            "image": "fym/LCW Extra UV.png",
-	            "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	          }
-	        }
-	      ]
+
+	    "SAKURA_WHITENING_MASK": {
+	      "name": "Sakura White Pinkish Radiance Intensive Whitening Mask",
+	      "image": "fym/SW Whitening Mask.png",
+	      "url": "SW-PinkishRadianceIntensiveWhiteningMask.php"
 	    },
-	    {
-	      "optionItem": "I want to get rid of dark spots",
-	      "nextTab": [
-	        {
-	          "optionItem": "Sensitive",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "LC range",
-	            "image": "fym/LCW Extra UV.png",
-	            "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "LC range",
-	            "image": "fym/LCW Extra UV.png",
-	            "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "LC range",
-	            "image": "fym/LCW Extra UV.png",
-	            "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	          }
-	        }
-	      ]
+
+	    "SAKURA_ULTIMATE_SERUM": {
+	      "name": "Sakura White Pinkish Radiance Ultimate Serum",
+	      "image": "fym/SW Serum.png",
+	      "url": "SW-PinkishRadianceUltimateSerum.php"
 	    },
-	    {
-	      "optionItem": "I want to minimise my pores",
-	      "nextTab": [
-	        {
-	          "optionItem": "Oily",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Duo Clean [Double White] (Black)",
-	            "image": "fym/Duo Clean Whitening And Foam.png",
-	            "url": "DC-WhiteningandPoreMinimizingFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Normal",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Duo Clean [Double White] (Black)",
-	            "image": "fym/Duo Clean Whitening And Foam.png",
-	            "url": "DC-WhiteningandPoreMinimizingFoam.php"
-	          }
-	        },
-	        {
-	          "optionItem": "Combination (i)",
-	          "recommendedItem": {
-	            "id": "SAKURA_WHITE_RANGE",
-	            "name": "Duo Clean [Double White] (Black)",
-	            "image": "fym/Duo Clean Whitening And Foam.png",
-	            "url": "DC-WhiteningandPoreMinimizingFoam.php"
-	          }
-	        }
-	      ]
+
+	    "LIGHT_MULTI_ACTION_WHITENING": {
+	      "name": "Light Complete White Speed Multi-Action Whitening Serum Cream Night Restore",
+	      "image": "fym/LCW Night.png",
+	      "url": "LC-MultiActionWhiteningCreamNightRestore.php"
+	    },
+
+	    "LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20": {
+	      "name": "Light Complete White SpeedTM Multi-Action Whitening Serum Cream SPF20/PA+++",
+	      "image": "fym/Light Complete White SpeedTM Multi-Action Whitening Serum CreamSPF20-PA.png",
+	      "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
+	    },
+
+	    "DCWHITENINGANDOILCONTROLFOAM": {
+	      "name": "Duo Clean Whitening and Oil Control Foam",
+	      "image": "fym/Duo Clean Whitening and Oil Control Foam.png",
+	      "url": "DC-WhiteningandOilControlFoam.php"
+	    },
+
+	    "LCMULTIACTIONBRIGHTENINGFOAM": {
+	      "name": "Light Complete White Speed Multi-Action Brightening Foam",
+	      "image": "fym/LCW Foam.png",
+	      "url": "LC-MultiActionBrighteningFoam.php"
+	    },
+
+	    "LCMULTIACTIONBRIGHTENINGSCRUB": {
+	      "name": "Light Complete White SpeedTM Multi-Action Brightening Scrub",
+	      "image": "fym/LCW Scrub.png",
+	      "url": "LC-MultiActionBrighteningScrub.php"
+	    },
+
+	    "LCMILKYLIGHTENINGDEWTONER": {
+	      "name": "Light Complete Lightening Dew Toner",
+	      "image": "fym/LCW Tonner.png",
+	      "url": "LC-MilkyLighteningDewToner.php"
+	    },
+
+	    "LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE": {
+	      "name": "Light Complete White SpeedTM Multi-Action Whitening Cream 8 Hours Shine-Free",
+	      "image": "fym/LCW Cream 8Hour.png",
+	      "url": "LC-LightCompleteWhiteSpeedMultiActionWhiteningCream8HoursShine-Free.php"
+	    },
+
+	    "LCLIGHTENINGPEELOFFMASK": {
+	      "name": "Light Complete Multi-Action Whitening Peel-off Mask",
+	      "image": "fym/LCW Peel Mask.pngg",
+	      "url": "LC-LighteningPeelOffMask.php"
+	    },
+	    
+	    "LCMULTIACTIONWHITENING3IN1ESSENCEMASK": {
+	      "name": "Light Complete Multi-Action Whitening 3 in 1 Essence Mask",
+	      "image": "fym/Light Complete Multi-Action Whitening 3 in 1 Essence Mask.png",
+	      "url": "LC-Multi-ActionWhitening3in1EssenceMask.php"
+	    },
+	    
+	    "DCWHITENINGANDPOREMINIMIZINGFOAM": {
+	      "name": "Duo Clean Whitening and Pore Minimizing Foam",
+	      "image": "fym/Duo Clean Whitening And Foam.png",
+	      "url": "DC-WhiteningandPoreMinimizingFoam.php"
 	    }
-	  ]
+
 	};
+
+	var questionnaire = [
+	  {
+	    "question": "What is your skin concern?",
+	    "answers": [
+	      {
+	        "label": " I want healthy, radiant skin",
+	        "next": "1"
+	      },
+	      {
+	        "label": " I want to moisturise and protect my skin against harsh environments",
+	        "next": "2"
+	      },
+	      {
+	        "label": " I have dull skin",
+	        "next": "3"
+	      },
+	      {
+	        "label": " I have uneven skin tone",
+	        "next": "4"
+	      },
+	      {
+	        "label": " I want to get rid of dark spots",
+	        "next": "5"
+	      },
+	      {
+	        "label": " I want to minimise my pores",
+	        "next": "6"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Sensitive",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Dry",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Oily",
+	        "next": "LIGHT_MULTI_ACTION_WHITENING,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,SAKURA_WHITE_MOISTURISING"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Sensitive",
+	        "next": "SAKURA_WHITE_MOISTURISING,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "SAKURA_WHITE_MOISTURISING,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "SAKURA_WHITE_MOISTURISING,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Sensitive",
+	        "next": "SAKURA_WHITE_RADIANCE"
+	      },
+	      {
+	        "label": "Oily",
+	        "next": "DCWHITENINGANDOILCONTROLFOAM,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING"
+	      },
+	      {
+	        "label": "Dry",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "DCWHITENINGANDOILCONTROLFOAM"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "DCWHITENINGANDOILCONTROLFOAM"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Sensitive",
+	        "next": "SAKURA_WHITE_RADIANCE,SAKURA_WHITE_MOISTURISING,SAKURA_WHITE_SLEEPING,SAKURA_WHITENING_MASK,SAKURA_ULTIMATE_SERUM"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "LCMULTIACTIONBRIGHTENINGFOAM,LCMULTIACTIONBRIGHTENINGSCRUB,LCMILKYLIGHTENINGDEWTONER,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING,LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE,LCLIGHTENINGPEELOFFMASK,LCMULTIACTIONWHITENING3IN1ESSENCEMASK"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "LCMULTIACTIONBRIGHTENINGFOAM,LCMULTIACTIONBRIGHTENINGSCRUB,LCMILKYLIGHTENINGDEWTONER,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING,LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE,LCLIGHTENINGPEELOFFMASK,LCMULTIACTIONWHITENING3IN1ESSENCEMASK"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Sensitive",
+	        "next": "LCMULTIACTIONBRIGHTENINGFOAM,LCMULTIACTIONBRIGHTENINGSCRUB,LCMILKYLIGHTENINGDEWTONER,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING,LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE,LCLIGHTENINGPEELOFFMASK,LCMULTIACTIONWHITENING3IN1ESSENCEMASK"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "LCMULTIACTIONBRIGHTENINGFOAM,LCMULTIACTIONBRIGHTENINGSCRUB,LCMILKYLIGHTENINGDEWTONER,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING,LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE,LCLIGHTENINGPEELOFFMASK,LCMULTIACTIONWHITENING3IN1ESSENCEMASK"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "LCMULTIACTIONBRIGHTENINGFOAM,LCMULTIACTIONBRIGHTENINGSCRUB,LCMILKYLIGHTENINGDEWTONER,LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20,LIGHT_MULTI_ACTION_WHITENING,LCLIGHTCOMPLETEWHITESPEEDMULTIACTIONWHITENINGCREAM8HOURSSHINE,LCLIGHTENINGPEELOFFMASK,LCMULTIACTIONWHITENING3IN1ESSENCEMASK"
+	      }
+	    ]
+	  },
+	  {
+	    "question": "What Is Your Skin Type?",
+	    "answers": [
+	      {
+	        "label": "Oily",
+	        "next": "DCWHITENINGANDPOREMINIMIZINGFOAM"
+	      },
+	      {
+	        "label": "Normal",
+	        "next": "DCWHITENINGANDPOREMINIMIZINGFOAM"
+	      },
+	      {
+	        "label": "Combination (i)",
+	        "next": "DCWHITENINGANDPOREMINIMIZINGFOAM"
+	      }
+	    ]
+	  }
+	];
   
 	var populateTabHeaders = function(){
 		//var tab1 = $('#tab1Header');
@@ -251,21 +257,41 @@
 		}
 	}
 
-	var populateQuestions = function(){
-		//var ul = $('#'+settings.rootContainerName+' #tab1 > ul');
-		var ul = $('#'+settings.rootContainerName+' #tab1 .tanyelah');
-		var questions = questionnaire['tab1'];
+	var populateQuestions = function(tabNumber){
+		//var ul = $('#'+settings.rootContainerName+' #tab'+tabNumber.toString()+' > ul');
+		var ul = $('#'+settings.rootContainerName+' #tab'+tabNumber.toString()+' .tanyelah');
+		var questionIdx = (settings.chosenOptionIdx > 0)? settings.chosenOptionIdx : 0;
+		var q = questionnaire[questionIdx];
+		var questionPlaceholder = $('#'+settings.rootContainerName+' #tab'+tabNumber+' .tanye');
+		
+		ul.html(''); //clear older list
 
-		for(var i=0; i<questions.length; i++){
-			ul.append('<div class="radio">'+
+		questionPlaceholder.html( q.question );
+
+		for(var i=0; i<q.answers.length; i++){
+			//var value = (q.answers[i].next != undefined)? 
+			//				q.answers[i].next : JSON.stringify(q.answers[i].recommendedItem);
+			ul.append(
+				'<div class="radio">'+
 				  '<label>'+
-				    '<input type="radio" name="optionsOnTab1" id="optionsOnTab1" value="'+ i +'">'
-				    +questions[i].optionItem+
+				    '<input type="radio" name="'+settings.rootContainerName+'_optionsOnTab'+tabNumber+
+				    '" class="radioAnswers" value="'+ q.answers[i].next +
+				    '" data-label="'+q.answers[i].label+'" />'
+				    	+q.answers[i].label+
 				  '</label>'+
 				'</div>');
-			/*ul.append('<li class="list-group-item"> <input type="radio" name="optionsOnTab1" value="'+ i +'" />   ' +
-				questions[i].optionItem+ '</li>');*/
+			/*ul.append(
+				'<li class="list-group-item"> <input type="radio" class="radioAnswers" name="'+
+				settings.rootContainerName+'_optionsOnTab'+tabNumber+'" value="'+ q.answers[i].next +'" data-label="'+
+				q.answers[i].label+'" />' +
+				q.answers[i].label+ '</li>');*/
 		}
+
+		$('#'+settings.rootContainerName+' .radioAnswers').click(function(){
+			var ans = q.question + ' ' + $(this).attr('data-label');
+			var curIdx = $('#'+settings.rootContainerName).bootstrapWizard('currentIndex');
+			cacheAnswers[curIdx] = ans;
+		});
 		
 	}
 
@@ -276,51 +302,97 @@
 					var $current = index+1;
 					var $percent = ($current/$total) * 100;
 					$('#'+settings.rootContainerName+' .progress-bar').css({width:$percent+'%'});
+
+					// If it's the last tab then hide the last button and show the finish instead
+					if($current >= $total) {
+						$('#'+settings.rootContainerName).find('.pager .next').hide();
+						$('#'+settings.rootContainerName).find('.pager .previous').hide();
+						$('#'+settings.rootContainerName).find('.pager .finish').show();
+						$('#'+settings.rootContainerName).find('.pager .finish').removeClass('disabled');
+						$('#'+settings.rootContainerName).find('.progress').hide();
+					} else {
+						//$('#'+settings.rootContainerName).find('.pager .next').show();
+						$('#'+settings.rootContainerName).find('.pager .finish').hide();
+						$('#'+settings.rootContainerName).find('.progress').show();
+					}
+
 				},
 				onTabClick: function(tab, navigation, index) {
 					return false;
 				},
 				onNext: function(tab, navigation, index) {
-					var chosenOptionTab1 = $('input:radio[name=optionsOnTab1]').filter(":checked").val();
-					var chosenOptionTab2 = $('input:radio[name=optionsOnTab2]').filter(":checked").val();
+					//var chosenOptionTab1 = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab1]').filter(":checked").val();
+					//var chosenOptionTab2 = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab2]').filter(":checked").val();
+					
+					lastTabShown = index;
 
-					if(index === 1){
-			            $('#'+settings.rootContainerName).garnierWhitening({
-			            	action: 'loadNextTabOptions',
-			            	rootContainerName: settings.rootContainerName,
-			            	chosenOptionIdx: chosenOptionTab1 
-			            });
-			            //$('#'+settings.rootContainerName).garnierWhitening('loadNextTabOptions', chosenOptionTab1 );
-					}else if(index === 2){
-						$('#'+settings.rootContainerName).garnierWhitening({
-			            	action: 'loadRecommendedItem', 
-			            	rootContainerName: settings.rootContainerName,
-			            	chosenOptionIdx: chosenOptionTab2 
-			            });
-			            //$('#'+settings.rootContainerName).garnierWhitening('loadRecommendedItem', chosenOptionTab2);
+					var nextQuestionIdx = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab'+index+']')
+											.filter(":checked").val();
+
+					if(nextQuestionIdx != undefined){
+						if(nextQuestionIdx.length <= 2){
+							$('#'+settings.rootContainerName).garnierWhitening({
+								action: 'loadNextTabOptions',
+								rootContainerName: settings.rootContainerName,
+								chosenOptionIdx: nextQuestionIdx,
+								currentIdx : index
+							});
+
+						}else{
+							$('#'+settings.rootContainerName).garnierWhitening({
+								action: 'loadRecommendedItem', 
+								rootContainerName: settings.rootContainerName,
+								chosenOptionIdx : nextQuestionIdx
+							});
+						
+						}
+
 					}
+					else{
+						return false;
+					}
+		        },
+		        onPrevious: function(tab, navigation, index) {
+		        	
+		        	$('#'+settings.rootContainerName).bootstrapWizard('show', lastTabShown);
 		        }
 		});
+
+		//clicks Restart button
+		$('#'+settings.rootContainerName+' .finish').click(function() {
+			
+			$('#'+settings.rootContainerName).bootstrapWizard('first');
+
+			$('#'+settings.rootContainerName).find('.pager .next').show();
+			$('#'+settings.rootContainerName).find('.pager .previous').show();
+			$('#'+settings.rootContainerName).find('.pager .finish').hide();
+
+			cacheAnswers = [];
+		});
+
+        //hiding steps/tab headers
+        $('#'+settings.rootContainerName).bootstrapWizard('hide', 0);
+        $('#'+settings.rootContainerName).bootstrapWizard('hide', 1);
+        $('#'+settings.rootContainerName).bootstrapWizard('hide', 2);
+        $('#'+settings.rootContainerName).bootstrapWizard('hide', 3);
+        $('#'+settings.rootContainerName).bootstrapWizard('hide', 4);
 	}
 
-	var loadNextTabOptions = function( chosenOptionIdx ){
-		//var ul = $('#'+settings.rootContainerName+' #tab2 > ul');
-		var ul = $('#'+settings.rootContainerName+' #tab2 .tanyelah');
-		var chosenOption = questionnaire['tab1'][chosenOptionIdx];
-		var questions = chosenOption.nextTab;
-		chosenIdx1 = chosenOptionIdx;
+	var loadNextTabOptions = function(){
+
+		populateQuestions( settings.currentIdx+1 );
+		return;
+
+		var ul = $('#'+settings.rootContainerName+' #tab'+(settings.currentIdx+1)+' > ul');
+		//var chosenOption = questionnaire['tab1'][chosenOptionIdx];
+		var question = questionnaire[chosenOptionIdx];
+		//chosenIdx1 = chosenOptionIdx;
 
 		ul.html(''); //clear older list
 
 		for(var i=0; i<questions.length; i++){
-			ul.append('<div class="radio">'+
-				  '<label>'+
-				    '<input type="radio" name="optionsOnTab2" id="optionsOnTab2" value="'+ i +'">'
-				    +questions[i].optionItem+
-				  '</label>'+
-				'</div>');
-			/*ul.append('<li class="list-group-item"> <input type="radio" name="optionsOnTab2" value="'+ i +'" />   ' +
-				questions[i].optionItem+ '</li>');*/
+			ul.append('<li class="list-group-item"> <input type="radio" name="optionsOnTab2" value="'+ i +'" />   ' +
+				questions[i].optionItem+ '</li>');
 		}
 	}
 
@@ -360,33 +432,49 @@
 	}
 
 	var loadRecommendedItem = function( chosenOptionIdx ){
-		
-		//var placeholders = $('#'+settings.rootContainerName+' #tab3 .product-name');
-		var imagePlaceholder = $('#'+settings.rootContainerName+' #tab3 #productImage');
-		var learnMoreBtn = $('#'+settings.rootContainerName+' #tab3 #learnMoreBtn');
-		var chosenOption = questionnaire['tab1'][chosenIdx1];
-		var productName = chosenOption.nextTab[chosenOptionIdx].recommendedItem.name;
-		var productUrl = chosenOption.nextTab[chosenOptionIdx].recommendedItem.url;
-		var imageName = chosenOption.nextTab[chosenOptionIdx].recommendedItem.image;
-		var imageFolder = 'images/';
-		var imagePath = imageFolder + imageName;
+
 		var emailFromHiddenDiv = $('#hidEmailPlaceholder').val();
-		var optionsSelected = prepOptionsSelected(
-			chosenOption.optionItem, 
-			chosenOption.nextTab[chosenOptionIdx].optionItem
-		);
+
+		//chosenOptionIdx may contains 2 product IDs
+		var recommendedItems = settings.chosenOptionIdx.split(',');
 		
-		/*placeholders.each(function( index ){
-			$(this).html( productName );
-		});*/
 
-		imagePlaceholder.attr('src', imagePath);
+		for(var i=1; i<=recommendedItems.length; i++){
+			var placeholders = $('#'+settings.rootContainerName+' #tabResult .product-name'+i);
+			var imagePlaceholder = $('#'+settings.rootContainerName+' #tabResult #productImage'+i);
+			var learnMoreBtn = $('#'+settings.rootContainerName+' #tabResult #learnMoreBtn'+i);
 
-		learnMoreBtn.attr('href', productUrl);
-		console.log(learnMoreBtn);
-		console.log(productUrl);
+			var theProduct = products[ recommendedItems[i-1] ];
+			
+			var productName = theProduct.name;
+			var productUrl = theProduct.url;
+			var imageName = theProduct.image;
 
-		sendResult('Whitening', productName, optionsSelected, imagePath, emailFromHiddenDiv);
+			var imageFolder = 'images/';
+			var imagePath = imageFolder + imageName;
+			
+			placeholders.each(function( index ){
+				$(this).html( productName );
+			});
+
+			imagePlaceholder.attr('src', imagePath);
+
+			learnMoreBtn.attr('href', productUrl);	
+
+			//TODO: Find a way, on server to dispay 2 products, if need be.
+			sendResult('Whitening', productName, cacheAnswers.join('|') , imagePath, emailFromHiddenDiv);
+		}
+
+		//hide unused product template
+		for(var j=3; j<=6; j++){
+			if(j<=recommendedItems.length) $('#productTemplate'+j).show();
+			else $('#productTemplate'+j).hide();
+		}
+
+		$('#'+settings.rootContainerName).bootstrapWizard('show', 4); //need this to move progressbar
+		$('#'+settings.rootContainerName+' .tab-pane.active').removeClass('active');
+		$('#'+settings.rootContainerName+' #tabResult').addClass('active');
+		
 	}
 
     $.fn.garnierWhitening = function( options ) {
@@ -394,7 +482,8 @@
         settings = $.extend({
             action         		: 'init',
             chosenOptionIdx		: null,
-            rootContainerName 	: null
+            rootContainerName 	: null,
+            currentIdx 			: null
         }, options);
 
         if( settings.action === 'init'){
@@ -403,35 +492,16 @@
 	        this.append(template);
 	        //return this;
 
-	        populateTabHeaders();
-	        populateQuestions();
+	        //populateTabHeaders();
+	        populateQuestions('1');
 	        initWizard();
     	}
     	else if( settings.action === 'loadNextTabOptions'){
-    		loadNextTabOptions(settings.chosenOptionIdx);
+    		loadNextTabOptions();
     	}
     	else if( settings.action === 'loadRecommendedItem'){
     		loadRecommendedItem(settings.chosenOptionIdx);
     	}
     }
-
-    $.fn.garnierWhitening22 = function( action, chosenOptionIdx, opt_rootContainerName ) {
-    	if( action === 'init'){
-    		this.rootContainerName = opt_rootContainerName;
-    		var template = $('#hiddenWhiteningTemplate').html();
-	        this.append(template);
-	        //return this;
-
-	        populateTabHeaders();
-	        populateQuestions();
-    	}
-    	else if( action === 'loadNextTabOptions'){
-    		loadNextTabOptions(chosenOptionIdx);
-    	}
-    	else if( action === 'loadRecommendedItem'){
-    		loadRecommendedItem(chosenOptionIdx);
-    	}
-    	
-    };
  
 }( jQuery ));

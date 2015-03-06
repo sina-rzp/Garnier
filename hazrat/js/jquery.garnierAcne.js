@@ -5,25 +5,25 @@
 	var products = {
 	  
 	    "PURE_ACTIVE_FRUIT": {
-	      "name": "Pure Active Fruit Energy, Pure Active 3 in 1",
+	      "name": "Pure Active Fruit Energy Energizing Facial Foam",
 	      "image": "fym/PA Fruit Energy.png",
 	      "url": "PA-FruitEnergyEnergizingFacialFoam.php"
 	    },
 	  
 	    "DUO_CLEAN_WHITENING": {
-	      "name": "Duo Clean [Whitening + Oil Control] (Blue)",
+	      "name": "Duo Clean Whitening and Oil Control Foam",
 	      "image": "fym/Duo Clean Whitening and Oil Control Foam.png",
 	      "url": "DC-WhiteningandOilControlFoam.php"
 	    },
 
 	    "PURE_ACTIVE_3": {
-	      "name": "Pure Active 3 in 1, Pure Active Scrub",
+	      "name": "Pure Active 3 in 1 Wash, Scrub & Mask",
 	      "image": "fym/PA  3 in 1 Wash Scrub Mask.png",
 	      "url": "PA-active3in1.php"
 	    },
 
 	    "PURE_ACTIVE_6": {
-	      "name": "Pure Active 6 in 1",
+	      "name": "Pure Active 6 in 1 Multi-Action Foam",
 	      "image": "fym/PA 6 in 1 Foam.png",
 	      "url": "PA-active6in1.php"
 	    }
@@ -401,9 +401,11 @@
 						$('#'+settings.rootContainerName).find('.pager .previous').hide();
 						$('#'+settings.rootContainerName).find('.pager .finish').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').removeClass('disabled');
+						$('#'+settings.rootContainerName).find('.progress').hide();
 					} else {
 						//$('#'+settings.rootContainerName).find('.pager .next').show();
 						$('#'+settings.rootContainerName).find('.pager .finish').hide();
+						$('#'+settings.rootContainerName).find('.progress').show();
 					}
 
 				},
@@ -413,7 +415,7 @@
 				onNext: function(tab, navigation, index) {
 					//var chosenOptionTab1 = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab1]').filter(":checked").val();
 					//var chosenOptionTab2 = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab2]').filter(":checked").val();
-					console.log(cacheAnswers);
+					
 					lastTabShown = index;
 
 					var nextQuestionIdx = $('input:radio[name='+settings.rootContainerName+'_optionsOnTab'+index+']')
@@ -437,6 +439,8 @@
 						
 						}
 
+					}else{
+						return false;
 					}
 		        },
 		        onPrevious: function(tab, navigation, index) {
