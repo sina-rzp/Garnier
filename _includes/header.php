@@ -308,7 +308,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Oily</a></li>
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Combination</a></li>
 									  </ul>
-									   <ul class="col-sm-3 list-unstyled"> 
+									   <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-men.php"><img src="images/black-megamenu.png"></a></li>
 									  </ul>
