@@ -89,7 +89,7 @@ A gentle, effective range for acne prone skin.<br>
 								    	<ul>
 								    		<a href="skin-natural-skin-need-whitening.php"><li>Whitening</li></a>	
 								    		<a href="skin-natural-skin-need-acne.php"><li>Acne</li></a>
-								    		<a href="skin-natural-skin-need-hidrating.php"><li>Hydrating</li></a>		
+								    		<a href="skin-natural-skin-need-hydrating.php"><li>Hydrating</li></a>		
 								    	</ul>
 								    </div>
 								  </div>

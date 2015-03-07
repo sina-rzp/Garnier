@@ -102,7 +102,7 @@
 							<ul>
 								<li><a href="https://www.facebook.com/GarnierMalaysia" target="_blank"><img src="images/social/facebook.png" width="30px"></a></li>
 								<li><a href="https://instagram.com/garniermalaysia/" target="_blank"><img src="images/social/instagram.png" width="30px"></a></li>
-								<li><a href="https://www.youtube.com/user/garniermenmalaysia" target="_blank"><img src="images/social/youtube.png" width="30px"></a></li>
+								<li><a href="https://www.youtube.com/user/GarnierMalaysia" target="_blank"><img src="images/social/youtube.png" width="30px"></a></li>
 							</ul>
 						</div>
 
@@ -114,7 +114,7 @@
 							<ul>
 								<li><a href="https://www.facebook.com/GarnierMenMalaysia" target="_blank"><img src="images/social/facebook.png" width="30px"></a></li>
 								<li><a href="https://instagram.com/garniermenmy/" target="_blank"><img src="images/social/instagram.png" width="30px"></a></li>
-								<li><a href="https://www.youtube.com/user/garniermenmalaysia" target="_blank"><img src="images/social/youtube.png" width="30px"></a></li>
+								<li><a href="https://www.youtube.com/user/GarnierMalaysia" target="_blank"><img src="images/social/youtube.png" width="30px"></a></li>
 							</ul>
 						</div>
 							</div>

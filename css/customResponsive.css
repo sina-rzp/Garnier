@@ -124,9 +124,12 @@
 }
 
 /* Menu */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1300px){
 	.menu-item-hide{
-		display: hide; 
+		display: none; 
+	}
+	.navbar-nav .dropdown-menu{
+		width: 583px;
 	}
 }
 @media only screen and (min-width: 1000px){

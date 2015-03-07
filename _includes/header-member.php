@@ -14,7 +14,7 @@ if(!isset($_SESSION['email'])){
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1; maximum-scale=1.0; user-scalable=0;"/>
 	    <meta name="description" content="">
 	    <meta name="author" content="">
 	    <link rel="icon" href="images/favicon.ico">
@@ -237,7 +237,7 @@ End of Bahasa / About -->
 										<span class="dd"><span>By Skin Needs</span></span><br><br></li>
 						                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
 						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Acne</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-hidrating.php">Hydrating</a></li>
+						                <li class="warna"><a href="skin-natural-skin-need-hydrating.php">Hydrating</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
 					                 		<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
@@ -247,7 +247,7 @@ End of Bahasa / About -->
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Oily</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled"> 
+									  <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
 									  </ul>
@@ -281,7 +281,7 @@ End of Bahasa / About -->
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Oily</a></li>
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Combination</a></li>
 									  </ul>
-									   <ul class="col-sm-3 list-unstyled"> 
+									   <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-men.php"><img src="images/black-megamenu.png"></a></li>
 									  </ul>
@@ -314,7 +314,7 @@ End of Bahasa / About -->
 						                 	<li class="warna"><a href="red.php">Red</a></li>
 						                 	
 									  </ul>
-									    <ul class="col-sm-3 list-unstyled"> 
+									    <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
 									  </ul>

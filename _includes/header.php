@@ -44,7 +44,7 @@ if(isset($_POST['email_login_header'])){
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1; maximum-scale=1.0; user-scalable=0;"/>
 	    <meta name="description" content="">
 	    <meta name="author" content="">
 	    <link rel="icon" href="images/favicon.ico">
@@ -264,7 +264,7 @@ if(isset($_POST['email_login_header'])){
 										<span class="dd"><span>By Skin Needs</span></span><br><br></li>
 						                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
 						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Anti-Acne</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-hidrating.php">Hydrating</a></li>
+						                <li class="warna"><a href="skin-natural-skin-need-hydrating.php">Hydrating</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
 					                 		<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
@@ -274,7 +274,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Oily</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled"> 
+									  <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
 									  </ul>
@@ -328,7 +328,7 @@ if(isset($_POST['email_login_header'])){
 						                  <li class="warna"><a href="olia.php">Olia</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
-										<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
+										<li class="drop-header"><span class="dd"><span>By Type</span></span><br><br></li>
 						                <li class="warna"><a href="permanent.php">Permanent</a></li>
 						                <li class="warna"><a href="amonia.php">Ammonia Free</a></li>
 									  </ul>
@@ -341,7 +341,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="red.php">Red</a></li>
 						                 	
 									  </ul>
-									    <ul class="col-sm-3 list-unstyled"> 
+									    <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
 									  </ul>
