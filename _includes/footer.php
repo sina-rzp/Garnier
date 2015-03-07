@@ -34,47 +34,47 @@
 					 	 </button>
 					 	
 					  <ul class="dropdown-menu" role="menu">
-					    <li><a href="http://www.garnier-me.com/en-ae">Arabic Emirates</a></li>
-					    <li><a href="http://www.garnier.com.au/">Australia</a></li>
-					    <li><a href="http://www.garnier.bh/">Bahrain</a></li>
-					    <li><a href="http://www.garnier-be.com/fr-be">Belgium FR version</a></li>
-					    <li><a href="http://www.garnier-be.com/nl-be">Belgium NL version</a></li>
-					    <li><a href="http://www.garnier.com.br/">Brazil</a></li>
-					    <li><a href="http://www.garnier.ca/en-ca">Canada</a></li>
-					    <li><a href="http://www.garnier.ca/fr-ca">Canada French</a></li>
-					    <li><a href="http://www.garnier.cl/">Chile</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Egypt</a></li>
-					    <li><a href="http://www.garnier.fr/">France</a></li>
-					    <li><a href="http://www.garnier.de/">Germany</a></li>
-					    <li><a href="http://www.garnier.in/">India</a></li>
-					    <li><a href="http://www.garnier.co.id/">Indonesia</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Iraq</a></li>
-					    <li><a href="http://www.garnier.it/">Italy</a></li>
-					    <li><a href="http://www.garnier.jo/">Jordan</a></li>
-					    <li><a href="http://www.garnier.com.kw/">Kuwait</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Lebanon</a></li>
-					    <li><a href="http://www.garnier-me.com/ar-ae">Mena Arabic</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Men English</a></li>
-					    <li><a href="http://www.garnier.com.mx/">Mexico</a></li>
-					    <li><a href="http://www.garnierzorgvoorjezelf.nl/">Netherlands</a></li>
-					    <li><a href="http://www.garnier.co.nz/">New Zealand</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Oman</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Pakistan</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Palestine State</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Poland</a></li>
-					    <li><a href="http://www.garnier.pt/">Portugal</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Qatar</a></li>
-					    <li><a href="http://www.garnier.com.ru/">Russia</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Saudi Arabia</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">South Africa</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Spain</a></li>
-					    <li><a href="http://www.garnier-me.com/en-ae">Syria</a></li>
-					    <li><a href="http://www.garnier.co.th/">Thailand</a></li>
-					    <li><a href="http://www.garnier.co.th/">Turkey</a></li>
-					    <li><a href="http://www.garnier.co.uk/">UK</a></li>
-					    <li><a href="http://www.garnierusa.com/">USA english version</a></li>
-					    <li><a href="http://www.es.garnierusa.com/_es/_us/home.aspx">USA spanish version</a></li>
-					    <li><a href="http://www.garnier.com.vn/">Vietnam</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Arabic Emirates</a></li>
+					    <li><a href="http://www.garnier.com.au/" target="_blank">Australia</a></li>
+					    <li><a href="http://www.garnier.bh/" target="_blank">Bahrain</a></li>
+					    <li><a href="http://www.garnier-be.com/fr-be" target="_blank">Belgium FR version</a></li>
+					    <li><a href="http://www.garnier-be.com/nl-be" target="_blank">Belgium NL version</a></li>
+					    <li><a href="http://www.garnier.com.br/" target="_blank">Brazil</a></li>
+					    <li><a href="http://www.garnier.ca/en-ca" target="_blank">Canada</a></li>
+					    <li><a href="http://www.garnier.ca/fr-ca" target="_blank">Canada French</a></li>
+					    <li><a href="http://www.garnier.cl/" target="_blank">Chile</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Egypt</a></li>
+					    <li><a href="http://www.garnier.fr/" target="_blank">France</a></li>
+					    <li><a href="http://www.garnier.de/" target="_blank">Germany</a></li>
+					    <li><a href="http://www.garnier.in/" target="_blank">India</a></li>
+					    <li><a href="http://www.garnier.co.id/" target="_blank">Indonesia</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Iraq</a></li>
+					    <li><a href="http://www.garnier.it/" target="_blank">Italy</a></li>
+					    <li><a href="http://www.garnier.jo/" target="_blank">Jordan</a></li>
+					    <li><a href="http://www.garnier.com.kw/" target="_blank">Kuwait</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Lebanon</a></li>
+					    <li><a href="http://www.garnier-me.com/ar-ae" target="_blank">Mena Arabic</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Men English</a></li>
+					    <li><a href="http://www.garnier.com.mx/" target="_blank">Mexico</a></li>
+					    <li><a href="http://www.garnierzorgvoorjezelf.nl/" target="_blank">Netherlands</a></li>
+					    <li><a href="http://www.garnier.co.nz/" target="_blank">New Zealand</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Oman</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Pakistan</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Palestine State</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Poland</a></li>
+					    <li><a href="http://www.garnier.pt/" target="_blank">Portugal</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Qatar</a></li>
+					    <li><a href="http://www.garnier.com.ru/" target="_blank">Russia</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Saudi Arabia</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">South Africa</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Spain</a></li>
+					    <li><a href="http://www.garnier-me.com/en-ae" target="_blank">Syria</a></li>
+					    <li><a href="http://www.garnier.co.th/" target="_blank">Thailand</a></li>
+					    <li><a href="http://www.garnier.co.th/" target="_blank">Turkey</a></li>
+					    <li><a href="http://www.garnier.co.uk/" target="_blank">UK</a></li>
+					    <li><a href="http://www.garnierusa.com/" target="_blank">USA english version</a></li>
+					    <li><a href="http://www.es.garnierusa.com/_es/_us/home.aspx" target="_blank">USA spanish version</a></li>
+					    <li><a href="http://www.garnier.com.vn/" target="_blank">Vietnam</a></li>
 					  </ul>
 					</div>
 			</div>

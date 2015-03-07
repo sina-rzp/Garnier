@@ -16,7 +16,7 @@ include('_includes/header.php');
 				<div class="row">
 					<div class="container">
 <!-- Tajuk -->
-					<div class="tajuk-besar">
+					<div class="container tajuk-besar">
 					<h1>Garnier Skin Naturals</h1>
 					</div>
 <!-- End Of Tajuk -->

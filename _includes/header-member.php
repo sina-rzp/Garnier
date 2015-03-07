@@ -48,9 +48,9 @@ if(!isset($_SESSION['email'])){
 			</form>
 		</div>
 	    <a href="index.php"><i class="fa fa-home fa-2 home"></i> HOME </a>
-	    <a href="skin-natural.php"> GARNIER SKIN NATURAL </a>
+	    <a href="skin-natural.php"> GARNIER SKIN NATURALS </a>
 	    <a href="fym-garnier-skin-natural-men.php">GARNIER MEN</a>
-	    <a href="fym-garnier-skin-natural-hair.php">HAIR COLOUR</a>
+	    <a href="fym-garnier-skin-natural-hair.php">HAIR COLOR</a>
 	</nav>
 
 	
@@ -219,7 +219,7 @@ End of Bahasa / About -->
 
 <!-- Garnier Skin Natural -->
 				      <li class="dropdown">
-				         <a href="skin-natural.php" class="dropdown-toggle navb" >Garnier Skin Natural</a>
+				         <a href="skin-natural.php" class="dropdown-toggle navb" >Garnier Skin Naturals</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
@@ -291,7 +291,7 @@ End of Bahasa / About -->
 				       </li>
 <!-- Hair Colour -->
 				       <li class="dropdown">
-				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Colour</a>
+				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Color</a>
 					         <ul class="dropdown-menu">
 					           <li>
 					               <div class="yamm-content">
@@ -307,7 +307,7 @@ End of Bahasa / About -->
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
 					                 		<li class="drop-header">
-					                 		<span class="dd"><span>By Colour</span></span><br><br></li>
+					                 		<span class="dd"><span>By Color</span></span><br><br></li>
 						                	<li class="warna"><a href="black.php">Black</a></li>
 						                 	<li class="warna"><a href="brown.php">Brown</a></li>
 						                 	<li class="warna"><a href="blonde.php">Blonde</a></li>
