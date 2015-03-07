@@ -122,3 +122,13 @@
 		padding: 20px;
 	}
 }
+
+/* Menu */
+@media only screen and (max-width: 1200px){
+	.menu-item-hide{
+		display: hide; 
+	}
+}
+.container-fluid{
+	width: 980px
+}
