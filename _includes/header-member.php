@@ -17,7 +17,7 @@ if(!isset($_SESSION['email'])){
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta name="description" content="">
 	    <meta name="author" content="">
-	    <link rel="icon" href="../../favicon.ico">
+	    <link rel="icon" href="images/favicon.ico">
 
 	
 		<title>Garnier Malaysia - </title>
@@ -27,7 +27,7 @@ if(!isset($_SESSION['email'])){
 		<link href="css/yamm.css" rel="stylesheet">  
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
-
+		
 
 		
 		
