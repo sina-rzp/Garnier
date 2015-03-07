@@ -623,6 +623,7 @@ display: inline;
 
 .btn {
 text-align: left;
+border-radius: 0px;
 }
 
 .btn .caret {
@@ -763,6 +764,7 @@ border-top: 0 solid #e5e5e5;
 
 .popup-signin{
 color: #6ab235;
+margin-bottom: 20px;
 }
 
 /* PRODUCTS */
@@ -841,6 +843,7 @@ color: #6ab235;
 .bar-findout:hover{
 	color: #FFF !important;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .leb-product{
