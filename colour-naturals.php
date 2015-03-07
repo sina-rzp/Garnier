@@ -23,9 +23,31 @@ include('_includes/header.php');
 			</div>
 
 <!-- Product Filter-->
-									<?php
-include('_includes/productfilter.php');
-?>
+                <div class="product-bar">
+                  <div class="row leb-product"> 
+                         <div class="col-md-6 tajuk-filter"> 
+                                    Arrange according to <br/>
+                        </div>
+                        <div class="col-md-2">
+                            <select  class="filter1 filter-btn">
+                                <option value="0">Skin Type</option>
+                                <option value="per" /> Permanent<br />
+                                <option value="amm" /> Ammonia Free<br />
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select  class="filter2 filter-btn">
+                                <option value="0">Color </option>
+                                <option value="bk" /> Black<br />
+                                <option value="bro" /> Brown<br />
+                                <option value="blo" /> Blonde<br />
+                                <option value="red" /> Red<br />
+                            </select>
+                        </div>
+                                   
+                    </div>
+                </div>
+
 
 
 <!-- Products Listed -->
