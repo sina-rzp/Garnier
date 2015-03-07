@@ -274,7 +274,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Oily</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled"> 
+									  <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
 									  </ul>
@@ -341,7 +341,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="red.php">Red</a></li>
 						                 	
 									  </ul>
-									    <ul class="col-sm-3 list-unstyled"> 
+									    <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
 									  </ul>
