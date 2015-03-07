@@ -67,6 +67,11 @@
 		color: #fff;
 	}
 }
+@media only screen and (max-width: 980px){
+	#find-match .tolak-product, #find-match div[role="tabpanel"], .tajuk-besar{
+		margin-left: 37px;
+	}
+}
 /*Single Product*/
 @media only screen and(max-width: 350px){
 	.breadcrumb{
