@@ -264,7 +264,7 @@ if(isset($_POST['email_login_header'])){
 										<span class="dd"><span>By Skin Needs</span></span><br><br></li>
 						                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
 						                <li class="warna"><a href="skin-natural-skin-need-acne.php">Anti-Acne</a></li>
-						                <li class="warna"><a href="skin-natural-skin-need-hidrating.php">Hydrating</a></li>
+						                <li class="warna"><a href="skin-natural-skin-need-hydrating.php">Hydrating</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
 					                 		<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
