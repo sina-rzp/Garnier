@@ -328,7 +328,7 @@ if(isset($_POST['email_login_header'])){
 						                  <li class="warna"><a href="olia.php">Olia</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
-										<li class="drop-header"><span class="dd"><span>By Skin Type</span></span><br><br></li>
+										<li class="drop-header"><span class="dd"><span>By Type</span></span><br><br></li>
 						                <li class="warna"><a href="permanent.php">Permanent</a></li>
 						                <li class="warna"><a href="amonia.php">Ammonia Free</a></li>
 									  </ul>

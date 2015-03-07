@@ -30,7 +30,7 @@ include('_includes/header.php');
 						</div>
 					    <div class="col-md-2">
 					        <select  class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-					            <option value="0">Skin Type</option>
+					            <option value="0">Type</option>
 					            <option value="permanent.php" /> Permanent<br />
 					            <option value="amonia.php" /> Ammonia Free<br />
 					        </select>

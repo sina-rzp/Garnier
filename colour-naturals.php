@@ -30,7 +30,7 @@ include('_includes/header.php');
                         </div>
                         <div class="col-md-2">
                             <select  class="filter1 filter-btn">
-                                <option value="0">Skin Type</option>
+                                <option value="0">Type</option>
                                 <option value="per" /> Permanent<br />
                                 <option value="amm" /> Ammonia Free<br />
                             </select>
