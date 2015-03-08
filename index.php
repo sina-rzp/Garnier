@@ -26,27 +26,30 @@ if(isset($_SESSION['email'])){
 						  <ol class="carousel-indicators">
 						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 						  </ol>
 
 <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 					    <div class="item active">
-						    <img src="images/slide/Garnier-SW.png">
+						    <a href="sakura-white.php"><img src="images/slide/Garnier-SW.png">
 						    <!--<div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
 						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
 						    </div>-->
-						    </div>
+						   </div></a>
 					    <div class="item">
-						    <img src="images/slide/Garnier-olia-2.png">
+						    <a href="olia.php"><img src="images/slide/Garnier-olia-2.png"></a>
 					    </div>
 					    <div class="item">
-						    <img src="images/slide/AcnoFight.png">
+						    <a href="acno-fight.php"><img src="images/slide/AcnoFight.png"></a>
 					    </div>
 					    <div class="item">
-						    <img src="images/slide/Light-Complete-White-Speed.png">
+						    <a href="light-complete.php"><img src="images/slide/Light-Complete-White-Speed.png"></a>
 					    </div>
 					    <div class="item">
-						    <img src="images/slide/Garnier-PureActive-Slide-Big.png">
+						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive-Slide-Big.png"></a>
 					    </div>
 					  </div>
 					</div>
