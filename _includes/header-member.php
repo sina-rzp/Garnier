@@ -27,6 +27,7 @@ if(!isset($_SESSION['email'])){
 		<link href="css/yamm.css" rel="stylesheet">  
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
+		<link rel="stylesheet" type="text/css" href="css/customResponsive.css">
 		
 
 		

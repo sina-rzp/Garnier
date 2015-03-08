@@ -26,22 +26,31 @@ if(isset($_SESSION['email'])){
 						  <ol class="carousel-indicators">
 						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 						  </ol>
 
 <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
-					    <div class="item active">
-						    <img src="images/slide/Garnier-PureActive.jpg" alt="Garnier Pure Active">
-						    <div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
-						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
-						    </div>
-						    </div>
+					  	<div class="item active">
+						    <a href="light-complete.php"><img src="images/slide/Light-Complete-White-Speed.png"></a>
+					    </div>
 					    <div class="item">
-						    <img src="images/slide/garnier-sakura.jpg" alt="Garnier Sakura">
-						    <div class="carousel-caption-sakura">
-						    	Sakura White <span class="slide-pink">Pinkish Radiance Moisturising Cream</span><br>
-						    	<span class="sakura-pink">Sakura-like</span> skin that is up to<span class="sakura-pink"> 60%</span> more pinkish radiant</span>
-						    </div>
+						    <a href="sakura-white.php"><img src="images/slide/Garnier-SW.png">
+						    <!--<div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
+						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
+						    </div>-->
+						   </div></a>
+					    <div class="item">
+						    <a href="olia.php"><img src="images/slide/Garnier-olia-2.png"></a>
+					    </div>
+					    <div class="item">
+						    <a href="acno-fight.php"><img src="images/slide/AcnoFight.png"></a>
+					    </div>
+					    
+					    <div class="item">
+						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive-Slide-Big.png"></a>
 					    </div>
 					  </div>
 					</div>
