@@ -17,10 +17,10 @@
 					&#9656; <a href="index.php">Home</a><br>
 					&#9656; <a href="terms-and-conditions.php">Terms and Conditions</a><br>
 					&#9656; <a href="newsletter.php">Newsletter Sign Up</a><br>
-					&#9656; <a href="#">Credits</a><br>
+					<!--&#9656; <a href="#">Credits</a><br>-->
 				</div>
 				<div class="col-xs-5">
-					&#9656; <a href="#">Contacts</a><br>
+					<!--&#9656; <a href="#">Contacts</a><br>-->
 					&#9656; <a href="search.php">New Search</a><br>
 					&#9656; <a href="privacy-policy.php">Privacy Policy</a>
 				</div>
