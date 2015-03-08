@@ -78,9 +78,104 @@ if(isset($_POST['email_login_header'])){
 			</form>
 		</div>
 	    <a href="index.php"><i class="fa fa-home fa-2 home"></i> HOME </a>
-	    <a href="skin-natural.php"> GARNIER SKIN NATURALS </a>
-	    <a href="fym-garnier-skin-natural-men.php">GARNIER MEN</a>
-	    <a href="fym-garnier-skin-natural-hair.php">HAIR COLOR</a>
+	    <a href="skin-natural.php" class="main-mobile-menu-item"> GARNIER SKIN NATURALS </a>
+	    <ul class="mobile-menu">
+           <li>
+               <div class="">
+                  <ul class="">
+	                  <li class=""><span class="dd"><span>By Brands</span></span><br><br></li>
+	                   <li class="warna"><a href="light-complete.php">Light Complete</a></li>
+	                   <li class="warna"><a href="sakura-white.php">Sakura White</a></li>
+	                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
+	                  <li class="warna"><a href="pure-active.php">Pure Active</a></li>
+	                  <li class="warna"><a href="aqua-defense.php">Aqua Defense</a></li>
+	              
+				  </ul>
+				  <ul class=""> 
+					<li class="">
+					<span class="dd"><span>By Skin Needs</span></span><br><br></li>
+	                <li class="warna"><a href="skin-natural-skin-need-whitening.php">Whitening</a></li>
+	                <li class="warna"><a href="skin-natural-skin-need-acne.php">Anti-Acne</a></li>
+	                <li class="warna"><a href="skin-natural-skin-need-hydrating.php">Hydrating</a></li>
+				  </ul>
+				  <ul class=""> 
+                 		<li class=""><span class="dd"><span>By Skin Type</span></span><br><br></li>
+	                	<li class="warna"><a href="skin-natural-skin-normal.php">Normal</a></li>
+	                 	<li class="warna"><a href="skin-natural-skin-dry.php">Dry</a></li>
+	                 	<li class="warna"><a href="skin-natural-skin-sensitive.php">Sensitive</a></li>
+	                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
+				  </ul>
+				  <ul class=""> 
+                 		<li class=""><span class="dd"><span>Find Your Match</span></span><br><br></li>
+						<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
+				  </ul>
+			   </div>
+           </li>
+         </ul>
+	    <a href="fym-garnier-skin-natural-men.php" class="main-mobile-menu-item">GARNIER MEN</a>
+	    <ul class="mobile-menu">
+	       <li>
+	           <div class="">
+	              <ul class="">
+	                  <li class=""><span class="dd"><span>By Brands</span></span><br><br></li>
+	                  <li class="warna"><a href="oil-control-men.php">Turbo Light Oil Control</a></li>
+	                  <li class="warna"><a href="acno-fight.php">Acno Fight</a></li>
+	                  <li class="warna"><a href="icy-duo.php">Turbo Light Icy Duo</a></li>
+	                  <li class="warna"><a href="turbo-light.php">Turbo Light</a></li> 
+				  </ul>
+				  <ul class=""> 
+					<li class=""><span class="dd"><span>By Skin Needs</span></span><br><br></li>
+	                <li class="warna"><a href="gmen-skin-need-whitening.php">Whitening</a></li>
+	                <li class="warna"><a href="gmen-skin-need-acne.php">Acne</a></li>
+	                
+				  </ul>
+				  <ul class=""> 
+	             		<li class=""><span class="dd"><span>By Skin Type</span></span><br><br></li>
+	                	<li class="warna"><a href="gmen-skin-need-normal.php">Normal</a></li>
+	                 	<li class="warna"><a href="gmen-skin-need-dry.php">Dry</a></li>
+	                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Oily</a></li>
+	                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Combination</a></li>
+				  </ul>
+				   <ul class=""> 
+	             		<li class=""><span class="dd"><span>Find Your Match</span></span><br><br></li>
+						<li class=""><a href="fym-garnier-skin-natural-men.php"><img src="images/black-megamenu.png"></a></li>
+				  </ul>
+			   </div>
+	       </li>
+	     </ul>
+
+
+	    <a href="fym-garnier-skin-natural-hair.php" class="main-mobile-menu-item">HAIR COLOR
+	    </a>
+	    <ul class="mobile-menu">
+           <li>
+               <div class="">
+                  <ul class="">
+	                  <li class=""><span class="dd"><span>By Brands</span></span><br><br></li>
+	                  <li class="warna"><a href="colour-naturals.php">Color Naturals</a></li>
+	                  <li class="warna"><a href="olia.php">Olia</a></li>
+				  </ul>
+				  <ul class=""> 
+					<li class=""><span class="dd"><span>By Type</span></span><br><br></li>
+	                <li class="warna"><a href="permanent.php">Permanent</a></li>
+	                <li class="warna"><a href="amonia.php">Ammonia Free</a></li>
+				  </ul>
+				  <ul class=""> 
+                 		<li class="">
+                 		<span class="dd"><span>By Color</span></span><br><br></li>
+	                	<li class="warna"><a href="black.php">Black</a></li>
+	                 	<li class="warna"><a href="brown.php">Brown</a></li>
+	                 	<li class="warna"><a href="blonde.php">Blonde</a></li>
+	                 	<li class="warna"><a href="red.php">Red</a></li>
+	                 	
+				  </ul>
+				    <ul class=""> 
+                 		<li class=""><span class="dd"><span>Find Your Match</span></span><br><br></li>
+						<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
+				  </ul>
+			   </div>
+           </li>
+        </ul>
 	</nav>
 
 
