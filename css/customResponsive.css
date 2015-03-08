@@ -155,6 +155,9 @@
 	#fym #hairContainer{
 		padding: 20px;
 	}
+	#garnierMenContainer{
+		padding:20px;
+	}
 	#fym #bar{
 		display: none !important; 
 	}
@@ -183,4 +186,23 @@
 }
 .pic-res, .bar-signin, .newsletter #search{
 	display: none !important;
+}
+.cbp-spmenu-left.cbp-spmenu-open{
+	overflow: scroll; 
+}
+.mobile-menu,.mobile-menu ul{
+	padding: 0;
+	margin: 16px;
+	list-style: none;
+}
+.mobile-menu{
+	margin: 0;
+}
+.main-mobile-menu-item{
+	font-weight:bold !important;
+	background-color: #fff;
+	text-align: center;
+}
+.cbp-spmenu-left.cbp-spmenu-open a{
+	font-size: 14px;
 }
