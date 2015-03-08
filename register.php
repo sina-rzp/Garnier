@@ -13,15 +13,15 @@ if(isset($_POST['email'])){
         $user = new User;
         $user->email = $_POST['email'];
         $user->password = $pass;
-        $user->title = $_POST['title'];
-        $user->lastname = $_POST['lastname'];
-        $user->firstname = $_POST['firstname'];
-        $user->birthday = $birthday;
-        $user->phone = $_POST['phone'];
-        $user->address = $_POST['address'];
-        $user->postcode = $_POST['postcode'];
-        $user->city = $_POST['city'];
-        $user->country = $_POST['country'];
+        $user->title = "";
+        $user->lastname = "";
+        $user->firstname = "";
+        $user->birthday = "";
+        $user->phone = "";
+        $user->address = "";
+        $user->postcode = "";
+        $user->city = "";
+        $user->country = "";
         $user->active_code = $ac;
 
         $user->save();
@@ -68,221 +68,216 @@ include('_includes/header.php');
 
 <!-- Form -->
 
-				<div class="row">
-					<div class="col-md-12">
-						<div class="box-content">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
+	<div class="box-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
 <!-- Login Section -->
-									
-										<form action="" method="POST" class="login-section form-horizontal">
-											<div class="register-text">1. Log in</div>
+				
+					<form action="" method="POST" class="login-section form-horizontal">
+						<div class="register-text">1. Log in</div>
 <!-- Email -->
-											<div class="form-group">
-    											<label for="email" class="col-sm-3 control-label">Email *</label>
-											    <div class="col-sm-9">
-											      <input type="email" name="email" class="form-control" id="email" placeholder="Enter text ..." required="required">
-											    </div>
-  											</div>
+						<div class="form-group">
+							<label for="email" class="col-sm-3 control-label">Email *</label>
+						    <div class="col-sm-9">
+						      <input type="email" name="email" class="form-control" id="email" placeholder="Enter text ..." required="required">
+						    </div>
+							</div>
 
-											<div class="form-group">
-											    <label for="email" class="col-sm-3 control-label">Confirm email * </label>
-											    <div class="col-sm-9">
-											      <input type="email" name="email" class="form-control" id="email" placeholder="Enter text ..." required="required">
-											    </div>
-											</div>
 <!-- Password -->
 
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Password * </label>
-											    <div class="col-sm-9">
-											      <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Enter text ...">
-											    </div>
-											</div>
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Confirm password * </label>
-											    <div class="col-sm-9">
-											      <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Enter text ...">
-											    </div>
-											</div>
-
-											<div class="register-text">2. Your Personal Information</div>
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Title </label>
-											    <div class="col-sm-9">
-											    	<label class="radio-inline">
-														<input type="radio" name="title" id="inlineRadio1" value="Miss"> Miss
-														</label>
-														<label class="radio-inline">
-														  <input type="radio" name="title" id="inlineRadio2" value="Ms"> Ms
-														</label>
-														<label class="radio-inline">
-														  <input type="radio" name="title" id="inlineRadio3" value="Mr"> Mr
-														</label>
-											    </div>
-											</div>
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Last Name * </label>
-											    <div class="col-sm-9">
-											      <input type="text" class="form-control" name="lastname" id="LastName" placeholder="Enter text ...">
-											    </div>
-											</div>
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">First Name * </label>
-											    <div class="col-sm-9">
-											      <input type="text" class="form-control" name="firstname" id="FirstName" placeholder="Enter text ...">
-											    </div>
-											</div>
-											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Birthday * </label>
-											    <div class="col-sm-3">
-											    		<select class="form-control" name="day" type="text" >
-															  <option>Day</option>
-															  <option>1</option>
-															  <option>2</option>
-															  <option>3</option>
-															  <option>4</option>
-															  <option>5</option>
-															  <option>6</option>
-															  <option>7</option>
-															  <option>8</option>
-															  <option>9</option>
-															  <option>10</option>
-															  <option>11</option>
-															  <option>12</option>
-															  <option>13</option>
-															  <option>14</option>
-															  <option>15</option>
-															  <option>16</option>
-															  <option>17</option>
-															  <option>18</option>
-															  <option>19</option>
-															  <option>20</option>
-															  <option>21</option>
-															  <option>22</option>
-															  <option>23</option>
-															  <option>24</option>
-															  <option>25</option>
-															  <option>26</option>
-															  <option>27</option>
-															  <option>28</option>
-															  <option>29</option>
-															  <option>30</option>
-															  <option>31</option>
-															</select>
-														</div>
-													<div class="col-sm-3">
-														<select class="form-control" name="month" type="text" >
-															 <option>Month</option>
-															 <option>1</option>
-															 <option>2</option>
-															 <option>3</option>
-															 <option>4</option>
-															 <option>5</option>
-															 <option>6</option>
-															 <option>7</option>
-															 <option>8</option>
-															 <option>9</option>
-															 <option>10</option>
-															 <option>11</option>
-															 <option>12</option>
-														</select>
-													</div>
-													<div class="col-sm-3">
-														<select class="form-control" name="year" type="text" >
-															 <option>Year</option>
-                                                            <?php
-                                                            $i = 1900;
-                                                            while($i<date('Y')){
-                                                                echo "<option>$i</option>";
-                                                                $i++;
-                                                            }
-                                                            ?>
-                                                            ?>
-														</select>
-													</div>
-												</div>
-												<div class="form-group">
-													    <label for="inputPassword3" class="col-sm-3 control-label">Phone Number </label>
-													    <div class="col-sm-9">
-													      <input type="text" class="form-control" id="FirstName" name="phone" placeholder="+6 XXX XXX XXX">
-													    </div>
-												</div>
-
-											
-												<div class="register-text">3. Postal Address</div>
-												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">Address</label>
-												    <div class="col-sm-9">
-												      <input type="text" class="form-control" name="address" id="LastName" placeholder="Enter text ...">
-												    </div>
-												</div>
-												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">Post Code</label>
-												    <div class="col-sm-9">
-												      <input type="text" class="form-control" name="postcode" id="LastName" placeholder="Enter text ...">
-												    </div>
-												</div>
-												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">City</label>
-												    <div class="col-sm-9">
-												      <input type="text" class="form-control" name="city" id="LastName" placeholder="Enter text ...">
-												    </div>
-												</div>
-												<div class="form-group">
-												    <label for="inputPassword3" class="col-sm-3 control-label">State *</label>
-												    <div class="col-sm-9">
-												    	<select class="form-control" name="country" type="text" >
-															 <option>State</option>
-															 <option>Selangor</option>
-															 <option>Kuala Lumpur</option>
-															 <option>Sarawak</option>
-															 <option>Johor</option>
-															 <option>Penang</option>
-															 <option>Sabah</option>
-															 <option>Perak</option>
-															 <option>Pahang</option>
-															 <option>Negeri Sembilan</option>
-															 <option>Kedah</option>
-															 <option>Malacca</option>
-															 <option>Terengganu</option>
-															 <option>Kelantan</option>
-															 <option>Perlis</option>
-															 <option>Labuan</option>
-														</select>
-												    </div>
-												</div>
-												<div class="col-md-3">
-												</div>
-												   <div class="col-md-9">
-													  	<div class="">	
-														  	<div class="checkbox">
-															    <label>
-															      <input type="checkbox" required>  I have read and agree to the Terms and Conditions.*
-															    </label>
-															</div>
-														  	<div class="checkbox">
-															    <label>
-															      <input type="checkbox">  I agree to receive the Garnier newsletter or information from Garnier by email.
-															    </label>
-															</div><br>
-															
-															<p>
-																<button type="submit" value="Register" class="btn btn-primary btn-lg btn-confirm">&#9656;  Confirm
-																</button>
-															</p>
-															<p><i>*Mandatory Fields</i></p>
-
-														</div>
-													</div>
-												</form>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Password * </label>
+						    <div class="col-sm-9">
+						      <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Enter text ...">
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Confirm password * </label>
+						    <div class="col-sm-9">
+						      <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Enter text ...">
+						    </div>
+						</div>
+<!--
+						<div class="register-text">2. Your Personal Information</div>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Title </label>
+						    <div class="col-sm-9">
+						    	<label class="radio-inline">
+									<input type="radio" name="title" id="inlineRadio1" value="Miss"> Miss
+									</label>
+									<label class="radio-inline">
+									  <input type="radio" name="title" id="inlineRadio2" value="Ms"> Ms
+									</label>
+									<label class="radio-inline">
+									  <input type="radio" name="title" id="inlineRadio3" value="Mr"> Mr
+									</label>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Last Name * </label>
+						    <div class="col-sm-9">
+						      <input type="text" class="form-control" name="lastname" id="LastName" placeholder="Enter text ...">
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">First Name * </label>
+						    <div class="col-sm-9">
+						      <input type="text" class="form-control" name="firstname" id="FirstName" placeholder="Enter text ...">
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="inputPassword3" class="col-sm-3 control-label">Birthday * </label>
+						    <div class="col-sm-3">
+						    		<select class="form-control" name="day" type="text" >
+										  <option>Day</option>
+										  <option>1</option>
+										  <option>2</option>
+										  <option>3</option>
+										  <option>4</option>
+										  <option>5</option>
+										  <option>6</option>
+										  <option>7</option>
+										  <option>8</option>
+										  <option>9</option>
+										  <option>10</option>
+										  <option>11</option>
+										  <option>12</option>
+										  <option>13</option>
+										  <option>14</option>
+										  <option>15</option>
+										  <option>16</option>
+										  <option>17</option>
+										  <option>18</option>
+										  <option>19</option>
+										  <option>20</option>
+										  <option>21</option>
+										  <option>22</option>
+										  <option>23</option>
+										  <option>24</option>
+										  <option>25</option>
+										  <option>26</option>
+										  <option>27</option>
+										  <option>28</option>
+										  <option>29</option>
+										  <option>30</option>
+										  <option>31</option>
+										</select>
+									</div>
+								<div class="col-sm-3">
+									<select class="form-control" name="month" type="text" >
+										 <option>Month</option>
+										 <option>1</option>
+										 <option>2</option>
+										 <option>3</option>
+										 <option>4</option>
+										 <option>5</option>
+										 <option>6</option>
+										 <option>7</option>
+										 <option>8</option>
+										 <option>9</option>
+										 <option>10</option>
+										 <option>11</option>
+										 <option>12</option>
+									</select>
+								</div>
+								<div class="col-sm-3">
+									<select class="form-control" name="year" type="text" >
+										 <option>Year</option>
+                                        <?php
+                                        $i = 1900;
+                                        while($i<date('Y')){
+                                            echo "<option>$i</option>";
+                                            $i++;
+                                        }
+                                        ?>
+                                        ?>
+									</select>
 								</div>
 							</div>
-						</div>
-						</div>
-					</div>
-				</div>
+							<div class="form-group">
+								    <label for="inputPassword3" class="col-sm-3 control-label">Phone Number </label>
+								    <div class="col-sm-9">
+								      <input type="text" class="form-control" id="FirstName" name="phone" placeholder="+6 XXX XXX XXX">
+								    </div>
+							</div>
+
+						
+							<div class="register-text">3. Postal Address</div>
+							<div class="form-group">
+							    <label for="inputPassword3" class="col-sm-3 control-label">Address</label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" name="address" id="LastName" placeholder="Enter text ...">
+							    </div>
+							</div>
+							<div class="form-group">
+							    <label for="inputPassword3" class="col-sm-3 control-label">Post Code</label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" name="postcode" id="LastName" placeholder="Enter text ...">
+							    </div>
+							</div>
+							<div class="form-group">
+							    <label for="inputPassword3" class="col-sm-3 control-label">City</label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" name="city" id="LastName" placeholder="Enter text ...">
+							    </div>
+							</div>
+							<div class="form-group">
+							    <label for="inputPassword3" class="col-sm-3 control-label">State *</label>
+							    <div class="col-sm-9">
+							    	<select class="form-control" name="country" type="text" >
+										 <option>State</option>
+										 <option>Selangor</option>
+										 <option>Kuala Lumpur</option>
+										 <option>Sarawak</option>
+										 <option>Johor</option>
+										 <option>Penang</option>
+										 <option>Sabah</option>
+										 <option>Perak</option>
+										 <option>Pahang</option>
+										 <option>Negeri Sembilan</option>
+										 <option>Kedah</option>
+										 <option>Malacca</option>
+										 <option>Terengganu</option>
+										 <option>Kelantan</option>
+										 <option>Perlis</option>
+										 <option>Labuan</option>
+									</select>
+							    </div>
+							</div>-->
+							<div class="col-md-3">
+							</div>
+							   <div class="col-md-9">
+								  	<div class="">	
+									  	<div class="checkbox">
+										    <label>
+										      <input type="checkbox" required>  I have read and agree to the Terms and Conditions.*
+										    </label>
+										</div>
+									  	<div class="checkbox">
+										    <label>
+										      <input type="checkbox">  I agree to receive the Garnier newsletter or information from Garnier by email.
+										    </label>
+										</div><br>
+										
+										<p>
+											<button type="submit" value="Register" class="btn btn-primary btn-lg btn-confirm">&#9656;  Confirm
+											</button>
+										</p>
+										<p><i>*Mandatory Fields</i></p>
+
+									</div>
+								</div>
+							
+							</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
 <!-- End of Form -->
 
 PRIVACY NOTICE<br>
