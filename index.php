@@ -31,17 +31,22 @@ if(isset($_SESSION['email'])){
 <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 					    <div class="item active">
-						    <img src="images/slide/Garnier-PureActive.jpg" alt="Garnier Pure Active">
-						    <div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
+						    <img src="images/slide/Garnier-SW.png">
+						    <!--<div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
 						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
-						    </div>
+						    </div>-->
 						    </div>
 					    <div class="item">
-						    <img src="images/slide/garnier-sakura.jpg" alt="Garnier Sakura">
-						    <div class="carousel-caption-sakura">
-						    	Sakura White <span class="slide-pink">Pinkish Radiance Moisturising Cream</span><br>
-						    	<span class="sakura-pink">Sakura-like</span> skin that is up to<span class="sakura-pink"> 60%</span> more pinkish radiant</span>
-						    </div>
+						    <img src="images/slide/Garnier-olia-2.png">
+					    </div>
+					    <div class="item">
+						    <img src="images/slide/AcnoFight.png">
+					    </div>
+					    <div class="item">
+						    <img src="images/slide/Light-Complete-White-Speed.png">
+					    </div>
+					    <div class="item">
+						    <img src="images/slide/Garnier-PureActive-Slide-Big.png">
 					    </div>
 					  </div>
 					</div>
