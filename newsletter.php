@@ -3,30 +3,8 @@
 
 
 
-if(isset($_POST['email'])){
-    include('core/core.php');
-    require_once 'core/vendor/mailchimp/Mailchimp.php';
-    $api = new Mailchimp("70fd23c289a203695c10d72f821bc564-us9");
-    $merge_vars = array('FNAME'=>$_POST['firstname'], 'LNAME'=>$_POST['lastname']);
-
-// Submit subscriber data to MailChimp
-// For parameters doc, refer to: http://apidocs.mailchimp.com/api/1.3/listsubscribe.func.php
-    $result = $api->call('lists/subscribe', array(
-        'id'                => '4f68b03e1a',
-        'email'             => array('email'=>$_POST['email']),
-        'merge_vars'        => $merge_vars,
-//    'double_optin'      => false,
-//    'update_existing'   => true,
-//    'replace_interests' => false,
-//    'send_welcome'      => true,
-    ));
-    // print_r($result);
-
-//    if ($api->errorCode){
-//        echo "<h4>Please try again.</h4>";
-//    } else {
-//        echo "<h4>Thank you, you have been added to our mailing list.</h4>";
-//    }
+if(isset($_POST['EMAIL'])){
+    
 
     header('location:thankyou-newsletter.php');
 
@@ -62,40 +40,45 @@ include('_includes/header.php');
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12">
-<!-- Login Section -->					<form action="" method="post" class="login-section form-horizontal">
+<!-- Login Section -->					<form action="//loreal.us9.list-manage.com/subscribe/post?u=f72c17d04926a96f435a910a7&amp;id=4f68b03e1a" method="post" class="login-section form-horizontal" name="mc-embedded-subscribe-form">
 											<div class="form-group">
     											<label for="inputEmail3" class="col-sm-3 control-label">Email *</label>
 											    <div class="col-sm-9">
-											      <input type="email" name="email" class="form-control" value="<?php if (isset($_POST['email_footer'])) echo $_POST['email_footer']; ?>" id="inputEmail3" placeholder="Enter text ...">
+											      <input type="email" name="EMAIL" class="form-control" value="<?php if (isset($_POST['email_footer'])) echo $_POST['email_footer']; ?>" id="inputEmail3" placeholder="Enter text ...">
 											    </div>
   											</div>
+											
 											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Title </label>
+												<label class="col-sm-3 control-label">Gender</label>
 											    <div class="col-sm-9">
+
 											    	<label class="radio-inline">
-														<input type="radio" name="title" id="Title" value="option1"> Miss
-														</label>
-														<label class="radio-inline">
-														  <input type="radio" name="title" id="title" value="option2"> Ms
-														</label>
-														<label class="radio-inline">
-														  <input type="radio" name="title" id="title" value="option3"> Mr
-														</label>
+														<input type="radio" name="MMERGE2" id="mce-MMERGE2-0" value="Male"> Male
+													</label>
+													<label class="radio-inline">
+														  <input type="radio" name="MMERGE2" id="mce-MMERGE2-1" value="Female"> Female
+													</label>
 											    </div>
 											</div>
-										
+											
 											<div class="form-group">
 											    <label for="inputPassword3" class="col-sm-3 control-label">First Name * </label>
 											    <div class="col-sm-9">
-											      <input type="text" class="form-control" name="firstname" id="FirstName" placeholder="Enter your details">
+											      <input type="text" class="form-control" name="FNAME" id="FirstName" placeholder="Enter your details">
 											    </div>
 											</div>
+
 											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Last Name </label>
-											    <div class="col-sm-9">
-											      <input type="text" class="form-control" name="lasttname" id="LastName" placeholder="Enter your details">
-											    </div>
+												<label class="col-sm-3 control-label">Language</label>
+												<div class="col-sm-9">
+													<select name="MMERGE4" class="required" id="mce-MMERGE4">
+														<option value="English">English</option>
+														<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+													</select>
+												</div>
 											</div>
+											<input type="hidden" name="b_f72c17d04926a96f435a910a7_4f68b03e1a" tabindex="-1" value="">
+
 											
 												   <div class="col-md-12">
 													  	<div class="tnc">	
