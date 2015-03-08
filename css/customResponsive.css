@@ -59,10 +59,10 @@
 
 }
 @media only screen and (max-width: 650px){
-	.banner-fym .module, .banner-fym .hair2{
+	.banner-fym .module, .banner-fym .hair2, .banner-fym .men1, .banner-fym .men2{
 		width: 280px;
 	}
-	.banner-fym .module .texting, .banner-fym .hair2 .texting{
+	.banner-fym .module .texting, .banner-fym .hair2 .texting, .banner-fym .men1 .texting, .banner-fym .men2 .texting{
 		text-align: center;
 		background-color: rgba(0, 0, 0, 0.60);
 		font-size: 15px;
@@ -70,6 +70,7 @@
 		margin: 0;
 		color: #fff;
 	}
+	
 }
 @media only screen and (max-width: 980px){
 	#find-match .tolak-product, #find-match div[role="tabpanel"], .tajuk-besar{
@@ -180,6 +181,6 @@
 		margin: 42px 0 0 -226px;
 	}
 }
-.pic-res, .bar-signin, .newsletter{
-	display: none;
+.pic-res, .bar-signin, .newsletter #search{
+	display: none !important;
 }

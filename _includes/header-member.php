@@ -225,7 +225,7 @@ End of Bahasa / About -->
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
+						                  <li class="drop-header"><span class="dd"><span>By Brands</span></span><br><br></li>
 						                   <li class="warna"><a href="light-complete.php">Light Complete</a></li>
 						                   <li class="warna"><a href="sakura-white.php">Sakura White</a></li>
 						                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
@@ -332,8 +332,8 @@ End of Bahasa / About -->
 					<div class="col-md-4 col-sm-4 newsletter hidden-xs">Sign up to receive updates from Garnier<br>
 						<form class="form-inline">  
 							<input type="text" class="form-control input-xs" id="search" placeholder="Your email address">
-							<button type="submit" class="btn btn-inverse btn-grey btn-xs"> > SIGN UP NOW
-							</button>
+							<a href="newsletter.php" class="btn btn-inverse btn-grey btn-xs"> > SIGN UP NOW
+							</a>
 						</form>
 					</div>
 <!-- End of Sign Up Newsletter -->
