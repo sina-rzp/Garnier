@@ -332,8 +332,8 @@ End of Bahasa / About -->
 					<div class="col-md-4 col-sm-4 newsletter hidden-xs">Sign up to receive updates from Garnier<br>
 						<form class="form-inline">  
 							<input type="text" class="form-control input-xs" id="search" placeholder="Your email address">
-							<button type="submit" class="btn btn-inverse btn-grey btn-xs"> > SIGN UP NOW
-							</button>
+							<a href="newsletter.php" class="btn btn-inverse btn-grey btn-xs"> > SIGN UP NOW
+							</a>
 						</form>
 					</div>
 <!-- End of Sign Up Newsletter -->

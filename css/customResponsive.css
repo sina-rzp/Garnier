@@ -180,6 +180,6 @@
 		margin: 42px 0 0 -226px;
 	}
 }
-.pic-res, .bar-signin, .newsletter{
+.pic-res, .bar-signin, .newsletter #search{
 	display: none;
 }
