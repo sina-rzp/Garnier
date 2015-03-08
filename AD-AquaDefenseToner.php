@@ -52,18 +52,16 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Aqua Defense Toner </div><br><br><br><br>
+										<div class="product-ttl">Aqua Defense Refreshing Hydrating Toner </div><br><br><br><br>
 										<p class="product-content">
-											Light and transparent texture, enriched with hydrating high mountain snow essence and anti-oxidant white tea & green tea. Its condition the skin with moisture. Skin is refreshed and continuously hydrated.
+											Locks in moisture all day long and defends skin hydration level by building a hydrating barrier. Light and transparent texture, enriched with hydrating High Mountain Snow Essence and anti-oxidant White Tea & Green Tea, leaving the skin refreshed and continuously hydrated.  
 										</p>
-										<div class="row checkidout">
-											<span class="col-xs-3">
-												<img src="images/bg-product-suits.png">
-											</span>
-											<span class="col-xs-9 check-text">
-												<b>Check if this product suits you</b>
-											</span>
-										</div>
+
+
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>								
+									
 								</div>
 								</div>
 <!-- End of Products Details -->	

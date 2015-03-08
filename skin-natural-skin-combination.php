@@ -10,22 +10,50 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Skin Natural</a> > Sakura White
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="skin-natural.php">Garnier Skin Natural</a> > Combination
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="tajuk-besar">
-						<h1>By Skin Type- Combination</h1>
+						<h1>By Skin Type - Combination</h1>
 					</div>
 				</div>
 			</div>
 
 <!-- Product Filter-->
-							<?php
-include('_includes/productfilter.php');
-?>
+                <div class="product-bar">
+                  <div class="row leb-product"> 
+                         <div class="col-md-6 tajuk-filter"> 
+                                    Arrange according to <br/>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option value="gmen-skin-need-whitening.php" />Whitening</option>
+                                <option value="gmen-skin-need-acne.php" /> Acne<br />
+                               
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option>Skin Type</option>
+                                <option value="gmen-skin-need-normal.php" /> Normal<br />
+                                <option value="gmen-skin-need-dry.php" /> Dry<br />
+                                
+                                <option value="gmen-skin-need-sensitive.php" /> Combination<br />
+                                <option value="gmen-skin-need-sensitive.php" /> Oily<br />
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option>New / Popular</option>
+                                <option value="" /> New <br />
+                                <option value="" /> Popular<br />
+                            </select>
+                        </div>           
+                    </div>
+                </div>
 
 <!-- Products Listed -->
 
@@ -36,7 +64,7 @@ include('_includes/productfilter.php');
             				<img src="images/skin-natural/light-complete/gentle-clarifying-foam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening our skin.
+				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
 							</p><a class="bar-findout" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 				</div>
@@ -99,7 +127,7 @@ include('_includes/productfilter.php');
             				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplifies your skincare regime by delivering 3 benefits & actions in 1 product.
+				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
 							</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -120,7 +148,7 @@ include('_includes/productfilter.php');
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>For skin free from 6 signs of acne and oil.
+				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
 							</p><a class="bar-findout" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -132,7 +160,7 @@ include('_includes/productfilter.php');
             				<img src="images/skin-natural/pureactive6in1multiactiontoner.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>For skin free from 6 signs of acne and oil.
+				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
 							</p><a class="bar-findout" href="PA-6in1Multi-ActionToner.php"> &#9656; Find Out </a>
        					</div>
 					</div>

@@ -1,4 +1,4 @@
-<!-- Header -->
+	<!-- Header -->
 <?php
 include('_includes/header.php');
 ?>
@@ -54,58 +54,14 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Aqua Defense Non-Stop Intensive Hydrating Essence</div>
 										<p class="product-content">
-											Moisturizer that lock in moisture all day while boosts skin's defences against drying elements by building a hydrating barrier Enriched with Mountain spring water + White Tea & Green tea Extract. Suitable for normal to dry skin type.
+											Moisturiser that locks in moisture all day long while boosting skin's defences against drying elements by building a hydrating barrier. Enriched with pure anti-oxidant fruit water and Vitamin E. Suitable for normal to dry skin type.
 										</p>
 										
 <!-- Link -->
-	<div class="row center" style="width:250px; margin-top:20px;">
-											<div class="col-xs-6 center">
-												<a class="bar-findout" data-toggle="modal" data-target="#BuyNow"> &#9656; Buy Now </a>
-											</div>
 
-<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								  <div class="modal-dialog">
-									    <div class="modal-content">
-										      <div class="modal-header">
-										        <h1 class="popup-signin">Get it now!</h1>
-										      </div>
-											      <div class="modal-body">
-											        <div class="col-md-12">
-								
-											        	<div class="row">
-											        		<div class="col-xs-6">
-											        			
-											        			<a href="http://www.watsons.com.my/Product-Categories/c/Product_Categories?q=:masterBrandName:masterBrandName:GARNIER&text=#"><img src="images/watsons.jpg"></a>
-											        		</div>
-											        		<div class="col-xs-6">
-											        			<a href="https://online.guardian.com.my/index.php/pbrand/garnier-women.html"><img src="images/guardian.jpg"></a>
-											        			
-											        		</div>
-											        		
-											        	</div>
-											        </div>
-											       
-										      </div>
-									      <div class="modal-footer">
-									      </div>
-									    </div>
-								  </div>
-							</div>
-
-
-											<div class="col-xs-6">
-												<a class="bar-findout" href="pdf/pdf.pdf"> &#9656; Purchase Now </a>
-											</div>
-										</div>
-<!-- End of Link -->
-										<div class="row checkidout">
-											<span class="col-xs-3">
-												<img src="images/bg-product-suits.png">
-											</span>
-											<span class="col-xs-9 check-text">
-												<b>Check if this product suits you</b>
-											</span>
-										</div>
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>
 								</div>
 								</div>
 <!-- End of Products Details -->	

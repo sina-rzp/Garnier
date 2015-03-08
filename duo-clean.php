@@ -10,7 +10,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Skin Natural</a> > Duo Clean
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="skin-natural.php">Garnier Skin Natural</a> > Duo Clean
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/duo-clean/duo-clean-whitening-and-oil-control-foam.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that absorbs oil and whitens skin.
+				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that removes oil and whitens skin.
 							</p><a class="bar-findout" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>

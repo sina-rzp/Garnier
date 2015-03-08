@@ -37,7 +37,7 @@ include('_includes/header.php');
 									</div>
 									<div class="col-md-3">
 										<div class="products-img">
-											<img src="images/skin-natural/aqua-defense/aqua-defense-moisturizing-essence.png">
+											<img src="images/skin-natural/aqua-defense/aqua-defense-moisturizing-cleansing-foam.png">
 										</div>
 									</div>
 									<div class="col-md-6 product-box">
@@ -54,57 +54,13 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Aqua Defense Moisturizing Cleansing Foam</div>
 										<p class="product-content">
-											Aqua defense cleansing foam with High mountain snow essence + white tea & green tea extract. To help you not only thoroughly cleanse dirt, but also provide skin intensive hydration. Skin is fresh and smooth with no tightness, just a healthy radiance.
+											Aqua Defense cleansing foam with High mountain snow essence + white tea & green tea extract. To help you not only thoroughly cleanse dirt, but also provide skin intensive hydration. Skin is fresh and smooth with no tightness, just a healthy radiance.
 										</p>
 <!-- Link -->
-	<div class="row center" style="width:250px; margin-top:20px;">
-											<div class="col-xs-6 center">
-												<a class="bar-findout" data-toggle="modal" data-target="#BuyNow"> &#9656; Buy Now </a>
-											</div>
 
-<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								  <div class="modal-dialog">
-									    <div class="modal-content">
-										      <div class="modal-header">
-										        <h1 class="popup-signin">Get it now!</h1>
-										      </div>
-											      <div class="modal-body">
-											        <div class="col-md-12">
-								
-											        	<div class="row">
-											        		<div class="col-xs-6">
-											        			
-											        			<a href="http://www.watsons.com.my/Product-Categories/c/Product_Categories?q=:masterBrandName:masterBrandName:GARNIER&text=#"><img src="images/watsons.jpg"></a>
-											        		</div>
-											        		<div class="col-xs-6">
-											        			<a href="https://online.guardian.com.my/index.php/pbrand/garnier-women.html"><img src="images/guardian.jpg"></a>
-											        			
-											        		</div>
-											        		
-											        	</div>
-											        </div>
-											       
-										      </div>
-									      <div class="modal-footer">
-									      </div>
-									    </div>
-								  </div>
-							</div>
-
-
-											<div class="col-xs-6">
-												<a class="bar-findout" href="pdf/pdf.pdf"> &#9656; Purchase Now </a>
-											</div>
-										</div>
-<!-- End of Link -->
-										<div class="row checkidout">
-											<span class="col-xs-3">
-												<img src="images/bg-product-suits.png">
-											</span>
-											<span class="col-xs-9 check-text">
-												<b>Check if this product suits you</b>
-											</span>
-										</div>
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>
 								</div>
 								</div>
 <!-- End of Products Details -->	

@@ -71,7 +71,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/gentle-clarifying-foam.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening our skin.
+				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
 							</p><a class="bar-findout" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>

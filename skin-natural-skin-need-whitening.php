@@ -10,7 +10,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Skin Natural</a> > Sakura White
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="skin-natural.php">Garnier Skin Natural</a> > Whitening
 					</div>
 				</div>
 			</div>
@@ -65,7 +65,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/gentle-clarifying-foam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening our skin.
+				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
 							</p><a class="bar-findout" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 				</div>
@@ -204,7 +204,7 @@ Pinkish Radiance Ultimate Serum</b><p>Super lightweight serum enriched with 5,00
             				<img src="images/skin-natural/duo-clean/duo-clean-whitening-and-oil-control-foam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that absorbs oil and whitens skin.
+				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that removes oil and whitens skin.
 							</p><a class="bar-findout" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>

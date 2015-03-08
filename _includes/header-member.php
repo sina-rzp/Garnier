@@ -245,7 +245,6 @@ End of Bahasa / About -->
 						                 	<li class="warna"><a href="skin-natural-skin-dry.php">Dry</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-sensitive.php">Sensitive</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
-						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Oily</a></li>
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled menu-item-hide"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>

@@ -66,7 +66,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplifies your skincare regime by delivering 3 benefits & actions in 1 product.
+				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
 							</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -87,23 +87,10 @@ include('_includes/header.php');
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>For skin free from 6 signs of acne and oil.
+				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
 							</p><a class="bar-findout" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
        					</div>
-					</div>
-
-
-
-					<div class="col-md-4 col-sm-6 tolak-product showimg 2">
-						<div class=" a">
-            				<img src="images/skin-natural/pureactive6in1multiactiontoner.png" class='hold' />
-        				</div>
-				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>For skin free from 6 signs of acne and oil.
-							</p><a class="bar-findout" href="PA-6in1Multi-ActionToner.php"> &#9656; Find Out </a>
-       					</div>
-					</div>
-					
+					</div>					
 
 					<div class="col-xs-4 tolak-product showimg acne com oil 1">
 						<div class=" a">
