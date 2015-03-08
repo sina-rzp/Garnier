@@ -48,7 +48,7 @@ include('_includes/header.php');
 										<div class="men1">
 											  
 											    <div class="texting">
-											      AcnoFight
+											      AcnoFight<br/>
 													Fight acne for cleaner, brighter and oil-free skin.<br>
 									<div class="btn-con">
 											<a href="acno-fight.php" ><p class="get" style="background: #014432;
@@ -72,7 +72,7 @@ include('_includes/header.php');
 										<div class="men2">
 											  
 											    <div class="texting">
-											      Icy Duo
+											      Icy Duo <br/>
 												Revolutionary duo colour, duo action.<br>
 									<div class="btn-con">
 											<a href="icy-duo.php" ><p class="get" style="background: #014432;
