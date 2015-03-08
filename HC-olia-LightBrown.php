@@ -54,17 +54,16 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Olia 6.0 - Light Brown</div><br><br><br>
 										<p class="product-content">
-											A permanent hair dye that boosts the condition of your hair. Unlike traditional hair colourants, Olia uses a 60% oil blend for a velvety texture via our breakthrough technology, the Oil Delivery System (ODS). Hair feels 35% softer, 17% shinier hair and 100% greys coverage, while the natural flower oils propel colour deep into the hair for vivid shades without roughness. Let the power of oil transform your hair dye routine into a luxurious beauty ritual.
+											A permanent hair dye that boosts the condition of your hair. Unlike traditional hair colorants, Olia uses a 60% oil blend for a velvety texture with our breakthrough technology, the Oil Delivery System (ODS). Hair feels 35% softer, 17% shinier hair and has 100% grey coverage, while the natural flower oils propel color deep into the hair for vivid shades without dryness. Let the power of oil transform your hair dye routine into a luxurious beauty ritual. 
 <br/><br/>
-A maximum colour performance;
-
+Maximum color performance:
 <ul>
-	<li>High fidelity colour</li>
-<li> Up to 100% grey coverage</li>
-<li> Hair looks shinier</li>
-<li> Ammonia-free formula</li>
-<li> Naturally-derived flower oils (60%)</li>
-<li> Hair feels softer</li>
+<li>High fidelity color</li>
+<li>Up to 100% grey coverage</li>
+<li>Hair looks shinier</li>
+<li>Ammonia-free formula</li>
+<li>Naturally-derived flower oils (60%)</li>
+<li>Hair feels softer</li>
 </ul>
 										</p>
 

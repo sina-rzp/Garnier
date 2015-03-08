@@ -48,7 +48,7 @@ include('_includes/header.php');
 										<div class="module">
 											  
 											    <div class="texting">
-											      Colour Naturals
+											      Colour Naturals<br/>
 									Natural, rich and long lasting results.<br>
 									<div class="btn-con">
 											<a href="colour-naturals.php" ><p class="get" style="background: #014432;
@@ -70,7 +70,7 @@ include('_includes/header.php');
 										<div class="hair2">
 											  
 											    <div class="texting">
-											      Olia
+											      Olia <br />
 Wide range of trendy, fashionable colours.<br>
 									<div class="btn-con">
 											<a href="olia.php" ><p class="get" style="background: #014432;

@@ -55,7 +55,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">AcnoFight 6-in-1 Anti-Acne Foam</div>
 										<p class="product-content">
-											Formulated to reduce 6 acne signs- excess oil, acne, blackhead, large pores, redness and acne scars. Enriched with regenerating HerbaRepair and purifying Salicylic acid, it is suitable for daily use on acne prone skin. 
+											Formulated to reduce 6 signs of acne- excess oil, acne, blackheads, large pores, redness and acne scars. Enriched with regenerating HerbaRepair and purifying Salicylic acid, it is suitable for daily use on acne-prone skin.
 										</p>
 <!-- Link -->
 		<?php

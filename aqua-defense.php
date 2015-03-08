@@ -106,7 +106,7 @@ dehydrated skin.
             				<img src="images/skin-natural/aqua-defense/AquaDefenseRefreshingHydratingToner.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Aqua Defense Refreshing Hydrating Toner </b><p>Toner with moisturising formula and soft hydration that doesn't dry the skin.
+				           <b>Aqua Defense Refreshing Hydrating Toner</b><p>Toner with a moisturizing formula and soft hydration that doesn't dry out the skin.
 
 
 							</p><a class="bar-findout" href="AD-AquaDefenseToner.php"> &#9656; Find Out </a>

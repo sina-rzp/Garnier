@@ -52,7 +52,7 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Pure Active 3 in 1 Wash, Scrub & Mask</div>
+										<div class="product-ttl">Pure Active 3-in-1 Wash, Scrub & Mask</div>
 										<p class="product-content">
 											<p>For oily to combination skin that is prone to impurities, shine, visible pores and blackheads.</p>
 											<p>It can be used as a daily wash, scrub or mask:</p>

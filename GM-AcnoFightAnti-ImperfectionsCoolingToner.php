@@ -52,9 +52,9 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">AcnoFight Anti- Imperfections Cooling Toner</div>
+										<div class="product-ttl">AcnoFight Anti-Imperfections Cooling Toner</div>
 										<p class="product-content">
-											Enriched with anti-bacterial ingredients: Salicylic acid and Cryo-Menthol, this icy refreshing toner helps to visibly reduce marks and pimples while reducing excess oil and tighten pores without dehydrating the skin.
+											Enriched with anti-bacterial ingredients, Salicylic acid and Cryo-Menthol, this refreshing toner helps to visibly reduce marks and pimples while reducing excess oil and tightening pores without dehydrating the skin.
 										</p>
 <!-- Link -->
 		<?php

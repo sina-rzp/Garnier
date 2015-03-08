@@ -52,9 +52,10 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Grease Control Brightening Cooling Foam</div>
+										<div class="product-ttl">TurboLight Oil Control Charcoal Foam</div>
 										<div class="product-content">
-											A skin lightening cooling foam for men that also removes excessive oil and grease for a perfectly clean and brightened look.</div>
+											Enriched with Natural Charcoal that is well-known for its absorbing properties, it acts to trap excess oil, dirt for an intensely purified and visibly brighter skin.
+											</div>
 <!-- Link -->
 		<?php
 			include('_includes/men/buy_purchase-men.php')

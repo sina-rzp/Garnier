@@ -90,7 +90,7 @@
 	        "next": "TURBOLIGHT_OIL_CONTROL,TURBOLIGHT_ICY_DUO"
 	      },
 	      {
-	        "label": " I have uneven skin tone",
+	        "label": " I have an uneven skin tone",
 	        "next": "TURBOLIGHT_RANGE"
 	      },
 	      {
@@ -98,7 +98,7 @@
 	        "next": "TURBOLIGHT_ICY_DUO_DOUBLE_BLACK"
 	      },
 	      {
-	        "label": " I want to minimise my pores",
+	        "label": " I want to minimize my pores",
 	        "next": "TURBOLIGHT_AQUA_FUEL"
 	      }
 	    ]
@@ -119,7 +119,7 @@
 	        "next": "TURBOLIGHT_ICY_DUO_DOUBLE_BLACK"
 	      },
 	      {
-	        "label": "Combination (i)",
+	        "label": "Combination",
 	        "next": "TURBOLIGHT_ICY_SCRUB,TURBOLIGHT_ICY_DUO"
 	      }
 	    ]
@@ -140,7 +140,7 @@
 	        "next": "ACNOFIGHT_WASABI"
 	      },
 	      {
-	        "label": "Combination (i)",
+	        "label": "Combination",
 	        "next": "ACNOFIGHT_WASABI"
 	      }
 	    ]
@@ -161,7 +161,7 @@
 	        "next": "ACNOFIGHT6"
 	      },
 	      {
-	        "label": "Combination (i)",
+	        "label": "Combination",
 	        "next": "ACNOFIGHT6"
 	      }
 	    ]

@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Aqua Defense Moisturizing Cleansing Foam</div>
 										<p class="product-content">
-											Aqua Defense cleansing foam with High mountain snow essence + white tea & green tea extract. To help you not only thoroughly cleanse dirt, but also provide skin intensive hydration. Skin is fresh and smooth with no tightness, just a healthy radiance.
+											Aqua Defense cleansing foam with High Mountain Snow Essence, White Tea and Green Tea Extract. The foam thoroughly cleanses dirt and provides intensive skin hydration. Skin is fresh and smooth with no tightness, just a healthy radiance.
 										</p>
 <!-- Link -->
 

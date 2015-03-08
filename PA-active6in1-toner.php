@@ -52,9 +52,9 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Pure Active 6 in 1 Multi-Action Toner</div>
+										<div class="product-ttl">Pure Active 6-in-1 Multi-Action Toner</div>
 										<p class="product-content">
-											Toner enriched with salicylic acid and HerbaRepair to fight 6 sign caused by acne and oily skin with instant results.
+											Toner enriched with salicylic acid and HerbaRepair to fight the 6 signs caused by acne and oily skin, with instant results.
 										</p>
 <!-- Link -->
 	<?php

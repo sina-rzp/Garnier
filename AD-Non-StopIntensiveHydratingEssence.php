@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Aqua Defense Non-Stop Intensive Hydrating Essence</div>
 										<p class="product-content">
-											Moisturiser that locks in moisture all day long while boosting skin's defences against drying elements by building a hydrating barrier. Enriched with pure anti-oxidant fruit water and Vitamin E. Suitable for normal to dry skin type.
+											Moisturizer that locks in moisture all day long while boosting skin's defences against drying elements by building a hydrating barrier. Enriched with pure anti-oxidant fruit water and Vitamin E. Suitable for normal to dry skin types.
 										</p>
 										
 <!-- Link -->

@@ -66,7 +66,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
+				           <b>Pure Active 3-in-1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
 							</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -77,7 +77,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/pureactive6in1multifoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Foam</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection foam wash.
+				           <b>Pure Active 6-in-1 Multi-Action Foam</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection foam wash.
 							</p><a class="bar-findout" href="PA-active6in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -87,7 +87,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
         				</div>
 				        <div class="col-xs-6">
-				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
+				           <b>Pure Active 6-in-1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
 							</p><a class="bar-findout" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
        					</div>
 					</div>					

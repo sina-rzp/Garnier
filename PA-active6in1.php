@@ -51,9 +51,9 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Pure Active 6 in 1 <br> Multi-Action Foam</div><br><br><br><br><br><br>
+										<div class="product-ttl">Pure Active 6-in-1 <br> Multi-Action Foam</div><br><br><br><br><br><br>
 										<p class="product-content">
-											Facial foam with purifying salicylic acid and HerbaRepair that helps fight 6 sign of acne - oil, acne, blackheads, pores, redness and marks. 
+											Facial foam with purifying salicylic acid and HerbaRepair that helps fight the 6 signs of acne - oil, acne, blackheads, pores, redness and marks. 
 										</p>
 
 <!-- Link -->

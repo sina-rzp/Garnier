@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Aqua Defense Hydrating Glowing Essence 2nd Skin Mask</div>
 										<p class="product-content">
-											Second Skin Mask uses innovative high fitting tissue which formulated with key ingredients High Mountain Snow Essence + Vitamin E, White Tea and Green Tea extracts. This sheet mask is said to give skin nourishment while protecting your skin from harmful environmental aggressors.
+											Second Skin Mask uses innovative high fitting tissue which fis ormulated with key ingredients including High Mountain Snow Essence, Vitamin E, White Tea and Green Tea extracts. This sheet mask gives skin nourishment while protecting your skin from harmful environmental aggressors.
 										</p>
 <!-- Link -->
 

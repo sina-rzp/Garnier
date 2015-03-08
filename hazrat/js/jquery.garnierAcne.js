@@ -63,7 +63,7 @@
 	        "next": "PURE_ACTIVE_FRUIT"
 	      },
 	      {
-	        "label": "Combination (i)",
+	        "label": "Combination",
 	        "next": "PURE_ACTIVE_FRUIT"
 	      }
 	    ]

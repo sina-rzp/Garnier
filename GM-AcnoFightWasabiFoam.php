@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">AcnoFight Wasabi Foam</div><br><br><br><br>
 										<p class="product-content">
-											Prevent acne with our formulation of gentle Wasabi Extract and effective Salicylic Acid, an strong anti-bacterial ingredient. This formula helps to reduce excess oil, blackheads and minimizing pores.
+											Prevent acne with our formulation of gentle Wasabi Extract and effective Salicylic Acid, a strong anti-bacterial ingredient. This formula helps to reduce excess oil, blackheads and minimizes pores.
 										</p>
 <!-- Link -->
 

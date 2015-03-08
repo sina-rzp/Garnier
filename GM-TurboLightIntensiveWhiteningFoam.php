@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">TurboLight Intensive Brightening Foam</div>
 										<p class="product-content">
-											Enriched with Lemon Extract and Peppermint, this cleanser removes dirt and dust, leaving your skin brighter and cleaner. Suitable for dry and normal skin type.
+											Enriched with Lemon Extract and Peppermint, this cleanser removes dirt and dust, leaving your skin brighter and cleaner. Suitable for dry and normal skin types.
 										</p>
 <!-- Link -->
 		<?php

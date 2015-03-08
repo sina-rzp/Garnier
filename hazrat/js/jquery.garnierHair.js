@@ -92,7 +92,7 @@
 
 	var questionnaire = [
 	  {
-	    "question": "Do you have any grey hair?",
+	    "question": "How much grey hair do you have?",
 	    "answers": [
 	      {
 	        "label": " No grey hair (0%)",
