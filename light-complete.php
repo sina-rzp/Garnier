@@ -10,7 +10,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Skin Natural</a> > Light Complete
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="skin-natural.php">Garnier Skin Natural</a> > Light Complete
 					</div>
 				</div>
 			</div>
