@@ -22,7 +22,11 @@
 }
 
 /*Header Section*/
-
+@media only screen and (max-width : 370px) {
+	#footer .pull-left{
+		width: 200px; 
+	}
+}
 /*Footer Section*/
 
 /*Product List*/

@@ -33,7 +33,10 @@ if(isset($_SESSION['email'])){
 
 <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
-					    <div class="item active">
+					  	<div class="item active">
+						    <a href="light-complete.php"><img src="images/slide/Light-Complete-White-Speed.png"></a>
+					    </div>
+					    <div class="item">
 						    <a href="sakura-white.php"><img src="images/slide/Garnier-SW.png">
 						    <!--<div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
 						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
@@ -45,9 +48,7 @@ if(isset($_SESSION['email'])){
 					    <div class="item">
 						    <a href="acno-fight.php"><img src="images/slide/AcnoFight.png"></a>
 					    </div>
-					    <div class="item">
-						    <a href="light-complete.php"><img src="images/slide/Light-Complete-White-Speed.png"></a>
-					    </div>
+					    
 					    <div class="item">
 						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive-Slide-Big.png"></a>
 					    </div>
