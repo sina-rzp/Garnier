@@ -141,3 +141,38 @@
 		padding:0;
 	}
 }
+
+/* Slider - Product List */
+@media only screen and (max-width: 980px){
+	#fym{
+		width: 600px;
+	}
+	#fym #hairContainer{
+		padding: 20px;
+	}
+	#fym #bar{
+		display: none !important; 
+	}
+	#fym .face{
+		display: none; 
+	}
+	#fym .tanyelah{
+		margin-bottom: 45px 
+	}
+	#fym .tanye{
+		font-size: 20px; 
+	}
+	#fym .finish{
+		margin: 42px 0 0 -477px; 
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	#fym{
+		width: 300px;
+	}
+	#fym .finish{
+		margin: 42px 0 0 -226px;
+	}
+}

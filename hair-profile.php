@@ -45,10 +45,12 @@ if(isset($_POST['hair_type'])){
 //---improve profile start
 $improve = Improve::where('user_id','=',$user->id)->first();
 $number_complete = 0;
-if($improve->complete_info == 1) $number_complete++;
-if($improve->hair == 1) $number_complete++;
-if($improve->facebody == 1) $number_complete++;
-$percent_complete = number_format(($number_complete/3)*100);
+if($improve > 0){
+	if($improve->complete_info == 1) $number_complete++;
+	if($improve->hair == 1) $number_complete++;
+	if($improve->facebody == 1) $number_complete++;
+	$percent_complete = number_format(($number_complete/3)*100);
+}
 //---improve profile end
 include('_includes/header-member.php');
 ?>
@@ -197,19 +199,7 @@ include('_includes/header-member.php');
 						</div>
 						</div>
 					</div>
-						<div class="col-md-4">
-							<h1 style="padding-top:30px;">Improve your profile!</h1>
-							<div class="improve-profile">
-								Your profile is <?php echo $percent_complete ?>% complete
-
-                                <ul class="improve-check">
-                                    <li <?php if($improve->complete_info == 1) echo 'class="tick"' ?>><b><a href="edit-profile.php">YOUR REGISTRATION</a></b><br>See and complete your infos</li>
-                                    <li <?php if($improve->hair == 1) echo 'class="tick"' ?>><b><a href="hair-profile.php">YOUR HAIR PROFILE</a></b><br>See and complete your infos</li>
-                                    <li <?php if($improve->facebody == 1) echo 'class="tick"' ?> ><b><a href="face-profile.php">YOUR FACE & BODY PROFILE</a></b><br>See and complete your infos</li>
-                                <ul>
-								
-							</div>
-						</div>
+						<?php include("_includes/profile-sidebar.php"); ?>
 				</div>
 <!-- End of Form -->
 

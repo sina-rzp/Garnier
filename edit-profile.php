@@ -18,7 +18,7 @@ $ptn = "/^0/";  // Regex
 $str = "01234"; //Your input, perhaps $_POST['textbox'] or whatever
 $day = preg_replace($ptn, "", $day);
 $month = preg_replace($ptn, "", $month);
-if(isset($_POST['lastname'])){
+if(isset($_POST['email'])){
     $birthday = "$_POST[year]-$_POST[month]-$_POST[day]";
 
     $user->title = $_POST['title'];
