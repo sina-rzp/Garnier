@@ -251,7 +251,7 @@ if(isset($_POST['email_login_header'])){
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
+						                  <li class="drop-header"><span class="dd"><span>By Brands</span></span><br><br></li>
 						                   <li class="warna"><a href="light-complete.php">Light Complete</a></li>
 						                   <li class="warna"><a href="sakura-white.php">Sakura White</a></li>
 						                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
@@ -288,7 +288,7 @@ if(isset($_POST['email_login_header'])){
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
+						                  <li class="drop-header"><span class="dd"><span>By Brands</span></span><br><br></li>
 						                  <li class="warna"><a href="oil-control-men.php">Turbo Light Oil Control</a></li>
 						                  <li class="warna"><a href="acno-fight.php">Acno Fight</a></li>
 						                  <li class="warna"><a href="icy-duo.php">Turbo Light Icy Duo</a></li>
@@ -322,7 +322,7 @@ if(isset($_POST['email_login_header'])){
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
+						                  <li class="drop-header"><span class="dd"><span>By Brands</span></span><br><br></li>
 						                  <li class="warna"><a href="colour-naturals.php">Color Naturals</a></li>
 						                  <li class="warna"><a href="olia.php">Olia</a></li>
 									  </ul>

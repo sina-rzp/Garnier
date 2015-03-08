@@ -225,7 +225,7 @@ End of Bahasa / About -->
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right">
-						                  <li class="drop-header"><span class="dd"><span>Brands</span></span><br><br></li>
+						                  <li class="drop-header"><span class="dd"><span>By Brands</span></span><br><br></li>
 						                   <li class="warna"><a href="light-complete.php">Light Complete</a></li>
 						                   <li class="warna"><a href="sakura-white.php">Sakura White</a></li>
 						                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
