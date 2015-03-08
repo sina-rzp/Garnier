@@ -10,7 +10,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Men</a> > 
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php">Garnier Men</a> > 
 					</div>
 				</div>
 			</div>
@@ -78,7 +78,7 @@ include('_includes/header.php');
             				<img src="images/men/turbo-light/TurboLightOilControlCharcoalFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Oil Control Charcoal Foam</b><p>Trap dirt and excess oil instantly!
+				           <b>TurboLight Oil Control Charcoal Foam</b><p>Eliminate dirt and excess oil instantly!
 							</p><a class="bar-findout" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -88,7 +88,7 @@ include('_includes/header.php');
             				<img src="images/men/icy-duo/TurboLightDoubleWhiteIcyDuoFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Icy Duo Foam Double White</b><p>Double action. Double Benefits.
+				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
 							</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -99,7 +99,7 @@ include('_includes/header.php');
             				<img src="images/men/icy-duo/IcyDuoFoamWhite.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Icy Duo Foam White + Oil Control</b><p>Double action. Double Benefits.
+				           <b>Icy Duo Foam White + Oil Control</b><p>Foam cleanser for fairer skin and pore minimizing.
 							</p><a class="bar-findout" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
        					</div>
 					</div>

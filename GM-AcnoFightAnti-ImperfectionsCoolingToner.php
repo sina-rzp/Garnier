@@ -17,7 +17,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="garnier-men.php"> Garnier Men </a> > AcnoFight Anti- Imperfections Cooling Toner
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php"> Garnier Men </a> > AcnoFight Anti- Imperfections Cooling Toner
 					</div>
 				</div>
 
@@ -57,54 +57,11 @@ include('_includes/header.php');
 											Enriched with anti-bacterial ingredients: Salicylic acid and Cryo-Menthol, this icy refreshing toner helps to visibly reduce marks and pimples while reducing excess oil and tighten pores without dehydrating the skin.
 										</p>
 <!-- Link -->
-<div class="row center" style="width:250px; margin-top:20px;">
-											<div class="col-xs-6 center">
-												<a class="bar-findout" data-toggle="modal" data-target="#BuyNow"> &#9656; Buy Now </a>
-											</div>
-
-<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								  <div class="modal-dialog">
-									    <div class="modal-content">
-										      <div class="modal-header">
-										        <h1 class="popup-signin">Get it now!</h1>
-										      </div>
-											      <div class="modal-body">
-											        <div class="col-md-12">
-								
-											        	<div class="row">
-											        		<div class="col-xs-6">
-											        			
-											        			<a href="http://www.watsons.com.my/Product-Categories/c/Product_Categories?q=:masterBrandName:masterBrandName:GARNIER%20MEN&text=#"><img src="images/watsons.jpg"></a>
-											        		</div>
-											        		<div class="col-xs-6">
-											        			<a href="https://online.guardian.com.my/index.php/pbrand/garnier-men.html"><img src="images/guardian.jpg"></a>
-											        			
-											        		</div>
-											        		
-											        	</div>
-											        </div>
-											       
-										      </div>
-									      <div class="modal-footer">
-									      </div>
-									    </div>
-								  </div>
-							</div>
+		<?php
+			include('_includes/men/buy_purchase-men.php')
+		?>
 
 
-											<div class="col-xs-6">
-												<a class="bar-findout" href="pdf/pdf.pdf"> &#9656; Purchase Now </a>
-											</div>
-										</div>
-<!-- End of Link -->
-										<div class="row checkidout">
-											<span class="col-xs-3">
-												<img src="images/bg-product-suits.png">
-											</span>
-											<span class="col-xs-9 check-text">
-												<b>Check if this product suits you</b>
-											</span>
-										</div>
 								</div>
 								</div>
 <!-- End of Products Details -->	

@@ -10,7 +10,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Men</a> > Turbo Light
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php">Garnier Men</a> > Turbo Light
 					</div>
 				</div>
 			</div>
@@ -23,9 +23,38 @@ include('_includes/header.php');
 			</div>
 
 <!-- Product Filter-->
-						<?php
-include('_includes/productfilter.php');
-?>
+                <div class="product-bar">
+                  <div class="row leb-product"> 
+                         <div class="col-md-6 tajuk-filter"> 
+                                    Arrange according to <br/>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter1 filter-btn">
+                                <option value="">Skin Need</option>
+                                <option value="whit" /> Whitening<br />
+                                <option value="acne" /> Acne<br />
+                                <option value="hyd" /> Hydrating<br />
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter2 filter-btn">
+                                <option>Skin Type</option>
+                                <option value="nor" /> Normal<br />
+                                <option value="dry" /> Dry<br />
+                                <option value="sen" /> Sensitive<br />
+                                <option value="com" /> Combination<br />
+                                <option value="oil" /> Oily<br />
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter3 filter-btn">
+                                <option>New / Popular</option>
+                                <option value="new" /> New <br />
+                                <option value="new" /> Popular<br />
+                            </select>
+                        </div>           
+                    </div>
+                </div>
 
 
 <!-- Products Listed -->
@@ -36,7 +65,7 @@ include('_includes/productfilter.php');
             				<img src="images/men/turbo-light/TurboLightIntensiveWhiteningFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Intensive Whitening Foam</b><p>Facial foam that completely cleanses and brightens skin.
+				           <b>TurboLight Intensive Brightening Foam</b><p>Facial foam that completely cleanses and brightens skin.
 							</p><a class="bar-findout" href="GM-TurboLightIntensiveWhiteningFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -47,7 +76,7 @@ include('_includes/productfilter.php');
             				<img src="images/men/turbo-light/TurboLightWhitening-Scrub.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Whitening Scrub</b><p>Scrub cleanser that cleanses, exfoliates and brightens skin
+				           <b>TurboLight Dark-Cell Remover Scrub</b><p>Scrub cleanser that cleanses, exfoliates and brightens skin
 							</p><a class="bar-findout" href="GM-TurboLightWhitening Scrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>

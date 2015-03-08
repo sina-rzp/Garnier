@@ -10,14 +10,14 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Garnier Men</a> > Acno Fight
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php">Garnier Men</a> > AcnoFight
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="tajuk-besar">
-						<h1>Acno Fight</h1>
+						<h1>AcnoFight</h1>
 					</div>
 				</div>
 			</div>

@@ -23,9 +23,37 @@ include('_includes/header.php');
 			</div>
 
 <!-- Product Filter-->
-									<?php
-include('_includes/productfilter.php');
-?>
+                <div class="product-bar">
+                  <div class="row leb-product"> 
+                         <div class="col-md-6 tajuk-filter"> 
+                                    Arrange according to <br/>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option value="gmen-skin-need-whitening.php" />Whitening</option>
+                                <option value="gmen-skin-need-acne.php" /> Acne<br />
+                               
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option>Skin Type</option>
+                                <option value="gmen-skin-need-normal.php" /> Normal<br />
+                                <option value="gmen-skin-need-dry.php" /> Dry<br />
+                                
+                                <option value="gmen-skin-need-sensitive.php" /> Combination<br />
+                                <option value="gmen-skin-need-sensitive.php" /> Oily<br />
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="filter-btn" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                                <option>New / Popular</option>
+                                <option value="" /> New <br />
+                                <option value="" /> Popular<br />
+                            </select>
+                        </div>           
+                    </div>
+                </div>
 
 
 <!-- Products Listed -->
@@ -88,7 +116,7 @@ include('_includes/productfilter.php');
             				<img src="images/men/turbo-light/TurboLightOilControlCharcoalFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Oil Control Charcoal Foam</b><p>Trap dirt and excess oil instantly!
+				           <b>TurboLight Oil Control Charcoal Foam</b><p>Eliminate dirt and excess oil instantly!
 							</p><a class="bar-findout" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -109,7 +137,7 @@ include('_includes/productfilter.php');
             				<img src="images/men/icy-duo/TurboLightDoubleWhiteIcyDuoFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Icy Duo Foam Double White</b><p>Double action. Double Benefits.
+				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
 							</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -120,7 +148,7 @@ include('_includes/productfilter.php');
             				<img src="images/men/icy-duo/IcyDuoFoamWhite.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Icy Duo Foam White + Oil Control</b><p>Double action. Double Benefits.
+				           <b>Icy Duo Foam White + Oil Control</b><p>Foam cleanser for fairer skin and pore minimizing.
 							</p><a class="bar-findout" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
        					</div>
 					</div>
