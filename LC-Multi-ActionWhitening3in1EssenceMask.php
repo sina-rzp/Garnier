@@ -52,7 +52,7 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">Light Complete Multi-Action Whitening 3 in 1 Essence Mask</div>
+										<div class="product-ttl">Light Complete Multi-Action Whitening 3-in-1 Essence Mask</div>
 										<p class="product-content">
 											Enriched with the power of 3 essences in 1 mask - Scutellaria Extract, Pure Lemon Essence, Tanggula Glacier Water, this light translucent tissue mask fits perfectly on your skin like a second skin. It visibly unveils amazingly fair, radiant and hydrated skin. 
 										</p>

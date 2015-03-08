@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Sakura White Pinkish Radiance Moisturizing Cream SPF21/PA+++</div>
 										<p class="product-content">
-											A delicate pinkish whitening cream with a blend of Sakura Extract, Vitamin B3 and Vitamin CG nourishes deeply and helps lighten skin tone and dark spots, refines skin texture and smoothen pores. The formula is suitable even for sensitive skin. In 4 weeks, skin becomes 60% more pinkish radiant.
+											A delicate pinkish whitening cream with a blend of Sakura Extract, Vitamin B3 and Vitamin CG nourishes deeply and helps lighten skin tone and dark spots, refines skin texture and smoothens pores. The formula is suitable even for sensitive skin. In 4 weeks, skin becomes 60% more pinkish radiant.
 										</p>
 
 <!-- Link -->

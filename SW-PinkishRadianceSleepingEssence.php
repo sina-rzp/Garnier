@@ -55,7 +55,7 @@ Pinkish Radiance Sleeping Essence
 										
 										<div class="product-ttl">Sakura White Pinkish Radiance Sleeping Essence </div>
 										<p class="product-content">
-											A delicate night cream with a blend of Sakura Extract, Natural Fruit Extracts and Vitamin CG hydrates skin for 24 hours and lets skin breathe while you sleep. It helps lighten skin tone, fade dark spots and refines skin texture. Wake up with pinkish raidant skin that feels smoother, softer, bouncier and more refreshed. This formula is suitable for sensitive skin. 
+											A delicate night cream with a blend of Sakura Extract, Natural Fruit Extracts and Vitamin CG hydrates skin for 24 hours and lets skin breathe while you sleep. It helps lighten skin tone, fade dark spots and refine skin texture. Wake up with pinkish raidant skin that feels smoother, softer, bouncier and more refreshed. This formula is suitable for sensitive skin.
 										</p>
 
 <!-- Link -->

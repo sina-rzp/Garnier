@@ -55,7 +55,7 @@ Whitening and Pore Minimizing Foam
 										
 										<div class="product-ttl">Duo Clean Whitening and Pore Minimizing Foam</div>
 										<p class="product-content">
-											The first Duo Clean by Garnier Skin Naturals that contain black rice and white rice. These two ingredients speeds up skin regeneration and provide nutrients to our skin. It also cleans your skin deeply, reduces pore size and brightens your skin.
+											The first Duo Clean by Garnier Skin Naturals that contains black rice and white rice. These two ingredients speed up skin regeneration and provide nutrients to your skin. It also cleans skin deeply, reduces pore size and brightens your skin.
 										</p>
 <!-- Link -->
 	<?php

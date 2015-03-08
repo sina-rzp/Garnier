@@ -55,7 +55,7 @@ Pinkish Radiance Intensive Whitening Mask
 										
 										<div class="product-ttl">Sakura White Pinkish Radiance Intensive Whitening Mask</div>
 										<p class="product-content">
-											This delicate pinkish essence with a blend of Sakura Extract, Vitamin B3 and Vitamin CG moisturized  the skin deeply and helps lighten skin tone and dark spots, visibly refines skin texture and reveals a rosy glow. this light translucent tissue mask which fits perfectly on your skin like a second skin. It visibly unveils amazingly fair, radiant and hydrated skin. 
+											This delicate pinkish essence with a blend of Sakura Extract, Vitamin B3 and Vitamin CG moisturizes the skin deeply and helps lighten skin tone and dark spots, refines skin texture and reveals a rosy glow. This light translucent tissue mask fits perfectly on your skin like a second skin. It visibly unveils amazingly fair, radiant and hydrated skin.
 										</p>
 
 <!-- Link -->

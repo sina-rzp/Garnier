@@ -54,7 +54,7 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Light Complete White Speed<sup>TM</sup> Multi-Action Brightening Scrub</div>
 										<p class="product-content">
-											Enriched with Pure Lemon Essence and gentle 1000 Micro-beads that intensively cleanses and visibly brightens skin - 1 tone fairer in 1 wash. Suitable for everyday use.
+											Enriched with Pure Lemon Essence and 1000 gentle micro-beads that intensively cleanse and visibly brighten skin - 1 tone fairer in 1 wash. Suitable for everyday use.
 										</p>
 
 <!-- LINK  -->

@@ -101,11 +101,11 @@
 	    "question": "What is your skin concern?",
 	    "answers": [
 	      {
-	        "label": " I want healthy, radiant skin",
+	        "label": "I want healthy, radiant skin",
 	        "next": "1"
 	      },
 	      {
-	        "label": " I want to moisturise and protect my skin against harsh environments",
+	        "label": "I want to moisturize and protect my skin against harsh environments",
 	        "next": "2"
 	      },
 	      {
@@ -113,7 +113,7 @@
 	        "next": "3"
 	      },
 	      {
-	        "label": " I have uneven skin tone",
+	        "label": "I have an uneven skin tone",
 	        "next": "4"
 	      },
 	      {
@@ -121,7 +121,7 @@
 	        "next": "5"
 	      },
 	      {
-	        "label": " I want to minimise my pores",
+	        "label": "I want to minimize my pores",
 	        "next": "6"
 	      }
 	    ]

@@ -142,7 +142,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/LightCompleteMulti-ActionWhitening3in1EssenceMask.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete Multi-Action Whitening 3 in 1 Essence Mask</b><p>A facial mask that instantly brightens and hydrates skin.
+				           <b>Light Complete Multi-Action Whitening 3-in-1 Essence Mask</b><p>A facial mask that instantly brightens and hydrates skin.
 							</p><a class="bar-findout" href="LC-Multi-ActionWhitening3in1EssenceMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>

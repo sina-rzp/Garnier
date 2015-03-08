@@ -149,7 +149,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Gentle Cleansing Foam</b><p>Gentle foam cleanser that gives pinkish radiance skin. 
-							</p><a class="bar-findout" href=""> &#9656; Find Out </a>
+							</p><a class="bar-findout" href="SW-PinkishRadianceGentleCleansingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -182,7 +182,7 @@ Pinkish Radiance Sleeping Essence (Night)</b><p>Night cream enriched with 2x Sak
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance Intensive Whitening Mask is rich in Sakura extract, made of the gentle flower from Japan.
-							</p><div class="bar-findout"> &#9656; Find Out </div>
+							</p><a href="SW-PinkishRadianceIntensiveWhiteningMask.php" class="bar-findout"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -195,7 +195,7 @@ Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance In
 Pinkish Radiance Ultimate Serum</b><p>Super lightweight serum enriched with 5,000 Sakura whitening capsules and Sakura extract to act as an ultra-hydrating booster for your skin.
 
 
-							</p><div class="bar-findout"> &#9656; Find Out </div>
+							</p><a href="SW-PinkishRadianceUltimateSerum.php" class="bar-findout"> &#9656; Find Out </a>
        					</div>
 					</div>
 

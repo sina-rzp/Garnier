@@ -58,10 +58,10 @@ include('_includes/header.php');
 
 												<ul>
 													<li>Up to 3 tones fairer.</li>
-													<li> Fade out acne marks. </li>
-													<li> 8 Hour shine-free look </li>
-													<li> Evens out skin tone. </li>
-													<li> Long-lasting oil control effect. </li>
+													<li>Fades acne marks. </li>
+													<li>8 Hour shine-free look </li>
+													<li>Evens out skin tone. </li>
+													<li>Long-lasting oil control effect. </li>
 												<ul>
 										</p>
 
