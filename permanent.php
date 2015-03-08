@@ -17,7 +17,7 @@ include('_includes/header.php');
 			<div class="row">
 				<div class="col-md-12">
 					<div class="tajuk-besar">
-						<h1>By Skin Type - Permanent</h1>
+						<h1>By Type - Permanent</h1>
 					</div>
 				</div>
 			</div>

@@ -10,14 +10,14 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="#">Hair Colour</a> > Olia
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-hair.php">Hair Colour</a> > Olia
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="tajuk-besar">
-						<h1>By Skin Type - Ammonia Free</h1>
+						<h1>By Hair Color - Ammonia Free</h1>
 					</div>
 				</div>
 			</div>

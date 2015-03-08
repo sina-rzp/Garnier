@@ -149,7 +149,7 @@ include('_includes/header.php');
 	            				<img src="images/men/icy-duo/TurboLightDoubleWhiteIcyDuoFoam.png" class='hold' />
 	        				</div>
 					        <div class="col-xs-6 b">
-					           <b>TurboLight Icy Duo Foam Double White</b><p>Double action. Double Benefits.
+					           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
 								</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
 	       					</div>
 						</div>

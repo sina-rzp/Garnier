@@ -17,7 +17,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="hair-color.php"> Hair Color </a> > Olia  3.0 - Soft Black
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-hair.php"> Hair Color </a> > Olia  3.0 - Soft Black
 				</div>
 
 <!-- Form -->
@@ -53,59 +53,24 @@ include('_includes/header.php');
 										
 										<div class="product-ttl">Olia  3.0 - Soft Black</div><br><br><br>
 										<p class="product-content">
-											A permanent hair dye that boosts the condition of your hair. Unlike traditional hair colourants, Olia uses a 60% oil blend for a velvety texture via our breakthrough technology, the Oil Delivery System (ODS). Hair feels 35% softer, 17% shinier hair and 100% greys coverage, while the natural flower oils propel colour deep into the hair for vivid shades without roughness. Let the power of oil transform your hair dye routine into a luxurious beauty ritual.
-
+											A permanent hair dye that boosts the condition of your hair. Unlike traditional hair colourants, Olia uses a 60% oil blend for a velvety texture via our breakthrough technology, the Oil Delivery System (ODS). Hair feels 35% softer, 17% shinier hair and 100% greys coverage, while the natural flower oils propel colour deep into the hair for vivid shades without roughness. Let the power of oil transform your hair dye routine into a luxurious beauty ritual.<br/>
+											<br>A maximum colour performance:
+											<ul>
+												<li>High fidelity colour</li>
+												<li>Up to 100% grey coverage</li>
+												<li>Hair looks shinier</li>
+												<li>Ammonia-free formula</li>
+												<li>Naturally-derived flower oils (60%)</li>
+												<li>Hair feels softer</li>
+											</ul>
 										</p>
 
 <!-- Link -->
-<div class="row center" style="width:250px; margin-top:20px;">
-											<div class="col-xs-6 center">
-												<a class="bar-findout" data-toggle="modal" data-target="#BuyNow"> &#9656; Buy Now </a>
-											</div>
 
-<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								  <div class="modal-dialog">
-									    <div class="modal-content">
-										      <div class="modal-header">
-										        <h1 class="popup-signin">Get it now!</h1>
-										      </div>
-											      <div class="modal-body">
-											        <div class="col-md-12">
-								
-											        	<div class="row">
-											        		<div class="col-xs-6">
-											        			
-											        			<a href="http://www.watsons.com.my/Product-Categories/c/Product_Categories?q=:masterBrandName:masterBrandName:GARNIER%20MEN&text=#"><img src="images/watsons.jpg"></a>
-											        		</div>
-											        		<div class="col-xs-6">
-											        			<a href="https://online.guardian.com.my/index.php/pbrand/garnier-men.html"><img src="images/guardian.jpg"></a>
-											        			
-											        		</div>
-											        		
-											        	</div>
-											        </div>
-											       
-										      </div>
-									      <div class="modal-footer">
-									      </div>
-									    </div>
-								  </div>
-							</div>
-
-
-											<div class="col-xs-6">
-												<a class="bar-findout" href="pdf/pdf.pdf"> &#9656; Purchase Now </a>
-											</div>
-										</div>
-<!-- End of Link -->
-										<div class="row checkidout">
-											<span class="col-xs-3">
-												<img src="images/bg-product-suits.png">
-											</span>
-											<span class="col-xs-9 check-text">
-												<b>Check if this product suits you</b>
-											</span>
-										</div>
+	<?php
+		include('_includes/hair/buy_purchase-hair.php')
+	?>
+	
 								</div>
 								</div>
 <!-- End of Products Details -->	

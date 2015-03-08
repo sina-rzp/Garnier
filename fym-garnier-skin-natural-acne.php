@@ -112,7 +112,7 @@ A gentle, effective range for acne prone skin.<br>
 	            				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
 	        				</div>
 					        <div class="col-xs-6">
-					           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplifies your skincare regime by delivering 3 benefits & actions in 1 product.
+					           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
 								</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
 	       					</div>
 						</div>
