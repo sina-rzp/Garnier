@@ -43,14 +43,14 @@ if(isset($_SESSION['email'])){
 						    </div>-->
 						   </div></a>
 					    <div class="item">
-						    <a href="olia.php"><img src="images/slide/Garnier-olia-2.png"></a>
+						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive.png"></a>
 					    </div>
 					    <div class="item">
 						    <a href="acno-fight.php"><img src="images/slide/AcnoFight.png"></a>
 					    </div>
 					    
 					    <div class="item">
-						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive.png"></a>
+					    	<a href="olia.php"><img src="images/slide/Garnier-olia-2.png"></a>
 					    </div>
 					  </div>
 					</div>
