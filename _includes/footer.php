@@ -11,8 +11,8 @@
 
 		<div class="row hidden-xs">
 
-			<div class="col-md-4 col-xs-4">
-			 <div class="f-ttl" style="width: 120px;">WEBSITE LINKS</div>
+			<div class="col-md-4 col-xs-4" style="margin-top:16px">
+			 <div class="f-ttl" style="width: 130px;">WEBSITE LINKS</div>
 				<div class="col-xs-7">
 					&#9656; <a href="index.php">Home</a><br>
 					&#9656; <a href="terms-and-conditions.php">Terms and Conditions</a><br>
@@ -25,7 +25,7 @@
 					&#9656; <a href="privacy-policy.php">Privacy Policy</a>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-3">
+			<div class="col-md-3 col-xs-3" style="margin-top:16px">
 			<div class="f-ttl" style="width: 190px;">CHOOSE YOUR COUNTRY</div>
 
 					<div class="btn-group dropup" >
@@ -90,13 +90,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-8">
+					<div class="col-xs-7">
 						<div class="f-ttl" style="width: 160px;">CUSTOMER SERVICES</div>
 						<p class="f-text">We’d love to hear from you! For more information about our company or our products, call us on: <br> 03-77258945
 						</p>
 					</div>
-					<div class="col-xs-4">
-						<div class="f-ttl" style="width: 100px;">GET SOCIAL WITH US</div>
+					<div class="col-xs-5">
+						<div class="f-ttl" style="width: 130px;">GET SOCIAL WITH US</div>
 						Garnier Skin Naturals :
 						<div id="social">
 							<ul>

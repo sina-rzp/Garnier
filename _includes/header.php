@@ -368,7 +368,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="skin-natural-skin-sensitive.php">Sensitive</a></li>
 						                 	<li class="warna"><a href="skin-natural-skin-combination.php">Combination</a></li>
 									  </ul>
-									  <ul class="col-sm-3 list-unstyled menu-item-hide"> 
+									  <ul class="col-sm-3 list-unstyled menu-item-hide" style="width:30%"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-whitening.php"><img src="images/whitening-megamenu.png"></a></li>
 									  </ul>
@@ -402,7 +402,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Oily</a></li>
 						                 	<li class="warna"><a href="gmen-skin-need-sensitive.php">Combination</a></li>
 									  </ul>
-									   <ul class="col-sm-3 list-unstyled menu-item-hide"> 
+									   <ul class="col-sm-3 list-unstyled menu-item-hide" style="width:30%"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-men.php"><img src="images/black-megamenu.png"></a></li>
 									  </ul>
@@ -413,7 +413,7 @@ if(isset($_POST['email_login_header'])){
 <!-- Hair Colour -->
 				       <li class="dropdown">
 				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Color</a>
-					         <ul class="dropdown-menu">
+					         <ul class="dropdown-menu" style="margin-left:-130px">
 					           <li>
 					               <div class="yamm-content">
 					                  <ul class="col-sm-3 list-unstyled dash-right dash-right">
@@ -435,7 +435,7 @@ if(isset($_POST['email_login_header'])){
 						                 	<li class="warna"><a href="red.php">Red</a></li>
 						                 	
 									  </ul>
-									    <ul class="col-sm-3 list-unstyled menu-item-hide"> 
+									    <ul class="col-sm-3 list-unstyled menu-item-hide" style="width:30%"> 
 					                 		<li class="drop-header"><span class="dd"><span>Find Your Match</span></span><br><br></li>
 											<li class=""><a href="fym-garnier-skin-natural-hair.php"><img src="images/hair-megamenu.png"></a></li>
 									  </ul>

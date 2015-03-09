@@ -60,7 +60,7 @@ if(isset($_SESSION['email'])){
 <!-- End of Slideshow -->
 
 <!-- Find Your Match -->
-		<div id="find-match col-md-6 col-xs-6 ">
+		<div id="find-match col-md-6 col-xs-6">
 			
 				<div class="row">
 					<div class="container">
