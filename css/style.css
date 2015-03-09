@@ -829,6 +829,8 @@ margin-bottom: 20px;
 }
 
 .bar-findout{
+	position: absolute;
+	bottom: 10px;
 	background-color: #014432;
 	padding: 6px 5px;
 	margin-top: 10px;
@@ -852,7 +854,8 @@ margin-bottom: 20px;
 }
 
 .a {
-float: left;
+position: absolute;
+bottom: 10px;
 width: 125px;
 padding-right:0 !important; 
 padding-left: 0 !important; 
@@ -860,10 +863,11 @@ padding-left: 0 !important;
 
 .b{
 	position: relative;
+	height: 100%;
 	min-height: 1px;
 	padding-left: 7px;
 	padding-right: 5px;
-	float: left;
+	float: right;
 	width: 50%;
 }
 
