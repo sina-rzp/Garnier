@@ -40,15 +40,24 @@ include('_includes/header.php');
 							<div class="row">
 								<div class="col-md-12">
 <!-- Login Section -->					<form action="//loreal.us9.list-manage.com/subscribe/post?u=f72c17d04926a96f435a910a7&amp;id=4f68b03e1a" method="post" class="login-section form-horizontal" name="mc-embedded-subscribe-form">
+											
 											<div class="form-group">
-    											<label for="inputEmail3" class="col-sm-3 control-label">Email *</label>
+											    <label for="inputPassword3" class="col-sm-3 control-label">Name* </label>
+											    <div class="col-sm-9">
+											      <input type="text" class="form-control" name="FNAME" id="FirstName" placeholder="Enter your details">
+											    </div>
+											</div>
+
+
+											<div class="form-group">
+    											<label for="inputEmail3" class="col-sm-3 control-label">Email*</label>
 											    <div class="col-sm-9">
 											      <input type="email" name="EMAIL" class="form-control" value="<?php if (isset($_POST['email_footer'])) echo $_POST['email_footer']; ?>" id="inputEmail3" placeholder="Enter text ...">
 											    </div>
   											</div>
 											
 											<div class="form-group">
-												<label class="col-sm-3 control-label">Gender</label>
+												<label class="col-sm-3 control-label">Gender*</label>
 											    <div class="col-sm-9">
 
 											    	<label class="radio-inline">
@@ -61,16 +70,9 @@ include('_includes/header.php');
 											</div>
 											
 											<div class="form-group">
-											    <label for="inputPassword3" class="col-sm-3 control-label">Name * </label>
-											    <div class="col-sm-9">
-											      <input type="text" class="form-control" name="FNAME" id="FirstName" placeholder="Enter your details">
-											    </div>
-											</div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label">Language</label>
+												<label class="col-sm-3 control-label">Language*</label>
 												<div class="col-sm-9">
-													<select name="MMERGE4" class="required" id="mce-MMERGE4">
+													<select class="form-control" name="MMERGE4" class="required" id="mce-MMERGE4">
 														<option value="English">English</option>
 														<option value="Bahasa Malaysia">Bahasa Malaysia</option>
 													</select>

@@ -1381,3 +1381,7 @@ margin-top: -25px;
 .recommended{
 	padding: 20px;
 }
+
+.form-horizontal .control-label{
+	font-size: 14px;
+}
