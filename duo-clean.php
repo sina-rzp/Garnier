@@ -67,7 +67,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that removes oil and whitens skin.
-							</p><a class="bar-findout" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -78,7 +78,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Duo Clean Whitening and Pore Minimizing Foam</b><p>Foam cleanser that minimizes pores and whitens skin.
-							</p><a class="bar-findout" href="DC-WhiteningandPoreMinimizingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="DC-WhiteningandPoreMinimizingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

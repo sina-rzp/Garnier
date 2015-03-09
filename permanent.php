@@ -60,7 +60,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 1.0 Darkest Black</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-Darkest Black.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-Darkest Black.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -71,7 +71,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Olia  3.0 - Soft Black</b><p>The first oil powered Ammonia free hair colour
-							</p><a class="bar-findout" href="HC-olia-SoftBlack.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-SoftBlack.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product  1">
@@ -81,7 +81,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia  4.0 - Dark Brown</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-DarkBrown.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-DarkBrown.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -93,7 +93,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia  4.15 - Iced Chocolate</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-IcedChocolate.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-IcedChocolate.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -105,7 +105,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia  4.3- Golden Dark Brown</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-GoldenDarkBrown.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-GoldenDarkBrown.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -118,7 +118,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia  5.5 - Mahogany Brown</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-MahoganyBrown.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-MahoganyBrown.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -129,7 +129,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 5.25 - Frosty Chestnut</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-FrostyChestnut.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-FrostyChestnut.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -142,7 +142,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 6.0 - Light Brown</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-LightBrown.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-LightBrown.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -153,7 +153,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 6.60 - Intense Red</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-66.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-66.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -166,7 +166,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 1 - Hitam Alami</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-HitamAlami.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-HitamAlami.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -178,7 +178,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals
 3.0 - Coklat Gelap</b><p>Get nourished, natural-looking, long-lasting colour
-							</p><a class="bar-findout" href="HC-Coklat Gelap.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-Coklat Gelap.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product  1">
@@ -188,7 +188,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals 3.16 - Merah Burgundy</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -201,7 +201,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 4.0 - Coklat</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-Coklat.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-Coklat.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -213,7 +213,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 5.0 - Coklat Terang</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-CoklatTerang.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-CoklatTerang.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

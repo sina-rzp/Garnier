@@ -67,7 +67,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Intensive Whitening Foam</b><p>Facial foam that completely cleanses and brightens skin.
-							</p><a class="bar-findout" href="GM-TurboLightIntensiveWhiteningFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightIntensiveWhiteningFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -78,7 +78,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Whitening Scrub</b><p>Scrub cleanser that cleanses, exfoliates and brightens skin
-							</p><a class="bar-findout" href="GM-TurboLightWhitening Scrub.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightWhitening Scrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product  1">
@@ -87,7 +87,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Anti-Spot Whitening Moisturiser SPF16</b><p>Brighten your skin and protect it from UV rays.
-							</p><a class="bar-findout" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -97,7 +97,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Grease Control Brightening Cooling Foam</b><p>An oil trapping mud texture with a cooling after feel.
-							</p><a class="bar-findout" href="GM-GreaseControlBrighteningCoolingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-GreaseControlBrighteningCoolingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -108,7 +108,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Anti-Blackheads Brightening Icy Scrub</b><p>A pore unclogging scrub with micro-beads for a cool, brightening result.
-							</p><a class="bar-findout" href="GM-Anti-BlackheadsBrighteningIcyScrub.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-Anti-BlackheadsBrighteningIcyScrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product  1">
@@ -117,7 +117,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Oil Control Charcoal Foam</b><p>Eliminate dirt and excess oil instantly!
-							</p><a class="bar-findout" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -128,7 +128,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>All-in-1 Brightening Moisturiser </b><p>All day bright and oil free look.
-							</p><a class="bar-findout" href="GM-All-in-1BrighteningMoisturiser.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-All-in-1BrighteningMoisturiser.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -138,7 +138,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
-							</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -149,7 +149,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Icy Duo Foam White + Oil Control</b><p>Foam cleanser for fairer skin and pore minimizing.
-							</p><a class="bar-findout" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 				

@@ -54,15 +54,7 @@ include('_includes/header.php');
 <!-- Products Listed -->
 
 			<div class="row">
-					
-
-
-			
-
-			
-
 				
-
 					<div class="col-xs-4 tolak-product  1">
 						<div class=" a">
             				<img src="images/haircolor/Olia66.png" class='hold' />
@@ -70,14 +62,10 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 6.60 - Intense Red</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-66.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-66.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
-
-			
-
-				
 					<div class="col-xs-4 tolak-product  1">
 						<div class=" a">
             				<img src="images/haircolor/ColorNaturals3.16-MerahBurgundy.png" class='hold' />
@@ -85,11 +73,10 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals 3.16 - Merah Burgundy</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 	
-
 			</div>
 
 			</div>

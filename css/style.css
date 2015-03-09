@@ -828,9 +828,12 @@ margin-bottom: 20px;
 	text-align: right;
 }
 
-.bar-findout{
+.bar-align{
 	position: absolute;
 	bottom: 10px;
+}
+
+.bar-findout{
 	background-color: #014432;
 	padding: 6px 5px;
 	margin-top: 10px;

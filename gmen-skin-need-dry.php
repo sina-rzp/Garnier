@@ -67,7 +67,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Anti-Spot Whitening Moisturiser SPF16</b><p>Brighten your skin and protect it from UV rays.
-							</p><a class="bar-findout" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -77,7 +77,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
-							</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 				

@@ -65,7 +65,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
-							</p><a class="bar-findout" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 				</div>
 
@@ -75,7 +75,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete White Speed Multi-Action Brightening Scrub</b><p>Facial scrub that cleanses and gently exfoliates to lift off skin dullness.
-							</p><a class="bar-findout" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -85,7 +85,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening Cream Extra UV Protection SPF20</b><p>3X FASTER. Complete Fairness in just 10 days!
-							</p><a class="bar-findout" href="LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -96,7 +96,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening Cream Night Restore</b><p>Radiant-looking skin in just 1 night!
-							</p><a class="bar-findout" href="LC-MultiActionWhiteningCreamNightRestore.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamNightRestore.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -106,7 +106,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Lightening Peel Off Mask</b><p>A whitening peel-off mask that reveals brighter skin.
-							</p><a class="bar-findout" href="LC-LighteningPeelOffMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-LighteningPeelOffMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -116,7 +116,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening 3 in 1 Essence Mask</b><p>A facial mask that instantly brightens and hydrates skin.
-							</p><a class="bar-findout" href="LC-Multi-ActionWhitening3in1EssenceMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-Multi-ActionWhitening3in1EssenceMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -126,9 +126,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
-							</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active3in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -137,9 +137,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactive6in1multifoam.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 6 in 1 Multi-Action Foam</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection foam wash.
-							</p><a class="bar-findout" href="PA-active6in1.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active6in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -147,9 +147,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
-							</p><a class="bar-findout" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -159,9 +159,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactive6in1multiactiontoner.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
-							</p><a class="bar-findout" href="PA-6in1Multi-ActionToner.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-6in1Multi-ActionToner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					
@@ -170,9 +170,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactivefruitenegy.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active Fruit Energy Energizing Facial Foam</b></p>Refreshing cleanser for fairer and acne free skin.
-							</p><a class="bar-findout" href="PA-FruitEnergyEnergizingFacialFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-FruitEnergyEnergizingFacialFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 			

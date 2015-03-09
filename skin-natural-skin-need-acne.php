@@ -64,9 +64,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactive3in1.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 3 in 1 Wash, Scrub & Mask</b></p>Simplify your skincare regime by delivering 3 benefits & actions in 1 product.
-							</p><a class="bar-findout" href="PA-active3in1.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active3in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -74,9 +74,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactive6in1multifoam.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 6 in 1 Multi-Action Foam</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection foam wash.
-							</p><a class="bar-findout" href="PA-active6in1.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active6in1.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -84,9 +84,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active 6 in 1 Multi-Action Toner</b></p>Transform your skin to be free from the 6 signs of acne and oil.
-							</p><a class="bar-findout" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-active6in1-toner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -94,9 +94,9 @@ include('_includes/header.php');
 						<div class=" a">
             				<img src="images/skin-natural/pureactivefruitenegy.png" class='hold' />
         				</div>
-				        <div class="col-xs-6">
+				        <div class="col-xs-6 b">
 				           <b>Pure Active Fruit Energy Energizing Facial Foam</b></p>Refreshing cleanser for fairer and acne free skin.
-							</p><a class="bar-findout" href="PA-FruitEnergyEnergizingFacialFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="PA-FruitEnergyEnergizingFacialFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

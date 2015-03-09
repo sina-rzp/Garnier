@@ -66,7 +66,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Gentle Cleansing Foam</b><p>A gentle foam cleanser that reveals fresh and pinkish radiant skin. 
-							</p><a class="bar-findout" href="SW-PinkishRadianceGentleCleansingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceGentleCleansingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -77,7 +77,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Moisturising Cream SPF21</b><p>Blossom with up to 60% pinkish radiance in 4 weeks.
-							</p><a class="bar-findout" href="SW-PinkishRadianceMoisturizingCreamSPF21.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceMoisturizingCreamSPF21.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-md-4 col-sm-6 tolak-product showimg nor sen 1">
@@ -86,7 +86,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Sleeping Essence</b><p>Awaken to bouncier skin with a pinkish glow. Restored in just 1 night!
-							</p><a class="bar-findout" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -97,7 +97,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Intensive Whitening Mask</b><p>Pinkish radiant-looking skin intensively moisturized and nourished.
-							</p><a class="bar-findout" href="SW-PinkishRadianceIntensiveWhiteningMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceIntensiveWhiteningMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -110,7 +110,7 @@ Pinkish Radiance Intensive Whitening Mask</b><p>Pinkish radiant-looking skin int
 Pinkish Radiance Ultimate Serum</b><p>Reveal the 5 dimensions of beautiful skin with a pinkish glow. Boost skin's inner glow to its fullest with 5000 whitening capsules.
 
 
-							</p><a class="bar-findout" href="SW-PinkishRadianceUltimateSerum.php" > &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceUltimateSerum.php" > &#9656; Find Out </a>
        					</div>
 					</div>
 

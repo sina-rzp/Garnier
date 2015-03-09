@@ -66,7 +66,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
-							</p><a class="bar-findout" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 				</div>
 
@@ -76,7 +76,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete White Speed Multi-Action Brightening Scrub</b><p>Facial scrub that cleanses and gently exfoliates to lift off skin dullness.
-							</p><a class="bar-findout" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -86,7 +86,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Milky Lightening Dew Toner</b><p>A refreshing milky toner that helps to brighten skin.
-							</p><a class="bar-findout" href="LC-MilkyLighteningDewToner.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MilkyLighteningDewToner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -96,7 +96,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening Cream Extra UV Protection SPF20</b><p>3X FASTER. Complete Fairness in just 10 days!
-							</p><a class="bar-findout" href="LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -107,7 +107,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening Cream Night Restore</b><p>Radiant-looking skin in just 1 night!
-							</p><a class="bar-findout" href="LC-MultiActionWhiteningCreamNightRestore.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamNightRestore.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -118,7 +118,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Multi-Action Whitening Cream
 8 Hours Shine-Free</b><p>Fairer skin with up to 8 hours shine-free!
-							</p><a class="bar-findout" href="LC-LightCompleteWhiteSpeedMultiActionWhiteningCream8HoursShine-Free.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-LightCompleteWhiteSpeedMultiActionWhiteningCream8HoursShine-Free.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -128,7 +128,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Lightening Peel Off Mask</b><p>A whitening peel-off mask that reveals brighter skin.
-							</p><a class="bar-findout" href="LC-LighteningPeelOffMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-LighteningPeelOffMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -138,7 +138,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Light Complete Multi-Action Whitening 3 in 1 Essence Mask</b><p>A facial mask that instantly brightens and hydrates skin.
-							</p><a class="bar-findout" href="LC-Multi-ActionWhitening3in1EssenceMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="LC-Multi-ActionWhitening3in1EssenceMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -149,7 +149,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Gentle Cleansing Foam</b><p>Gentle foam cleanser that gives pinkish radiance skin. 
-							</p><a class="bar-findout" href="SW-PinkishRadianceGentleCleansingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceGentleCleansingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -160,7 +160,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Moisturizing SPF/PA++</b><p>Whitening cream enriched with Sakura extract, for pinkish radiance skin.
-							</p><a class="bar-findout" href="SW-PinkishRadianceMoisturizingCreamSPF21.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceMoisturizingCreamSPF21.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -171,7 +171,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Sleeping Essence (Night)</b><p>Night cream enriched with 2x Sakura extract, giving you fairer and smoother skin.
-							</p><a class="bar-findout" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -182,7 +182,7 @@ Pinkish Radiance Sleeping Essence (Night)</b><p>Night cream enriched with 2x Sak
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance Intensive Whitening Mask is rich in Sakura extract, made of the gentle flower from Japan.
-							</p><a href="SW-PinkishRadianceIntensiveWhiteningMask.php" class="bar-findout"> &#9656; Find Out </a>
+							</p><a href="SW-PinkishRadianceIntensiveWhiteningMask.php" class="bar-findout bar-align"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -195,7 +195,7 @@ Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance In
 Pinkish Radiance Ultimate Serum</b><p>Super lightweight serum enriched with 5,000 Sakura whitening capsules and Sakura extract to act as an ultra-hydrating booster for your skin.
 
 
-							</p><a href="SW-PinkishRadianceUltimateSerum.php" class="bar-findout"> &#9656; Find Out </a>
+							</p><a href="SW-PinkishRadianceUltimateSerum.php" class="bar-findout bar-align"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -205,7 +205,7 @@ Pinkish Radiance Ultimate Serum</b><p>Super lightweight serum enriched with 5,00
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that removes oil and whitens skin.
-							</p><a class="bar-findout" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -216,7 +216,7 @@ Pinkish Radiance Ultimate Serum</b><p>Super lightweight serum enriched with 5,00
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Duo Clean Whitening and Pore Minimizing Foam</b><p>Foam cleanser that minimizes pores and whitens skin.
-							</p><a class="bar-findout" href="DC-WhiteningandPoreMinimizingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="DC-WhiteningandPoreMinimizingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

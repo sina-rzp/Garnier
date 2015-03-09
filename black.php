@@ -60,7 +60,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Olia 1.0 Darkest Black</b><p>The first oil powered Ammonia free hair colour
 
-							</p><a class="bar-findout" href="HC-olia-Darkest Black.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-Darkest Black.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -71,7 +71,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Olia  3.0 - Soft Black</b><p>The first oil powered Ammonia free hair colour
-							</p><a class="bar-findout" href="HC-olia-SoftBlack.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-olia-SoftBlack.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 				
@@ -87,7 +87,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 1 - Hitam Alami</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-HitamAlami.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-HitamAlami.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

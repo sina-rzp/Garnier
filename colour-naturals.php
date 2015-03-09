@@ -61,7 +61,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 1 - Hitam Alami</b><p>Get nourished, natural-looking, long-lasting color.
 
-							</p><a class="bar-findout" href="HC-HitamAlami.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-HitamAlami.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -73,7 +73,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals
 3 - Coklat Gelap</b><p>Get nourished, natural-looking, long-lasting colour.
-							</p><a class="bar-findout" href="HC-Coklat Gelap.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-Coklat Gelap.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product showimg per amm red 1">
@@ -83,7 +83,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals 3.16 - Merah Burgundy</b><p>Get nourished, natural-looking, long-lasting colour
 
-							</p><a class="bar-findout" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-MerahBurgundy.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -96,7 +96,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 4 - Coklat</b><p>Get nourished, natural-looking, long-lasting colour.
 
-							</p><a class="bar-findout" href="HC-Coklat.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-Coklat.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -108,7 +108,7 @@ include('_includes/header.php');
 				           <b>Color Naturals
 5 - Coklat Terang</b><p>Get nourished, natural-looking, long-lasting colour.
 
-							</p><a class="bar-findout" href="HC-CoklatTerang.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="HC-CoklatTerang.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

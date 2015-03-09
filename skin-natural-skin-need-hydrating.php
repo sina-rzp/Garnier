@@ -73,7 +73,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Aqua Defense Moisturizing Cleansing Foam</b><p>Hydrates for the whole day while protecting your skin from the challenging environment.
-							</p><a class="bar-findout" href="AD-AquaDefenseMoisturizingCleansingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="AD-AquaDefenseMoisturizingCleansingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -91,7 +91,7 @@ include('_includes/header.php');
 				           <b>Aqua Defense Non-Stop Intensive Hydrating Essence</b><p>This moisturizing essence instantly hydrates your skin, leaving you feeling refreshed.
 
 
-							</p><a class="bar-findout" href="AD-Non-StopIntensiveHydratingEssence.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="AD-Non-StopIntensiveHydratingEssence.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -103,7 +103,7 @@ include('_includes/header.php');
 				           <b>Aqua Defense Hydrating Glowing Essence 2nd Skin Mask</b><p>Achieve plump and radiant skin with this intensive tissue mask specifically formulated for 
 
 dehydrated skin.
-							</p><a class="bar-findout" href="AD-HydratingGlowingEssence2ndSkinMask.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="AD-HydratingGlowingEssence2ndSkinMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

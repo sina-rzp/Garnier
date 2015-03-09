@@ -66,7 +66,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Intensive Brightening Foam</b><p>Facial foam that completely cleanses and brightens skin.
-							</p><a class="bar-findout" href="GM-TurboLightIntensiveWhiteningFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightIntensiveWhiteningFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -77,7 +77,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Dark-Cell Remover Scrub</b><p>Scrub cleanser that cleanses, exfoliates and brightens skin
-							</p><a class="bar-findout" href="GM-TurboLightWhitening Scrub.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightWhitening Scrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product showimg whit 1">
@@ -86,7 +86,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Anti-Spot Whitening Moisturiser SPF16</b><p>Brighten your skin and protect it from UV rays.
-							</p><a class="bar-findout" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightAnti-SpotWhiteningMoisturiserSPF16.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 

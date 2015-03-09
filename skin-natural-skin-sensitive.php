@@ -66,7 +66,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Gentle Cleansing Foam</b><p>Gentle foam cleanser that gives pinkish radiance skin. 
-							</p><div class="bar-findout"> &#9656; Find Out </div>
+							</p><div class="bar-findout bar-align"> &#9656; Find Out </div>
        					</div>
 					</div>
 
@@ -77,7 +77,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Sakura White Pinkish Radiance Moisturizing SPF/PA++</b><p>Whitening cream enriched with Sakura extract, for pinkish radiance skin.
-							</p><div class="bar-findout"> &#9656; Find Out </div>
+							</p><div class="bar-findout bar-align"> &#9656; Find Out </div>
        					</div>
 					</div>
 					<div class="col-xs-4 tolak-product  1">
@@ -87,7 +87,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Sleeping Essence (Night)</b><p>Night cream enriched with 2x Sakura extract, giving you fairer and smoother skin.
-							</p><a class="bar-findout" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceSleepingEssence.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -98,7 +98,7 @@ Pinkish Radiance Sleeping Essence (Night)</b><p>Night cream enriched with 2x Sak
 				        <div class="col-xs-6 b">
 				           <b>Sakura White
 Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance Intensive Whitening Mask is rich in Sakura extract, made of the gentle flower from Japan.
-							</p><div class="bar-findout"> &#9656; Find Out </div>
+							</p><div class="bar-findout bar-align"> &#9656; Find Out </div>
        					</div>
 					</div>
 
@@ -111,7 +111,7 @@ Pinkish Radiance Intensive Whitening Mask</b><p>Sakura White Pinkish Radiance In
 Pinkish Radiance Ultimate Serum</b><p>Reveal the 5 dimensions of beautiful skin with a pinkish glow. Boost skin's inner glow to its fullest with 5000 whitening capsules.
 
 
-							</p><a class="bar-findout" href="SW-PinkishRadianceUltimateSerum.php" > &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceUltimateSerum.php" > &#9656; Find Out </a>
        					</div>
 					</div>
 

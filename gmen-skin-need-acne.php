@@ -68,7 +68,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Grease Control Brightening Cooling Foam</b><p>An oil trapping mud texture with a cooling after feel.
-							</p><a class="bar-findout" href="GM-GreaseControlBrighteningCoolingFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-GreaseControlBrighteningCoolingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -79,7 +79,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>TurboLight Oil Control Charcoal Foam</b><p>Eliminate dirt and excess oil instantly!
-							</p><a class="bar-findout" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -89,7 +89,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
-							</p><a class="bar-findout" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -100,7 +100,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Icy Duo Foam White + Oil Control</b><p>Foam cleanser for fairer skin and pore minimizing.
-							</p><a class="bar-findout" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -111,7 +111,7 @@ include('_includes/header.php');
 				        <div class="col-xs-6 b">
 				           <b>AcnoFight
 6-in-1 Anti-Acne Foam</b><p>Combat 6 signs of acne day after day.
-							</p><a class="bar-findout" href="GM-6-in-1Anti-AcneFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-6-in-1Anti-AcneFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -123,7 +123,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>AcnoFight Anti- Imperfections Cooling Toner</b><p>Toner for men to fight 6 signs of acne with a cool, icy finish.
-							</p><a class="bar-findout" href="GM-AcnoFightAnti-ImperfectionsCoolingToner.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-AcnoFightAnti-ImperfectionsCoolingToner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -134,7 +134,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>AcnoFight Wasabi Foam</b><p>Instantly brightens and helps acne prevention
-							</p><a class="bar-findout" href="GM-AcnoFightWasabiFoam.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-AcnoFightWasabiFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -144,7 +144,7 @@ include('_includes/header.php');
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>AcnoFight Acne Fighting Whitening Serum</b><p>The 1st mattifying serum that fights pimples and skin dullness with 12 powerful benefits.
-							</p><a class="bar-findout" href="GM-AcnoFightWasabiAcneFightingWhiteningSerum.php"> &#9656; Find Out </a>
+							</p><a class="bar-findout bar-align" href="GM-AcnoFightWasabiAcneFightingWhiteningSerum.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 				
