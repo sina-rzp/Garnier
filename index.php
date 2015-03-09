@@ -37,7 +37,7 @@ if(isset($_SESSION['email'])){
 						    <a href="light-complete.php"><img src="images/slide/Light-Complete-White-Speed.png"></a>
 					    </div>
 					    <div class="item">
-						    <a href="sakura-white.php"><img src="images/slide/Garnier-SW.png">
+						    <a href="sakura-white.php"><img src="images/slide/Garnier-sakura-whites.png">
 						    <!--<div class="carousel-caption"><span class="pink-pureactive">Pure Active Fruit Energy</span><br>
 						    	<span style="color:#00a1e0; font-weight: bold;">Foam wash that fights acne and brightens skin </span>
 						    </div>-->
@@ -50,7 +50,7 @@ if(isset($_SESSION['email'])){
 					    </div>
 					    
 					    <div class="item">
-						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive-Slide-Big.png"></a>
+						    <a href="pure-active.php"><img src="images/slide/Garnier-PureActive.png"></a>
 					    </div>
 					  </div>
 					</div>
