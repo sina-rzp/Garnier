@@ -43,11 +43,11 @@
 	      "url": "LC-MultiActionWhiteningCreamNightRestore.php"
 	    },
 
-	    "LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20": {
-	      "name": "Light Complete White SpeedTM Multi-Action Whitening Serum Cream SPF20/PA+++",
-	      "image": "fym/Light Complete White SpeedTM Multi-Action Whitening Serum CreamSPF20-PA.png",
-	      "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
-	    },
+	    // "LCMULTIACTIONWHITENINGCREAMEXTRAUVPROTECTIONSP20": {
+	    //   "name": "Light Complete White SpeedTM Multi-Action Whitening Serum Cream SPF20/PA+++",
+	    //   "image": "fym/Light Complete White SpeedTM Multi-Action Whitening Serum CreamSPF20-PA.png",
+	    //   "url": "LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"
+	    // },
 
 	    "DCWHITENINGANDOILCONTROLFOAM": {
 	      "name": "Duo Clean Whitening and Oil Control Foam",
