@@ -43,7 +43,7 @@ if(isset($_SESSION['email'])){
 						    </div>-->
 						   </div></a>
 					    <div class="item">
-					    	<a href="sakura-white.php"><img src="images/slide/Garnier-sakura-whites.png">
+					    	<a href="sakura-white.php"><img src="images/slide/Garnier-SW-new.png">
 					    </div>
 					    <div class="item">
 						    <a href="pure-active.php"><img src="images/slide/TurboLight-Icy-Duo.png"></a>
