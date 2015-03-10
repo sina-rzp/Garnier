@@ -14,9 +14,8 @@
                             </div>
                              <div class="col-sm-2"><a href="SW-PinkishRadianceUltimateSerum.php"><img src="images/skin-natural/light-complete/SakuraWhitePinkishRadianceUltimateSerum.png" alt="Image" class="img-responsive"></a>
                             </div>
-                           
-                            
-                          
+                            <div class="col-sm-2"><a href="SW-PinkishRadianceRadianceWhiteningCream.php"><img src="images/skin-natural/sakura-white/SakuraWhiteMatte.png" alt="Image" class="img-responsive"></a>
+                            </div>
                         </div>
                         
                     </div>

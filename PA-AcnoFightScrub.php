@@ -17,7 +17,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php"> Garnier Men </a> > TurboLight Icy Duo Foam White + Oil Control
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="pure-active.php">Pure Active</a> > Pure Active 3 in 1 Wash, Scrub & Mask
 					</div>
 				</div>
 
@@ -37,7 +37,7 @@ include('_includes/header.php');
 									</div>
 									<div class="col-md-3">
 										<div class="products-img">
-											<img src="images/men/icy-duo/TurboLight White+OilControlIcyDuoFoam.png">
+											<img src="images/skin-natural/acnofightscrub-b.png">
 										</div>
 									</div>
 									<div class="col-md-6 product-box">
@@ -52,15 +52,14 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">TurboLight Icy Duo Foam White + Oil Control</div>
+										<div class="product-ttl">Pure Active 6 in 1 Multi-Action Scrub</div>
 										<p class="product-content">
-											Garnier Men's 1st duo foam with deep cleansing power of Icy Mineralite Complex and White Clay. It instantly traps dirt, pollution and oil, deeply cleaning and purifying pores thoroughly. Skin appears visibly fairer, with less visible pores in just 1 wash!
+											<p>Facial scrub with purifying salicylic acid and HerbaRepair that helps fight 6 sign of acne - oil, acne, blackheads, pores, redness and marks.</p>
 										</p>
 <!-- Link -->
-		<?php
-			include('_includes/men/buy_purchase-men.php')
-		?>
-
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-acne.php')
+	?>
 
 								</div>
 								</div>
@@ -82,7 +81,7 @@ include('_includes/header.php');
 					<div class="suggest-box">
 						<div class="container">
    <?php
-include('_includes/icy.php');
+include('_includes/pa.php');
 ?>
 </div>
 					</div>
@@ -104,3 +103,6 @@ include('_includes/icy.php');
 <?php
 include('_includes/footer.php');
 ?>
+
+
+

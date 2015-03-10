@@ -68,7 +68,7 @@ include('_includes/header.php');
 
 					<div class="col-xs-4 tolak-product showimg per amm bro 2">
 						<div class=" a">
-            				<img src="images/haircolor/ColorNaturals3.0-CoklatGelap.png" class='hold' />
+            				<img src="images/haircolor/colornaturalDarkBrownM.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
 				           <b>Color Naturals

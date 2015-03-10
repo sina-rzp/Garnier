@@ -17,7 +17,8 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php"> Garnier Men </a> > TurboLight Icy Duo Foam White + Oil Control
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="sakura-white.php">Sakura White</a> > Sakura White
+Pinkish Radiance Sleeping Essence 
 					</div>
 				</div>
 
@@ -37,7 +38,7 @@ include('_includes/header.php');
 									</div>
 									<div class="col-md-3">
 										<div class="products-img">
-											<img src="images/men/icy-duo/TurboLight White+OilControlIcyDuoFoam.png">
+											<img src="images/skin-natural/sakura-white/sw-pinkishradiancecream-b.png">
 										</div>
 									</div>
 									<div class="col-md-6 product-box">
@@ -52,16 +53,16 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">TurboLight Icy Duo Foam White + Oil Control</div>
+										<div class="product-ttl">Sakura White Matte Pinkish Radiance Whitening Cream</div>
 										<p class="product-content">
-											Garnier Men's 1st duo foam with deep cleansing power of Icy Mineralite Complex and White Clay. It instantly traps dirt, pollution and oil, deeply cleaning and purifying pores thoroughly. Skin appears visibly fairer, with less visible pores in just 1 wash!
+											A delicate pinkish whitening cream with a blend of Sakura Extract, Vitamin B3  and Vitamin CG nourishes skin and helps lighten skin tone and dark spots. Skin is instantly pinkish radiant with a freshly-powdered finish look. Skin feels soft and pores are visibly smaller.
 										</p>
+
 <!-- Link -->
-		<?php
-			include('_includes/men/buy_purchase-men.php')
-		?>
-
-
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>
+	
 								</div>
 								</div>
 <!-- End of Products Details -->	
@@ -81,8 +82,8 @@ include('_includes/header.php');
 					</center>
 					<div class="suggest-box">
 						<div class="container">
-   <?php
-include('_includes/icy.php');
+     <?php
+include('_includes/sw.php');
 ?>
 </div>
 					</div>
@@ -104,3 +105,6 @@ include('_includes/icy.php');
 <?php
 include('_includes/footer.php');
 ?>
+
+
+

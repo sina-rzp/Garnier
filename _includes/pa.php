@@ -16,7 +16,8 @@
                             </div>
                             <div class="col-sm-2"><a href="PA-FruitEnergyEnergizingFacialFoam.php"><img src="images/skin-natural/light-complete/Pureactivefruitenegy.png" alt="Image" class="img-responsive"></a>
                             </div>
-                            
+                            <div class="col-sm-2"><a href="PA-AcnoFightScrub.php"><img src="images/skin-natural/acnofightscrub-s.png" alt="Image" class="img-responsive"></a>
+                            </div>
                            
                             
                           

@@ -102,6 +102,16 @@ include('_includes/header.php');
        					</div>
 					</div>
 					
+					
+					<div class="col-xs-4 tolak-product showimg acne com oil 1">
+						<div class=" a">
+            				<img src="images/skin-natural/acnofightscrub-m.png" class='hold' />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Pure Active 6 in 1 Multi-Action Scrub</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection scrub wash.
+							</p><a class="bar-findout bar-align" href="PA-AcnoFightScrub.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
 			</div>
 
 			</div>

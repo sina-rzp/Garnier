@@ -17,7 +17,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php"> Garnier Men </a> > TurboLight Icy Duo Foam White + Oil Control
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="light-complete.php">Light Complete </a> > Light Complete White Speed Multi-Action Brightening Foam
 					</div>
 				</div>
 
@@ -37,7 +37,7 @@ include('_includes/header.php');
 									</div>
 									<div class="col-md-3">
 										<div class="products-img">
-											<img src="images/men/icy-duo/TurboLight White+OilControlIcyDuoFoam.png">
+											<img src="images/skin-natural/bbmicracleskin-b.png">
 										</div>
 									</div>
 									<div class="col-md-6 product-box">
@@ -52,14 +52,23 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">TurboLight Icy Duo Foam White + Oil Control</div>
+										<div class="product-ttl">BB Miracle Skin Perfector All-in-1 Perfecting Cream Water Fresh SPF21/PA++</div>
 										<p class="product-content">
-											Garnier Men's 1st duo foam with deep cleansing power of Icy Mineralite Complex and White Clay. It instantly traps dirt, pollution and oil, deeply cleaning and purifying pores thoroughly. Skin appears visibly fairer, with less visible pores in just 1 wash!
+											<p>Enriched with brightening Pure Lemon Essence, a powerful skin exfoliator, it helps boost skin radiance, SPF21/PA++ formula helps protect skin from daily UVA and UVB rays. Mineral Pigments help cover skin imperfections with natural effect and long lasting wear. Witness the miracle of visible perfect skin instantly. </p>
+											<ul>
+												<li>Brightens and evens skin tone.</li>
+												<li>Lighten dark spots and acne marks</li>
+												<li>24H hydration</li>
+												<li>Mattifies skin and absorbs excess oil, giving a powdery finish</li>
+												<li>Less visible pores</li>
+											</ul>
+											<p>Water Fresh Gel technology: Super lightweight texture, rapidly absorbs into skin, easy to spread and blends onto skin evenly. It doesn't clog pores, makes skin feel fresh, non-oily and is suitable for oily/acne prone skin.</p>
 										</p>
-<!-- Link -->
-		<?php
-			include('_includes/men/buy_purchase-men.php')
-		?>
+
+<!-- Link  -->
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>
 
 
 								</div>
@@ -81,10 +90,9 @@ include('_includes/header.php');
 					</center>
 					<div class="suggest-box">
 						<div class="container">
-   <?php
-include('_includes/icy.php');
-?>
-</div>
+     <?php
+include('_includes/bb.php');
+?></div>
 					</div>
 				</div>
 			</div>
@@ -104,3 +112,6 @@ include('_includes/icy.php');
 <?php
 include('_includes/footer.php');
 ?>
+
+
+

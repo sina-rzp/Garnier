@@ -17,7 +17,7 @@ include('_includes/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="fym-garnier-skin-natural-men.php"> Garnier Men </a> > TurboLight Icy Duo Foam White + Oil Control
+					<div class="breadcrumb"> <a href="index.php">Home</a> > <a href="light-complete.php">Light Complete </a> > Light Complete White Speed Multi-Action Brightening Foam
 					</div>
 				</div>
 
@@ -37,7 +37,7 @@ include('_includes/header.php');
 									</div>
 									<div class="col-md-3">
 										<div class="products-img">
-											<img src="images/men/icy-duo/TurboLight White+OilControlIcyDuoFoam.png">
+											<img src="images/skin-natural/light-complete/lcwhiteningpowder-b.png">
 										</div>
 									</div>
 									<div class="col-md-6 product-box">
@@ -52,14 +52,22 @@ include('_includes/header.php');
 											</span><br>
 										</div>
 										
-										<div class="product-ttl">TurboLight Icy Duo Foam White + Oil Control</div>
+										<div class="product-ttl">Light Complete Visible Whitening Face Powder SPF18</div>
 										<p class="product-content">
-											Garnier Men's 1st duo foam with deep cleansing power of Icy Mineralite Complex and White Clay. It instantly traps dirt, pollution and oil, deeply cleaning and purifying pores thoroughly. Skin appears visibly fairer, with less visible pores in just 1 wash!
+											<p>A face powder that provides whitening effects and 6 hours shine-free look in an ultra-light texture. Its formula combines:</p>
+											<ul>
+												<li>Micronized powder technology for an instant flawless coverage.</li>
+												<li>Vitamin C to help prevent melanin production.</li>
+												<li>Strong UV protection SPF18 to prevent skin from further darkening and dark spots appearance.</li>
+												<li>Oil-free texture that absorbs excess oil up to 6 hours.</li>
+												<li>Fragrance-free/Non-comedogenic/non-drying.</li>
+											</ul>
 										</p>
-<!-- Link -->
-		<?php
-			include('_includes/men/buy_purchase-men.php')
-		?>
+
+<!-- Link  -->
+	<?php
+		include('_includes/skin-naturals/buy_purchase-skin_naturals-whitening.php')
+	?>
 
 
 								</div>
@@ -82,8 +90,10 @@ include('_includes/header.php');
 					<div class="suggest-box">
 						<div class="container">
    <?php
-include('_includes/icy.php');
+include('_includes/gsn.php');
 ?>
+
+
 </div>
 					</div>
 				</div>
@@ -104,3 +114,6 @@ include('_includes/icy.php');
 <?php
 include('_includes/footer.php');
 ?>
+
+
+

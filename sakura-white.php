@@ -114,9 +114,17 @@ Pinkish Radiance Ultimate Serum</b><p>Reveal the 5 dimensions of beautiful skin 
        					</div>
 					</div>
 
-				
+					<div class="col-md-4 col-sm-6 tolak-product showimg sen 1">
+						<div class=" a">
+            				<img src="images/skin-natural/sakura-white/sw-pinkishradiancecream-m.png" class='hold' />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Sakura White Matte Pinkish Radiance Whitening Cream</b><p>Pinkish radiant-looking skin with a freshly-powdered finish.
 
-				
+
+							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceRadianceWhiteningCream.php" > &#9656; Find Out </a>
+       					</div>
+					</div>
 
 			</div>
 

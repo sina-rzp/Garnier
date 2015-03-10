@@ -61,6 +61,7 @@ if(!isset($_SESSION['email'])){
 	                   <li class="warna"><a href="duo-clean.php">Duo Clean</a></li>
 	                  <li class="warna"><a href="pure-active.php">Pure Active</a></li>
 	                  <li class="warna"><a href="aqua-defense.php">Aqua Defense</a></li>
+	                  <li class="warna"><a href="bb-cream.php">BB Cream</a></li>
 	              
 				  </ul>
 				  <ul class=""> 
@@ -117,7 +118,7 @@ if(!isset($_SESSION['email'])){
 	     </ul>
 
 
-	    <a href="fym-garnier-skin-natural-hair.php" class="main-mobile-menu-item">HAIR COLOR
+	    <a href="fym-garnier-skin-natural-hair.php" class="main-mobile-menu-item">HAIR COLOUR
 	    </a>
 	    <ul class="mobile-menu">
            <li>
@@ -134,7 +135,7 @@ if(!isset($_SESSION['email'])){
 				  </ul>
 				  <ul class=""> 
                  		<li class="">
-                 		<span class="dd"><span>By Color</span></span><br><br></li>
+                 		<span class="dd"><span>By Colour</span></span><br><br></li>
 	                	<li class="warna"><a href="black.php">Black</a></li>
 	                 	<li class="warna"><a href="brown.php">Brown</a></li>
 	                 	<li class="warna"><a href="blonde.php">Blonde</a></li>
@@ -387,7 +388,7 @@ End of Bahasa / About -->
 				       </li>
 <!-- Hair Colour -->
 				       <li class="dropdown">
-				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Color</a>
+				         <a href="fym-garnier-skin-natural-hair.php" class="dropdown-toggle" >Hair Colour</a>
 					         <ul class="dropdown-menu" style="margin-left:-130px">
 					           <li>
 					               <div class="yamm-content">
@@ -403,7 +404,7 @@ End of Bahasa / About -->
 									  </ul>
 									  <ul class="col-sm-3 list-unstyled dash-right"> 
 					                 		<li class="drop-header">
-					                 		<span class="dd"><span>By Color</span></span><br><br></li>
+					                 		<span class="dd"><span>By Colour</span></span><br><br></li>
 						                	<li class="warna"><a href="black.php">Black</a></li>
 						                 	<li class="warna"><a href="brown.php">Brown</a></li>
 						                 	<li class="warna"><a href="blonde.php">Blonde</a></li>

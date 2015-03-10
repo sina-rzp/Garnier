@@ -16,9 +16,9 @@
                             </div>
                             <div class="col-sm-2"><a href="LC-MultiActionBrighteningFoam.php"><img src="images/skin-natural/light-complete/LightCompleteWhiteSpeedMulti-ActionBrighteningFoam.png" alt="Image" class="img-responsive"></a>
                             </div>
-                            <div class="col-sm-2"><a href="#x"><img src="images/skin-natural/light-complete/LightCompleteWhiteSpeedTMMulti-ActionWhiteningCream8HoursShine.png" alt="Image" class="img-responsive"></a>
+                            <div class="col-sm-2"><a href="LC-LightCompleteWhiteSpeedMultiActionWhiteningCream8HoursShine-Free.php"><img src="images/skin-natural/light-complete/LightCompleteWhiteSpeedTMMulti-ActionWhiteningCream8HoursShine.png" alt="Image" class="img-responsive"></a>
                             </div>
-                          
+
                         </div>
                         
                     </div>
@@ -26,9 +26,10 @@
                     <div class="item">
                           <div class="row">
                             
-                            <div class="col-sm-2"><a href="#x"><img src="images/skin-natural/light-complete/LightCompleteWhiteSpeedTMMulti-ActionWhiteningSerumCreamNight.png" alt="Image" class="img-responsive"></a>
+                            <div class="col-sm-2"><a href="LC-LighteningPeelOffMask.php"><img src="images/skin-natural/light-complete/LightCompleteWhiteSpeedTMMulti-ActionWhiteningSerumCreamNight.png" alt="Image" class="img-responsive"></a>
                             </div>
-
+                            <div class="col-sm-2"><a href="LC-Multi-ActionWhiteningFacePowder.php"><img src="images/skin-natural/light-complete/LightCompleteVisibleWhiteningFace PowderSPF18.png" alt="Image" class="img-responsive"></a>
+                            </div>
                           
                         </div>
                        
