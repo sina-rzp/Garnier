@@ -64,6 +64,16 @@ include('_includes/header.php');
 			
 
 <!-- Products Listed -->
+			
+			<div class="col-md-4  col-sm-6  tolak-product showimg whit com oil nor 2">
+						<div class=" a">
+            				<img src="images/skin-natural/light-complete/light-complete-intensive-brightening-scrub.png"  />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Light Complete White Speed Multi-Action<sup>TM</sup> Brightening Scrub</b><p>Facial scrub that cleanses and gently exfoliates to lift off skin dullness.
+							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
 
 			<div class="row product-align">
 					<div class="col-md-4 col-sm-6 tolak-product showimg whit com oil nor 1">
@@ -71,7 +81,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/gentle-clarifying-foam.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete White Speed Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
+				           <b>Light Complete White Speed<sup>TM</sup> Multi-Action Brightening Foam</b><p>Foam cleanser that softly cleanses and helps in brightening your skin.
 							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -82,7 +92,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/light-complete-intensive-brightening-scrub.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete White Speed Multi-Action Brightening Scrub</b><p>Facial scrub that cleanses and gently exfoliates to lift off skin dullness.
+				           <b>Light Complete White Speed Multi-Action<sup>TM</sup> Brightening Scrub</b><p>Facial scrub that cleanses and gently exfoliates to lift off skin dullness.
 							</p><a class="bar-findout bar-align" href="LC-MultiActionBrighteningScrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -101,8 +111,19 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/multi-action-whitening-cream-extraUV-protection.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete Multi-Action Whitening Cream Extra UV Protection SPF20</b><p>3X FASTER. Complete Fairness in just 10 days!
+				           <b>Light Complete White Speed<sup>TM</sup> Multi-Action Whitening Serum Cream SPF20/PA+++</b><p>3X FASTER. Complete Fairness in just 10 days!
 							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamExtraUVProtectionSP20.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
+
+
+					<div class="col-md-4 col-sm-6  tolak-product showimg whit nor 1">
+						<div class=" a">
+            				<img src="images/skin-natural/light-complete/LightCompleteMulti-ActionGentleWhiteningCreamSPF15c.png" class='hold' />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Light Complete Visible SPF15</b><p>Get fairness that doesn't shine.
+							</p><a class="bar-findout bar-align" href="LC-Multi-ActionWhiteningFacePowder.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -111,7 +132,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/multi-action-whitening-cream-night-restore.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete Multi-Action Whitening Cream Night Restore</b><p>Radiant-looking skin in just 1 night!
+				           <b>Light Complete White<sup>TM</sup> Speed Multi-Action Whitening Serum Cream Night Restore</b><p>Radiant-looking skin in just 1 night!
 							</p><a class="bar-findout bar-align" href="LC-MultiActionWhiteningCreamNightRestore.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -121,9 +142,18 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/multi-action-whitening-cream-8hour-shine.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Multi-Action Whitening Cream
-8 Hours Shine-Free</b><p>Fairer skin with up to 8 hours shine-free!
+				           <b>Light Complete White<sup>TM</sup> Speed Multi-Action Whitening Cream 8 Hours Shine-Free</b><p>Fairer skin with up to 8 hours shine-free!
 							</p><a class="bar-findout bar-align" href="LC-LightCompleteWhiteSpeedMultiActionWhiteningCream8HoursShine-Free.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6  tolak-product showimg whit nor 1">
+						<div class=" a">
+            				<img style="margin:auto;max-height:210px" src="images/skin-natural/light-complete/LightCompleteMultiBrighteningEyeRoll.png" class='hold' />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Light Complete Brightening Eye Roll-On</b><p>Hello brighter looking eyes, goodbye dark circles and eyebags!
+							</p><a class="bar-findout bar-align" href="LCBrighteningEyeRollOn.php"> &#9656; Find Out </a>
        					</div>
 					</div>
 
@@ -132,7 +162,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/light-complete/multi-action-whitening-cream-peel-offmask.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Light Complete Lightening Peel Off Mask</b><p>A whitening peel-off mask that reveals brighter skin.
+				           <b>Light Complete Multi-Action Whitening Peel Off Mask</b><p>A whitening peel-off mask that reveals brighter skin.
 							</p><a class="bar-findout bar-align" href="LC-LighteningPeelOffMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>

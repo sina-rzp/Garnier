@@ -111,18 +111,6 @@ include('_includes/header.php');
 					</div>
 
 					
-
-					<div class="col-xs-4 tolak-product showimg per amm bro 1">
-						<div class=" a">
-            				<img src="images/haircolor/Olia5.png"  />
-        				</div>
-				        <div class="col-xs-6 b">
-				           <b>Olia  5.5 - Mahogany Brown</b><p>The 1st oil powered Ammonia-free hair color.
-
-							</p><a class="bar-findout bar-align" href="HC-MahoganyBrown.php"> &#9656; Find Out </a>
-       					</div>
-					</div>
-
 					<div class="col-xs-4 tolak-product showimg per amm blo 1">
 						<div class=" a">
             				<img src="images/haircolor/Olia5.25-FrostyChestnut.png"  />
@@ -134,6 +122,16 @@ include('_includes/header.php');
        					</div>
 					</div>
 
+					<div class="col-xs-4 tolak-product showimg per amm bro 1">
+						<div class=" a">
+            				<img src="images/haircolor/Olia5.png"  />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Olia  5.5 - Mahogany Brown</b><p>The 1st oil powered Ammonia-free hair color.
+
+							</p><a class="bar-findout bar-align" href="HC-MahoganyBrown.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
 			
 
 					<div class="col-xs-4 tolak-product showimg per amm bro blo 1">

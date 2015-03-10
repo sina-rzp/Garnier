@@ -89,18 +89,7 @@ include('_includes/header.php');
        					</div>
 					</div>
 
-					<div class="col-md-4 col-sm-6 tolak-product showimg hyd  dry nor 1">
-						<div class=" a"><br>
-            				<img src="images/skin-natural/aqua-defense/ADSkinMask.png"  />
-        				</div>
-				        <div class="col-xs-6 b">
-				           <b>Aqua Defense Hydrating Glowing Essence 2nd Skin Mask</b><p>Achieve plump and radiant skin with this intensive tissue mask specifically formulated for
-
-dehydrated skin.
-							</p><a class="bar-findout bar-align" href="AD-HydratingGlowingEssence2ndSkinMask.php"> &#9656; Find Out </a>
-       					</div>
-					</div>
-
+					
 					<div class="col-md-4 col-sm-6 tolak-product showimg dry hyd nor 1">
 						<div class=" a">
             				<img src="images/skin-natural/aqua-defense/AquaDefenseRefreshingHydratingToner.png"  />
@@ -112,12 +101,18 @@ dehydrated skin.
 							</p><a class="bar-findout bar-align" href="AD-AquaDefenseToner.php"> &#9656; Find Out </a>
        					</div>
 					</div>
-					
-				
 
-				
+					<div class="col-md-4 col-sm-6 tolak-product showimg hyd  dry nor 1">
+						<div class=" a"><br>
+            				<img src="images/skin-natural/aqua-defense/ADSkinMask.png"  />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Aqua Defense Hydrating Glowing Essence 2nd Skin Mask</b><p>Achieve plump and radiant skin with this intensive tissue mask specifically formulated for
 
-				
+dehydrated skin.
+							</p><a class="bar-findout bar-align" href="AD-HydratingGlowingEssence2ndSkinMask.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
 
 			</div>
 

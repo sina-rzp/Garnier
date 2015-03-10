@@ -82,6 +82,17 @@ include('_includes/header.php');
        					</div>
 					</div>
 
+
+					<div class="col-xs-4 tolak-product showimg acne com oil 1">
+						<div class=" a">
+            				<img src="images/skin-natural/acnofightscrub-m.png" class='hold' />
+        				</div>
+				        <div class="col-xs-6 b">
+				           <b>Pure Active 6 in 1 Multi-Action Scrub</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection scrub wash.
+							</p><a class="bar-findout bar-align" href="PA-AcnoFightScrub.php"> &#9656; Find Out </a>
+       					</div>
+					</div>
+					
 					<div class="col-md-4 col-sm-6 tolak-product showimg acne oil com 1">
 						<div class=" a">
             				<img src="images/skin-natural/PureActive6in1Toner.png" class='hold' />
@@ -103,15 +114,6 @@ include('_includes/header.php');
 					</div>
 					
 					
-					<div class="col-xs-4 tolak-product showimg acne com oil 1">
-						<div class=" a">
-            				<img src="images/skin-natural/acnofightscrub-m.png" class='hold' />
-        				</div>
-				        <div class="col-xs-6 b">
-				           <b>Pure Active 6 in 1 Multi-Action Scrub</b></p>Fight 6 signs of acne with Multi-Action Anti-Imperfection scrub wash.
-							</p><a class="bar-findout bar-align" href="PA-AcnoFightScrub.php"> &#9656; Find Out </a>
-       					</div>
-					</div>
 			</div>
 
 			</div>

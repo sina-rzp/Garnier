@@ -64,7 +64,7 @@ include('_includes/header.php');
             				<img src="images/men/oil-control/OilControlAntiGreaseWhiteningCoolingFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Grease Control Brightening Cooling Foam</b><p>An oil trapping mud texture with a cooling after feel.
+				           <b>TurboLight Oil Control Grease Control Brightening Cooling Foam</b><p>An oil trapping mud texture with a cooling after feel.
 							</p><a class="bar-findout bar-align" href="GM-GreaseControlBrighteningCoolingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -75,7 +75,7 @@ include('_includes/header.php');
             				<img src="images/men/turbo-light/BrighteningIcyScrub.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Anti-Blackheads Brightening Icy Scrub</b><p>A pore unclogging scrub with micro-beads for a cool, brightening result.
+				           <b>TurboLight Oil Control Blackheads Reducing Brightening Icy Scrub</b><p>A pore unclogging scrub with micro-beads for a cool, brightening result.
 							</p><a class="bar-findout bar-align" href="GM-Anti-BlackheadsBrighteningIcyScrub.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -84,7 +84,7 @@ include('_includes/header.php');
             				<img src="images/men/turbo-light/TurboLightOilControlCharcoalFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>TurboLight Oil Control Charcoal Foam</b><p>Eliminate dirt and excess oil instantly!
+				           <b>TurboLight Oil Control Purify and Brighten Charcoal Black Foam</b><p>Eliminate dirt and excess oil instantly!
 							</p><a class="bar-findout bar-align" href="GM-TurboLightOilControlCharcoalFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -95,7 +95,7 @@ include('_includes/header.php');
             				<img src="images/men/turbo-light/All-in-1BrighteningMoisturiser.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>All-in-1 Brightening Moisturiser </b><p>All day bright and oil free look.
+				           <b>TurboLight Oil Control All-in-1 Brightening Moisturiser </b><p>All day bright and oil free look.
 							</p><a class="bar-findout bar-align" href="GM-All-in-1BrighteningMoisturiser.php"> &#9656; Find Out </a>
        					</div>
 					</div>

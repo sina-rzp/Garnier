@@ -76,7 +76,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/sakura-white/sakura-white-pinkish-radiance-moisturizing.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Sakura White Pinkish Radiance Moisturising Cream SPF21</b><p>Blossom with up to 60% pinkish radiance in 4 weeks.
+				           <b>Sakura White Pinkish Radiance Moisturising Cream SPF21/PA+++</b><p>Blossom with up to 60% pinkish radiance in 4 weeks.
 							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceMoisturizingCreamSPF21.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -95,8 +95,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/sakura-white/sakura-white-pinkish-radiance-intensive-whitening-mask.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Sakura White
-Pinkish Radiance Intensive Whitening Mask</b><p>Pinkish radiant-looking skin intensively moisturized and nourished.
+				           <b>Sakura White Pinkish Radiance Intensive Whitening Mask</b><p>Pinkish radiant-looking skin intensively moisturized and nourished.
 							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceIntensiveWhiteningMask.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -106,8 +105,7 @@ Pinkish Radiance Intensive Whitening Mask</b><p>Pinkish radiant-looking skin int
             				<img src="images/skin-natural/sakura-white/sakura-white-pinkish-radiance-ultimate-serum.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Sakura White
-Pinkish Radiance Ultimate Serum</b><p>Reveal the 5 dimensions of beautiful skin with a pinkish glow. Boost skin's inner glow to its fullest with 5000 whitening capsules.
+				           <b>Sakura White Pinkish Radiance Ultimate Serum</b><p>Reveal the 5 dimensions of beautiful skin with a pinkish glow. Boost skin's inner glow to its fullest with 5000 whitening capsules.
 
 
 							</p><a class="bar-findout bar-align" href="SW-PinkishRadianceUltimateSerum.php" > &#9656; Find Out </a>

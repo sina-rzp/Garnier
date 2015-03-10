@@ -17,7 +17,7 @@ include('_includes/header.php');
 			<div class="row">
 				<div class="col-md-12">
 					<div class="tajuk-besar">
-						<h1>Icy Duo</h1>
+						<h1>TurboLight Icy Duo</h1>
 					</div>
 				</div>
 			</div>
@@ -65,7 +65,7 @@ include('_includes/header.php');
             				<img src="images/men/icy-duo/TurboLightDoubleWhiteIcyDuoFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Icy Duo Foam Double White</b><p>Foam cleanser for fairer and brighter skin.
+				           <b>TurboLight Double White Icy Duo Foam</b><p>Foam cleanser for fairer and brighter skin.
 							</p><a class="bar-findout bar-align" href="GM-FoamDoubleWhite.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -76,7 +76,7 @@ include('_includes/header.php');
             				<img src="images/men/icy-duo/TurboLight White+OilControlIcyDuoFoam.png" class='hold' />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Icy Duo Foam White + Oil Control</b><p>Foam cleanser for fairer skin and pore minimizing.	
+				           <b>TurboLight White + Oil Control Icy Duo Foam</b><p>Foam cleanser for fairer skin and pore minimizing.	
 							</p><a class="bar-findout bar-align" href="GM-TurboLightIcyDuoFoamWhite+OilControl.php"> &#9656; Find Out </a>
        					</div>
 					</div>

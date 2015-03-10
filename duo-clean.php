@@ -66,7 +66,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/duo-clean/duo-clean-whitening-and-oil-control-foam.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Duo Clean Whitening and Oil Control Foam</b><p>Foam cleanser that removes oil and whitens skin.
+				           <b>Duo Clean Whitening + Oil Control Duo Foam</b><p>Foam cleanser that removes oil and whitens skin.
 							</p><a class="bar-findout bar-align" href="DC-WhiteningandOilControlFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
@@ -77,7 +77,7 @@ include('_includes/header.php');
             				<img src="images/skin-natural/duo-clean/duo-clean-whitening-and-pore-minimizing-foam.png"  />
         				</div>
 				        <div class="col-xs-6 b">
-				           <b>Duo Clean Whitening and Pore Minimizing Foam</b><p>Foam cleanser that minimizes pores and whitens skin.
+				           <b>Duo Clean Whitening + Pore Minimizing Duo Foam</b><p>Foam cleanser that minimizes pores and whitens skin.
 							</p><a class="bar-findout bar-align" href="DC-WhiteningandPoreMinimizingFoam.php"> &#9656; Find Out </a>
        					</div>
 					</div>
